@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-01T17:31:57.000Z",
+  "checkedAt": "2026-09-01T18:28:52.000Z",
   "posts": [
     {
       "tweetId": "2094293383573545000",
@@ -106,14 +106,16 @@
     }
   ],
   "prediction": {
-    "probability": 10,
+    "probability": 41,
     "level": "weak",
-    "windowStart": "2026-09-01T17:31:57.000Z",
-    "windowEnd": "2026-09-03T17:31:57.000Z",
+    "windowStart": "2026-09-01T18:28:52.000Z",
+    "windowEnd": "2026-09-03T18:28:52.000Z",
     "reasons": [
       "最近一次全局额度重置已于北京时间 2026 年 8 月 31 日确认完成。",
-      "Tibo 表示会在条件允许时尽量提前预告额度重置，但没有给出新的日期、时间或执行承诺；这对近期概率构成轻微下行信号。",
-      "截至本次检查，最新公开 X 数据采集时间为北京时间 2026 年 9 月 2 日 01:01；追踪源仍显示最新确认事件为 8 月 31 日的全局额度重置，且其预测说明明确表示此后没有新的预测性 X 信号。10% 概率与观察窗口均为推测，不是官方承诺。",
+      "Tibo 表示会在条件允许时尽量提前预告额度重置，但目前没有新的日期、时间或执行承诺；这是轻微下行信号。",
+      "公开追踪源在北京时间 2026 年 9 月 2 日 02:27 仍显示 5/5 数据源正常，并明确判断没有直接承诺或定时公告；其经验基线估计未来 24 小时约 23%、未来 48 小时约 41%。本记录采用与窗口匹配的 48 小时概率，但信号等级仍为弱。",
+      "Tibo 最新可见内容是询问是否制作周边产品线，与 Codex、ChatGPT Work 或额度重置无关。",
+      "41% 概率与观察窗口均为第三方经验模型辅助下的推测，不是 Tibo 或 OpenAI 的官方承诺。",
       "公开来源覆盖受限，未检出新内容不能证明 Tibo 没有发布其他新帖。"
     ],
     "sourceTweetId": "2094293383573545000"
@@ -123,7 +125,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new reset-related post, reply, announcement, or completed reset found. The latest public X collection still showed no predictive signal after the most recent confirmed reset; existing history was preserved.",
+    "lastResult": "No new reset-related post, reply, announcement, or completed reset found. The newest visible Tibo post was unrelated merchandise discussion; public trackers reported no direct commitment or timed announcement. Existing history was preserved.",
     "coverageNote": "No direct X API was available in this run. X profile access is restricted, so this check depends on public search and third-party sources; no result does not prove no new post exists."
   }
 }
