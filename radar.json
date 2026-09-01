@@ -19,7 +19,8 @@
         "公开 X 搜索结果可验证原帖链接与核心内容"
       ],
       "kind": "post",
-      "verificationStatus": "search-indexed-summary"
+      "verificationStatus": "search-indexed-summary",
+      "translatedTextZh": "Tibo 宣布 Codex 的活跃用户已达到 2500 万，并确认已为所有付费 ChatGPT Work 与 Codex 订阅完成额度重置。"
     },
     {
       "tweetId": "2094144275957350900",
@@ -36,7 +37,8 @@
         "PST/PDT 存在一小时歧义，北京时间约 09:00–10:00"
       ],
       "kind": "post",
-      "verificationStatus": "search-indexed-excerpt"
+      "verificationStatus": "search-indexed-excerpt",
+      "translatedTextZh": "你的 Codex 和 ChatGPT Work 额度重置将在太平洋时间下午 6 点生效。"
     }
   ],
   "events": [
@@ -48,7 +50,9 @@
       "sourceTweetId": "2094252447271366730",
       "confirmed": true,
       "predictedHit": false,
-      "notes": "Tibo explicitly confirmed the reset after the 25M active-user milestone. Beijing time: 2026-08-31 10:34."
+      "notes": "Tibo explicitly confirmed the reset after the 25M active-user milestone. Beijing time: 2026-08-31 10:34.",
+      "scopeZh": "所有付费 ChatGPT Work 与 Codex 订阅",
+      "notesZh": "Tibo 在 Codex 达到 2500 万活跃用户后明确确认已完成额度重置。北京时间：2026-08-31 10:34。"
     }
   ],
   "prediction": {
