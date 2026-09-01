@@ -1,25 +1,74 @@
 {
   "schemaVersion": 1,
-  "source": "ChatGPT Scheduled Monitor",
-  "sourceHealthy": false,
-  "checkedAt": null,
-  "posts": [],
-  "events": [],
+  "source": "ChatGPT Scheduled Monitor + GitHub",
+  "sourceHealthy": true,
+  "checkedAt": "2026-09-01T02:18:32.000Z",
+  "posts": [
+    {
+      "tweetId": "2094252447271366730",
+      "text": "Tibo announced that Codex reached 25M active users and confirmed usage had now been reset for all paid ChatGPT Work and Codex subscriptions.",
+      "createdAt": "2026-08-31T02:34:27.415Z",
+      "detectedAt": "2026-09-01T02:18:32.000Z",
+      "url": "https://x.com/thsottiaux/status/2094252447271366730",
+      "signalLevel": "confirmed",
+      "signalScore": 100,
+      "confirmedReset": true,
+      "reasons": [
+        "明确使用“have now reset usage”完成时态",
+        "范围为所有付费 ChatGPT Work 与 Codex 订阅",
+        "公开 X 搜索结果可验证原帖链接与核心内容"
+      ],
+      "kind": "post",
+      "verificationStatus": "search-indexed-summary"
+    },
+    {
+      "tweetId": "2094144275957350900",
+      "text": "Your Codex and ChatGPT Work reset will land at 6pm PST.",
+      "createdAt": "2026-08-30T19:24:37.364Z",
+      "detectedAt": "2026-09-01T02:18:32.000Z",
+      "url": "https://x.com/thsottiaux/status/2094144275957350900",
+      "signalLevel": "strong",
+      "signalScore": 96,
+      "confirmedReset": false,
+      "reasons": [
+        "明确给出重置将落地",
+        "给出 6pm PST 具体时间",
+        "PST/PDT 存在一小时歧义，北京时间约 09:00–10:00"
+      ],
+      "kind": "post",
+      "verificationStatus": "search-indexed-excerpt"
+    }
+  ],
+  "events": [
+    {
+      "id": "reset-2094252447271366730",
+      "resetTime": "2026-08-31T02:34:27.415Z",
+      "resetType": "Global Reset",
+      "scope": "All paid ChatGPT Work and Codex subscriptions",
+      "sourceTweetId": "2094252447271366730",
+      "confirmed": true,
+      "predictedHit": false,
+      "notes": "Tibo explicitly confirmed the reset after the 25M active-user milestone. Beijing time: 2026-08-31 10:34."
+    }
+  ],
   "prediction": {
-    "probability": 5,
+    "probability": 12,
     "level": "weak",
-    "windowStart": "2026-09-01T02:00:00.000Z",
-    "windowEnd": "2026-09-02T02:00:00.000Z",
+    "windowStart": "2026-09-01T02:18:32.000Z",
+    "windowEnd": "2026-09-03T02:18:32.000Z",
     "reasons": [
-      "等待首次真实公开信息检查"
+      "最近一次全局重置已于北京时间 8 月 31 日确认完成",
+      "当前检查未发现更新的明确下一次重置信号",
+      "处于重置后的冷却观察期；12% 仅为推测"
     ],
-    "sourceTweetId": null
+    "sourceTweetId": "2094252447271366730"
   },
   "monitor": {
     "account": "@thsottiaux",
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "note": "No X API. Results depend on publicly accessible and indexed sources."
+    "lastResult": "Manual end-to-end test: 2 verified relevant posts, 1 confirmed reset event.",
+    "coverageNote": "No X API. Results depend on publicly accessible and indexed sources."
   }
 }
