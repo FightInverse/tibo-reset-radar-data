@@ -2,8 +2,27 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-01T10:33:06.000Z",
+  "checkedAt": "2026-09-01T11:29:17.000Z",
   "posts": [
+    {
+      "tweetId": "2094293383573545000",
+      "text": "Summary: In a reply to a user asking for dated reset announcements, Tibo said he tries to pre-announce resets these days when he can.",
+      "translatedTextZh": "摘要：Tibo 回复一位希望额度重置提前注明日期的用户时表示，如条件允许，他现在会尽量提前预告额度重置。",
+      "signalLevel": "weak",
+      "signalScore": 18,
+      "confirmedReset": false,
+      "reasons": [
+        "该回复直接谈到额度重置的预告方式，因此与监测主题相关。",
+        "它没有给出下一次额度重置的日期、时间或承诺，反而对无预告情况下的近期概率构成轻微下行信号。",
+        "原帖直连本次返回访问受限，正文来自公开 X API 追踪页的归属记录，因此仅保存准确摘要并标记 summary-only。"
+      ],
+      "createdAt": "2026-08-31T05:17:00.000Z",
+      "createdAtShanghai": "2026-08-31T13:17:00+08:00",
+      "detectedAt": "2026-09-01T11:29:17.000Z",
+      "url": "https://x.com/thsottiaux/status/2094293383573545000",
+      "kind": "reply",
+      "verificationStatus": "summary-only"
+    },
     {
       "tweetId": "2094252447271366730",
       "text": "Tibo announced that Codex reached 25M active users and confirmed usage had now been reset for all paid ChatGPT Work and Codex subscriptions.",
@@ -56,23 +75,24 @@
     }
   ],
   "prediction": {
-    "probability": 12,
+    "probability": 10,
     "level": "weak",
-    "windowStart": "2026-09-01T10:33:06.000Z",
-    "windowEnd": "2026-09-03T10:33:06.000Z",
+    "windowStart": "2026-09-01T11:29:17.000Z",
+    "windowEnd": "2026-09-03T11:29:17.000Z",
     "reasons": [
       "最近一次全局额度重置已于北京时间 2026 年 8 月 31 日确认完成。",
-      "最近 72 小时只有同一确认帖中“Reset Company 还有更多消息”的弱暗示，没有新的明确排期。",
-      "本次公开搜索、两个公开追踪源及独立预测页均未发现新的官方额度重置信号；12% 概率与时间窗口均为推测，不是官方承诺。"
+      "Tibo 表示会在条件允许时尽量提前预告额度重置，但没有给出新的日期、时间或执行承诺；这对近期概率构成轻微下行信号。",
+      "截至本次检查，公开追踪源未发现新的官方额度重置预告；10% 概率与观察窗口均为推测，不是官方承诺。",
+      "公开来源覆盖受限，未检出新内容不能证明 Tibo 没有发布其他新帖。"
     ],
-    "sourceTweetId": "2094252447271366730"
+    "sourceTweetId": "2094293383573545000"
   },
   "monitor": {
     "account": "@thsottiaux",
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new relevant reset signal found. A newer general Codex engagement post was reviewed and excluded; existing history was preserved.",
+    "lastResult": "One previously unarchived reset-related reply was found and stored as a weak downward, summary-only signal. No new reset announcement or completed reset was found.",
     "coverageNote": "No direct X API was available in this run. X profile access is restricted, so this check depends on public search and third-party sources; no result does not prove no new post exists."
   }
 }
