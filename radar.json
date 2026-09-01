@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-01T02:18:32.000Z",
+  "checkedAt": "2026-09-01T02:28:55.000Z",
   "posts": [
     {
       "tweetId": "2094252447271366730",
@@ -58,12 +58,12 @@
   "prediction": {
     "probability": 12,
     "level": "weak",
-    "windowStart": "2026-09-01T02:18:32.000Z",
-    "windowEnd": "2026-09-03T02:18:32.000Z",
+    "windowStart": "2026-09-01T02:28:55.000Z",
+    "windowEnd": "2026-09-03T02:28:55.000Z",
     "reasons": [
       "最近一次全局重置已于北京时间 8 月 31 日确认完成",
-      "当前检查未发现更新的明确下一次重置信号",
-      "处于重置后的冷却观察期；12% 仅为推测"
+      "最近 72 小时只有同一确认帖中的“Reset Company 还有更多消息”弱暗示，没有新的明确排期",
+      "本次公开来源检查未发现更新的相关信号；12% 与时间窗口均为推测，不是官方承诺"
     ],
     "sourceTweetId": "2094252447271366730"
   },
@@ -72,7 +72,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "Manual end-to-end test: 2 verified relevant posts, 1 confirmed reset event.",
-    "coverageNote": "No X API. Results depend on publicly accessible and indexed sources."
+    "lastResult": "No new relevant reset signal found. Existing posts and confirmed events preserved; prediction remains weak.",
+    "coverageNote": "No direct X API in this run. X profile access was blocked, so results depend on public search indexing and a third-party monitor whose latest directly verified event remains the Aug 31 policy clarification; absence of a result does not prove there was no new post."
   }
 }
