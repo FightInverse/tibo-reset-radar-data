@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-01T11:29:17.000Z",
+  "checkedAt": "2026-09-01T12:31:23.000Z",
   "posts": [
     {
       "tweetId": "2094293383573545000",
@@ -58,6 +58,25 @@
       "kind": "post",
       "verificationStatus": "search-indexed-excerpt",
       "translatedTextZh": "你的 Codex 和 ChatGPT Work 额度重置将在太平洋时间下午 6 点生效。"
+    },
+    {
+      "tweetId": "2093801758665715784",
+      "text": "Summary: Tibo announced that usage was being reset for all paid Codex and ChatGPT Work users, alongside fixes expected to improve effective usage by roughly 10% to 50% depending on workload.",
+      "translatedTextZh": "摘要：Tibo 宣布正在为所有付费 Codex 与 ChatGPT Work 用户执行额度重置，同时介绍了一批修复；根据工作负载不同，这些修复预计可使实际可用额度提高约 10% 至 50%。",
+      "signalLevel": "confirmed",
+      "signalScore": 100,
+      "confirmedReset": true,
+      "reasons": [
+        "Tibo 明确表示正在为所有付费 Codex 和 ChatGPT Work 用户执行额度重置。",
+        "公开 X API 追踪页将其归类为已确认的全局补偿性额度重置，范围和时间均明确。",
+        "本次无法直接打开 X 原文，因此保存准确摘要并标记 summary-only；该事件此前已向用户通知，本轮仅补齐仓库历史。"
+      ],
+      "createdAt": "2026-08-29T20:43:00.000Z",
+      "createdAtShanghai": "2026-08-30T04:43:00+08:00",
+      "detectedAt": "2026-09-01T12:31:23.000Z",
+      "url": "https://x.com/thsottiaux/status/2093801758665715784",
+      "kind": "post",
+      "verificationStatus": "summary-only"
     }
   ],
   "events": [
@@ -72,17 +91,29 @@
       "notes": "Tibo explicitly confirmed the reset after the 25M active-user milestone. Beijing time: 2026-08-31 10:34.",
       "scopeZh": "所有付费 ChatGPT Work 与 Codex 订阅",
       "notesZh": "Tibo 在 Codex 达到 2500 万活跃用户后明确确认已完成额度重置。北京时间：2026-08-31 10:34。"
+    },
+    {
+      "id": "reset-2093801758665715784",
+      "resetTime": "2026-08-29T20:43:00.000Z",
+      "resetType": "Global Compensation Reset",
+      "scope": "All paid Codex and ChatGPT Work users",
+      "sourceTweetId": "2093801758665715784",
+      "confirmed": true,
+      "predictedHit": true,
+      "notes": "Tibo announced a broad usage reset alongside fixes for excessive usage drain. Beijing time: 2026-08-30 04:43. Historical backfill; the user had already been notified.",
+      "scopeZh": "所有付费 Codex 与 ChatGPT Work 用户",
+      "notesZh": "Tibo 在公布多项异常额度消耗修复的同时，确认执行广泛额度重置。北京时间：2026-08-30 04:43。此为历史补录，用户此前已经收到通知。"
     }
   ],
   "prediction": {
     "probability": 10,
     "level": "weak",
-    "windowStart": "2026-09-01T11:29:17.000Z",
-    "windowEnd": "2026-09-03T11:29:17.000Z",
+    "windowStart": "2026-09-01T12:31:23.000Z",
+    "windowEnd": "2026-09-03T12:31:23.000Z",
     "reasons": [
       "最近一次全局额度重置已于北京时间 2026 年 8 月 31 日确认完成。",
       "Tibo 表示会在条件允许时尽量提前预告额度重置，但没有给出新的日期、时间或执行承诺；这对近期概率构成轻微下行信号。",
-      "截至本次检查，公开追踪源未发现新的官方额度重置预告；10% 概率与观察窗口均为推测，不是官方承诺。",
+      "截至本次检查，最新的 Tibo 公开动态与额度重置无关，公开追踪源也未发现新的官方预告；10% 概率与观察窗口均为推测，不是官方承诺。",
       "公开来源覆盖受限，未检出新内容不能证明 Tibo 没有发布其他新帖。"
     ],
     "sourceTweetId": "2094293383573545000"
@@ -92,7 +123,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "One previously unarchived reset-related reply was found and stored as a weak downward, summary-only signal. No new reset announcement or completed reset was found.",
+    "lastResult": "No new reset signal or completed reset found. The latest Tibo reply was unrelated to usage limits. One previously notified Aug 30 confirmed reset was backfilled into posts and events without sending a duplicate notification.",
     "coverageNote": "No direct X API was available in this run. X profile access is restricted, so this check depends on public search and third-party sources; no result does not prove no new post exists."
   }
 }
