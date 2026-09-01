@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-01T07:28:20.000Z",
+  "checkedAt": "2026-09-01T08:31:57.000Z",
   "posts": [
     {
       "tweetId": "2094252447271366730",
@@ -58,12 +58,12 @@
   "prediction": {
     "probability": 12,
     "level": "weak",
-    "windowStart": "2026-09-01T07:28:20.000Z",
-    "windowEnd": "2026-09-03T07:28:20.000Z",
+    "windowStart": "2026-09-01T08:31:57.000Z",
+    "windowEnd": "2026-09-03T08:31:57.000Z",
     "reasons": [
       "最近一次全局重置已于北京时间 8 月 31 日确认完成",
       "最近 72 小时只有同一确认帖中的“Reset Company 还有更多消息”弱暗示，没有新的明确排期",
-      "发现一条较新的普通 Codex 互动帖，但不含 usage、quota 或额度重置语义，未计入信号；12% 与时间窗口均为推测，不是官方承诺"
+      "本次发现的较新内容仍为普通 Codex 互动，不含额度重置语义；12% 与时间窗口均为推测，不是官方承诺"
     ],
     "sourceTweetId": "2094252447271366730"
   },
@@ -72,7 +72,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new relevant reset signal. A newer general Codex engagement post was reviewed and excluded as non-signal; existing history preserved.",
+    "lastResult": "No new relevant reset signal. Newer general Codex posts were reviewed and excluded as non-signals; history preserved.",
     "coverageNote": "No direct X API in this run. X profile access is restricted, so results depend on public search indexing and third-party monitors; absence of a result does not prove there was no new post."
   }
 }
