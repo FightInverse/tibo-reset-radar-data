@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-01T13:28:21.000Z",
+  "checkedAt": "2026-09-01T14:31:09.000Z",
   "posts": [
     {
       "tweetId": "2094293383573545000",
@@ -108,12 +108,12 @@
   "prediction": {
     "probability": 10,
     "level": "weak",
-    "windowStart": "2026-09-01T13:28:21.000Z",
-    "windowEnd": "2026-09-03T13:28:21.000Z",
+    "windowStart": "2026-09-01T14:31:09.000Z",
+    "windowEnd": "2026-09-03T14:31:09.000Z",
     "reasons": [
       "最近一次全局额度重置已于北京时间 2026 年 8 月 31 日确认完成。",
       "Tibo 表示会在条件允许时尽量提前预告额度重置，但没有给出新的日期、时间或执行承诺；这对近期概率构成轻微下行信号。",
-      "截至本次检查，Tibo 最新可见回复与额度重置无关，公开追踪源也未发现新的官方预告；10% 概率与观察窗口均为推测，不是官方承诺。",
+      "截至本次检查，Tibo 最新可见回复与额度重置无关，公开追踪源也明确显示没有新的官方额度重置信号；10% 概率与观察窗口均为推测，不是官方承诺。",
       "公开来源覆盖受限，未检出新内容不能证明 Tibo 没有发布其他新帖。"
     ],
     "sourceTweetId": "2094293383573545000"
@@ -123,7 +123,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new reset signal or completed reset found. The latest visible Tibo reply was unrelated to usage limits; existing posts and events were preserved.",
+    "lastResult": "No new reset signal or completed reset found. Public X tracking remained healthy and showed no concrete announcement; existing history was preserved.",
     "coverageNote": "No direct X API was available in this run. X profile access is restricted, so this check depends on public search and third-party sources; no result does not prove no new post exists."
   }
 }
