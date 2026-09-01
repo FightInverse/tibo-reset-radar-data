@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
-  "sourceHealthy": true,
-  "checkedAt": "2026-09-01T20:28:54.000Z",
+  "sourceHealthy": false,
+  "checkedAt": "2026-09-01T21:31:39.000Z",
   "posts": [
     {
       "tweetId": "2094293383573545000",
@@ -108,15 +108,15 @@
   "prediction": {
     "probability": 44,
     "level": "weak",
-    "windowStart": "2026-09-01T20:28:54.000Z",
-    "windowEnd": "2026-09-03T20:28:54.000Z",
+    "windowStart": "2026-09-01T21:31:39.000Z",
+    "windowEnd": "2026-09-03T21:31:39.000Z",
     "reasons": [
       "最近一次全局额度重置已于北京时间 2026 年 8 月 31 日确认完成。",
       "最近 72 小时内唯一未完成型相关信号，是 Tibo 表示会在条件允许时尽量提前预告额度重置；目前没有新的日期、时间或执行承诺。",
-      "公开追踪源在北京时间 2026 年 9 月 2 日 04:09 显示 5/5 数据源正常，最近一小时采集到 0 条会改变预测的信号；其无直接信号经验基线为未来 24 小时约 25%、未来 48 小时约 44%。本记录采用与窗口匹配的 48 小时概率，但信号等级仍为弱。",
-      "Tibo 最新可见内容仍是询问是否制作周边产品线，与 Codex、ChatGPT Work 或额度重置无关。",
+      "最近一次成功读取的公开追踪数据给出的无直接信号经验基线为未来 24 小时约 25%、未来 48 小时约 44%；本记录沿用与窗口匹配的 48 小时概率，信号等级仍为弱。",
+      "本轮公开搜索未发现新的相关主帖、回复、重置承诺或完成确认；主追踪页复核时发生一次超时，因此未进一步调整概率。",
       "44% 概率与观察窗口均为第三方经验模型辅助下的推测，不是 Tibo 或 OpenAI 的官方承诺。",
-      "公开来源覆盖受限，未检出新内容不能证明 Tibo 没有发布其他新帖。"
+      "公开来源覆盖受限且本轮存在追踪页超时；未检出新内容不能证明 Tibo 没有发布其他新帖。"
     ],
     "sourceTweetId": "2094293383573545000"
   },
@@ -125,7 +125,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new reset-related post, reply, announcement, or completed reset found. All five public tracking sources were responding and the latest hourly X collection reported zero forecast-changing signals; existing history was preserved.",
-    "coverageNote": "No direct X API was available in this run. X profile access is restricted, so this check depends on public search and third-party sources; no result does not prove no new post exists."
+    "lastResult": "No new reset-related post, reply, announcement, or completed reset was found in public search. The primary public tracker timed out during verification, so source health is marked limited and the prior forecast was retained.",
+    "coverageNote": "No direct X API was available in this run. X profile access is restricted and the primary tracker timed out once, so this check depends on incomplete public search coverage; no result does not prove no new post exists."
   }
 }
