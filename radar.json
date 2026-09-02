@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-02T15:28:49.000Z",
+  "checkedAt": "2026-09-02T16:32:48.000Z",
   "posts": [
     {
       "tweetId": "2094293383573545000",
@@ -108,12 +108,12 @@
   "prediction": {
     "probability": 44,
     "level": "weak",
-    "windowStart": "2026-09-02T15:28:49.000Z",
-    "windowEnd": "2026-09-04T15:28:49.000Z",
+    "windowStart": "2026-09-02T16:32:48.000Z",
+    "windowEnd": "2026-09-04T16:32:48.000Z",
     "reasons": [
       "最近一次全局额度重置已于北京时间 2026 年 8 月 31 日确认完成。",
       "最近 72 小时内唯一未完成型相关信号，是 Tibo 表示会在条件允许时尽量提前预告额度重置；目前没有新的日期、时间或执行承诺。",
-      "公开追踪源在 2026 年 9 月 2 日 15:01 UTC 的最近一次 X 汇总中显示 0 条会改变预测的信号，5/5 来源正常响应。",
+      "公开追踪源在 2026 年 9 月 2 日 16:01 UTC 的最近一次 X 汇总中显示 0 条会改变预测的信号，5/5 来源正常响应。",
       "追踪模型当前采用无直接信号经验基线：未来 24 小时约 25%、未来 48 小时约 44%。本记录使用与窗口匹配的 48 小时概率，信号等级仍为弱。",
       "Tibo 在 2026 年 9 月 2 日 05:29 UTC 的最新可见回复谈到发布期间睡眠不足，不涉及 Codex、ChatGPT Work、usage、quota 或额度重置，因此未作为相关信号入库。",
       "公开追踪页没有发现 Tibo 新发布的 Codex、ChatGPT Work、usage、quota、额度重置、按钮或时间安排相关内容。",
@@ -128,7 +128,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new reset-related post, reply, quote, announcement, or completed reset found. The latest X collection at 15:01 UTC reported zero forecast-changing signals, all 5/5 tracker sources were responding, and the 48-hour estimate remained at the 44% empirical baseline. History was preserved.",
+    "lastResult": "No new reset-related post, reply, quote, announcement, or completed reset found. The latest X collection at 16:01 UTC reported zero forecast-changing signals, all 5/5 tracker sources were responding, and the 48-hour estimate remained at the 44% empirical baseline. History was preserved.",
     "coverageNote": "No direct X API was available in this run. X profile access can be restricted, so this check depends on public search and third-party sources; no result does not prove no new post exists."
   }
 }
