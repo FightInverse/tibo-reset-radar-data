@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-01T23:27:55.000Z",
+  "checkedAt": "2026-09-02T00:29:49.000Z",
   "posts": [
     {
       "tweetId": "2094293383573545000",
@@ -108,13 +108,13 @@
   "prediction": {
     "probability": 44,
     "level": "weak",
-    "windowStart": "2026-09-01T23:27:55.000Z",
-    "windowEnd": "2026-09-03T23:27:55.000Z",
+    "windowStart": "2026-09-02T00:29:49.000Z",
+    "windowEnd": "2026-09-04T00:29:49.000Z",
     "reasons": [
       "最近一次全局额度重置已于北京时间 2026 年 8 月 31 日确认完成。",
       "最近 72 小时内唯一未完成型相关信号，是 Tibo 表示会在条件允许时尽量提前预告额度重置；目前没有新的日期、时间或执行承诺。",
-      "公开追踪源在北京时间 2026 年 9 月 2 日 07:06 显示 5/5 数据源正常；最近一次 X 汇总为 0 条会改变预测的信号，并继续采用未来 24 小时约 25%、未来 48 小时约 44% 的无直接信号经验基线。本记录使用与窗口匹配的 48 小时概率，信号等级仍为弱。",
-      "Tibo 最新可见内容仍是询问是否制作周边产品线，与 Codex、ChatGPT Work 或额度重置无关。",
+      "公开追踪源在北京时间 2026 年 9 月 2 日 08:07 显示 5/5 数据源正常；最近一次 X 汇总为 0 条会改变预测的信号，并继续采用未来 24 小时约 25%、未来 48 小时约 44% 的无直接信号经验基线。本记录使用与窗口匹配的 48 小时概率，信号等级仍为弱。",
+      "Tibo 最新可见内容是单独一句“Bullish”，没有提到 Codex、ChatGPT Work、usage、quota、额度重置、按钮或时间安排，因此不视为重置信号。",
       "44% 概率与观察窗口均为第三方经验模型辅助下的推测，不是 Tibo 或 OpenAI 的官方承诺。",
       "公开来源覆盖受限，未检出新内容不能证明 Tibo 没有发布其他新帖。"
     ],
@@ -125,7 +125,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new reset-related post, reply, announcement, or completed reset found. All five public sources were responding, and the latest X collection reported zero forecast-changing signals; existing history was preserved.",
+    "lastResult": "No new reset-related post, reply, announcement, or completed reset found. Tibo's newest visible post was an unrelated one-word post ('Bullish'); all five public sources were responding and the latest X collection reported zero forecast-changing signals. Existing history was preserved.",
     "coverageNote": "No direct X API was available in this run. X profile access is restricted, so this check depends on public search and third-party sources; no result does not prove no new post exists."
   }
 }
