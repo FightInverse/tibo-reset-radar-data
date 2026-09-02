@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-02T05:28:48.000Z",
+  "checkedAt": "2026-09-02T06:29:15.000Z",
   "posts": [
     {
       "tweetId": "2094293383573545000",
@@ -106,17 +106,17 @@
     }
   ],
   "prediction": {
-    "probability": 44,
+    "probability": 42,
     "level": "weak",
-    "windowStart": "2026-09-02T05:28:48.000Z",
-    "windowEnd": "2026-09-04T05:28:48.000Z",
+    "windowStart": "2026-09-02T06:29:15.000Z",
+    "windowEnd": "2026-09-04T06:29:15.000Z",
     "reasons": [
       "最近一次全局额度重置已于北京时间 2026 年 8 月 31 日确认完成。",
       "最近 72 小时内唯一未完成型相关信号，是 Tibo 表示会在条件允许时尽量提前预告额度重置；目前没有新的日期、时间或执行承诺。",
-      "公开追踪源最近一次 X 汇总时间为北京时间 2026 年 9 月 2 日 13:00，结果仍为 0 条会改变预测的信号。",
-      "今日状态页仍明确显示没有新的全局 Codex 额度重置确认，最新确认事件仍为 2026 年 8 月 31 日。",
-      "第三方模型当前采用无直接信号经验基线：未来 24 小时约 25%、未来 48 小时约 44%。本记录使用与窗口匹配的 48 小时概率，信号等级仍为弱。",
-      "44% 概率与观察窗口均为第三方经验模型辅助下的推测，不是 Tibo 或 OpenAI 的官方承诺。",
+      "公开追踪源在北京时间 2026 年 9 月 2 日 14:01 的最近一次 X 汇总中，将这条已入库回复重新计为 1 条弱下行、会改变预测的信号；它不是本轮新发现内容。",
+      "追踪模型当前给出的经验估计为未来 24 小时约 23%、未来 48 小时约 42%。本记录使用与窗口匹配的 48 小时概率，信号等级仍为弱。",
+      "今日状态页仍显示没有新的全局 Codex 额度重置确认，最新确认事件仍为 2026 年 8 月 31 日。",
+      "42% 概率与观察窗口均为第三方经验模型辅助下的推测，不是 Tibo 或 OpenAI 的官方承诺。",
       "公开来源覆盖受限，未检出新内容不能证明 Tibo 没有发布其他新帖。"
     ],
     "sourceTweetId": "2094293383573545000"
@@ -126,7 +126,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new reset-related post, reply, quote, announcement, or completed reset found. The latest X collection at 05:00 UTC reported zero forecast-changing signals; today's status page reported no new global reset, the 48-hour estimate remained at the 44% empirical baseline, and history was preserved.",
+    "lastResult": "No new reset-related post, reply, quote, announcement, or completed reset found. The latest X collection at 06:01 UTC reclassified the already-stored pre-announcement reply as one weak downward forecast-changing signal, lowering the 48-hour estimate to 42%; no new item was added and history was preserved.",
     "coverageNote": "No direct X API was available in this run. X profile access is restricted, so this check depends on public search and third-party sources; no result does not prove no new post exists."
   }
 }
