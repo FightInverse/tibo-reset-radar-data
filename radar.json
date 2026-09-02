@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
-  "sourceHealthy": true,
-  "checkedAt": "2026-09-02T17:31:10.000Z",
+  "sourceHealthy": false,
+  "checkedAt": "2026-09-02T18:29:25.000Z",
   "posts": [
     {
       "tweetId": "2094293383573545000",
@@ -106,19 +106,20 @@
     }
   ],
   "prediction": {
-    "probability": 41,
+    "probability": 44,
     "level": "weak",
-    "windowStart": "2026-09-02T17:31:10.000Z",
-    "windowEnd": "2026-09-04T17:31:10.000Z",
+    "windowStart": "2026-09-02T18:29:25.000Z",
+    "windowEnd": "2026-09-04T18:29:25.000Z",
     "reasons": [
       "最近一次全局额度重置已于北京时间 2026 年 8 月 31 日确认完成。",
       "最近 72 小时内唯一未完成型相关信号，是已入库的 Tibo 回复：他表示会在条件允许时尽量提前预告额度重置；该表述没有给出下一次额度重置的日期、时间或执行承诺。",
-      "公开追踪源在 2026 年 9 月 2 日 17:01 UTC 的最近一次 X 汇总中仅显示 1 条会改变预测的信号，即上述已入库的弱下行信号；5/5 来源正常响应。",
-      "追踪模型当前给出的经验基线调整值为未来 24 小时约 23%、未来 48 小时约 41%。本记录使用与观察窗口匹配的 48 小时概率，信号等级仍为弱。",
+      "公开追踪源在 2026 年 9 月 2 日 18:01 UTC 的最近一次 X 汇总中显示 0 条会改变预测的信号。",
+      "追踪模型当前给出的无直接信号经验基线为未来 24 小时约 25%、未来 48 小时约 44%。本记录使用与观察窗口匹配的 48 小时概率，信号等级仍为弱。",
       "Tibo 在 2026 年 9 月 2 日 05:29 UTC 的最新可见回复谈到发布期间睡眠不足，不涉及 Codex、ChatGPT Work、usage、quota 或额度重置，因此未作为相关信号入库。",
       "本轮未发现 Tibo 新发布的 Codex、ChatGPT Work、usage、quota、额度重置、按钮或时间安排相关内容。",
       "当前历史页仍未显示新的全局 Codex 额度重置确认，最新确认事件仍为 2026 年 8 月 31 日。",
-      "41% 概率与观察窗口均为第三方经验模型辅助下的推测，不是 Tibo 或 OpenAI 的官方承诺。",
+      "公开追踪页本轮仅有 2/5 数据源正常响应，因此 sourceHealthy 标记为 false，未检出新内容的结论需结合覆盖降级理解。",
+      "44% 概率与观察窗口均为第三方经验模型辅助下的推测，不是 Tibo 或 OpenAI 的官方承诺。",
       "公开来源覆盖仍有限，未检出新内容不能证明 Tibo 没有发布其他新帖。"
     ],
     "sourceTweetId": "2094293383573545000"
@@ -128,7 +129,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new reset-related post, reply, quote, announcement, or completed reset found. The latest X collection at 17:01 UTC showed one forecast-changing item, the already-stored weak downward signal about pre-announcing resets; all 5/5 tracker sources were responding. The 48-hour estimate is now 41%. History was preserved.",
+    "lastResult": "No new reset-related post, reply, quote, announcement, or completed reset found. The latest X collection at 18:01 UTC reported zero forecast-changing signals and the 48-hour estimate was 44%. Source coverage was degraded to 2/5 responding, so sourceHealthy is false. History was preserved.",
     "coverageNote": "No direct X API was available in this run. X profile access can be restricted, so this check depends on public search and third-party sources; no result does not prove no new post exists."
   }
 }
