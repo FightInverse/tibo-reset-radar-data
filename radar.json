@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
-  "sourceHealthy": false,
-  "checkedAt": "2026-09-02T10:27:11.000Z",
+  "sourceHealthy": true,
+  "checkedAt": "2026-09-02T11:29:44.000Z",
   "posts": [
     {
       "tweetId": "2094293383573545000",
@@ -106,19 +106,20 @@
     }
   ],
   "prediction": {
-    "probability": 40,
+    "probability": 44,
     "level": "weak",
-    "windowStart": "2026-09-02T10:27:11.000Z",
-    "windowEnd": "2026-09-04T10:27:11.000Z",
+    "windowStart": "2026-09-02T11:29:44.000Z",
+    "windowEnd": "2026-09-04T11:29:44.000Z",
     "reasons": [
       "最近一次全局额度重置已于北京时间 2026 年 8 月 31 日确认完成。",
       "最近 72 小时内唯一未完成型相关信号，是 Tibo 表示会在条件允许时尽量提前预告额度重置；目前没有新的日期、时间或执行承诺。",
-      "公开追踪页在 2026 年 9 月 2 日 10:16 UTC 的可检索快照中给出未来 24 小时约 22%、未来 48 小时约 40%的最终预测；本记录采用与 48 小时窗口匹配的 40%，信号等级仍为弱。",
+      "公开追踪源在 2026 年 9 月 2 日 11:01 UTC 的最近一次 X 汇总中显示 0 条会改变预测的信号，5/5 来源正常响应。",
+      "追踪模型当前采用无直接信号经验基线：未来 24 小时约 25%、未来 48 小时约 44%。本记录使用与窗口匹配的 48 小时概率，信号等级仍为弱。",
       "Tibo 在 2026 年 9 月 2 日 05:29 UTC 的最新可见回复谈到发布期间睡眠不足，不涉及 Codex、ChatGPT Work、usage、quota 或额度重置，因此未作为相关信号入库。",
       "公开搜索没有发现 Tibo 新发布的 Codex、ChatGPT Work、usage、quota、额度重置、按钮或时间安排相关内容。",
       "今日状态与历史页仍未显示新的全局 Codex 额度重置确认，最新确认事件仍为 2026 年 8 月 31 日。",
-      "40% 概率与观察窗口均为第三方经验模型辅助下的推测，不是 Tibo 或 OpenAI 的官方承诺。",
-      "本轮追踪页快照仅有 1/5 来源响应；公开来源覆盖受限，未检出新内容不能证明 Tibo 没有发布其他新帖。"
+      "44% 概率与观察窗口均为第三方经验模型辅助下的推测，不是 Tibo 或 OpenAI 的官方承诺。",
+      "公开来源覆盖仍有限，未检出新内容不能证明 Tibo 没有发布其他新帖。"
     ],
     "sourceTweetId": "2094293383573545000"
   },
@@ -127,7 +128,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new reset-related post, reply, quote, announcement, or completed reset found. The latest visible Tibo reply at 05:29 UTC was unrelated to usage or resets; the tracker snapshot at 10:16 UTC showed 1/5 sources responding and a 40% final 48-hour estimate. History was preserved.",
-    "coverageNote": "No direct X API was available in this run. The latest tracker snapshot had only 1/5 sources responding, and X profile access is restricted; this check depends on public search and third-party sources, so no result does not prove no new post exists."
+    "lastResult": "No new reset-related post, reply, quote, announcement, or completed reset found. The latest X collection at 11:01 UTC reported zero forecast-changing signals, all 5/5 tracker sources were responding, and the 48-hour estimate returned to the 44% empirical baseline. History was preserved.",
+    "coverageNote": "No direct X API was available in this run. X profile access can be restricted, so this check depends on public search and third-party sources; no result does not prove no new post exists."
   }
 }
