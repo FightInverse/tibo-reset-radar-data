@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-02T02:29:19.000Z",
+  "checkedAt": "2026-09-02T03:30:15.000Z",
   "posts": [
     {
       "tweetId": "2094293383573545000",
@@ -106,17 +106,17 @@
     }
   ],
   "prediction": {
-    "probability": 41,
+    "probability": 44,
     "level": "weak",
-    "windowStart": "2026-09-02T02:29:19.000Z",
-    "windowEnd": "2026-09-04T02:29:19.000Z",
+    "windowStart": "2026-09-02T03:30:15.000Z",
+    "windowEnd": "2026-09-04T03:30:15.000Z",
     "reasons": [
       "最近一次全局额度重置已于北京时间 2026 年 8 月 31 日确认完成。",
       "最近 72 小时内唯一未完成型相关信号，是 Tibo 表示会在条件允许时尽量提前预告额度重置；目前没有新的日期、时间或执行承诺。",
-      "公开追踪源在北京时间 2026 年 9 月 2 日 10:08 显示 5/5 数据源正常；最近一次 X 汇总重新计入 1 条会改变预测的信号，即已入库的弱下行回复，而不是新发布的相关内容。",
-      "第三方模型从无信号经验基线的未来 24 小时 25%、未来 48 小时 44%，因上述提前预告惯例弱下行信号调整为约 23% 和 41%。本记录采用与窗口匹配的 48 小时概率。",
+      "公开追踪源在北京时间 2026 年 9 月 2 日 11:08 显示 5/5 数据源正常；最近一次 X 汇总为 0 条会改变预测的信号。",
+      "第三方模型当前采用无直接信号经验基线：未来 24 小时约 25%、未来 48 小时约 44%。本记录使用与窗口匹配的 48 小时概率，信号等级仍为弱。",
       "Tibo 最新可见内容仍是单独一句“Bullish”，没有提到 Codex、ChatGPT Work、usage、quota、额度重置、按钮或时间安排，因此不视为重置信号。",
-      "41% 概率与观察窗口均为第三方经验模型辅助下的推测，不是 Tibo 或 OpenAI 的官方承诺。",
+      "44% 概率与观察窗口均为第三方经验模型辅助下的推测，不是 Tibo 或 OpenAI 的官方承诺。",
       "公开来源覆盖受限，未检出新内容不能证明 Tibo 没有发布其他新帖。"
     ],
     "sourceTweetId": "2094293383573545000"
@@ -126,7 +126,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new reset-related post, reply, quote, announcement, or completed reset found. The tracker reclassified the already-stored pre-announcement reply as one weak downward forecast-changing signal, reducing its 48-hour estimate to 41%; all five sources were responding and history was preserved.",
+    "lastResult": "No new reset-related post, reply, quote, announcement, or completed reset found. The latest X collection reported zero forecast-changing signals and the tracker returned to its 44% empirical 48-hour baseline; all five sources were responding and history was preserved.",
     "coverageNote": "No direct X API was available in this run. X profile access is restricted, so this check depends on public search and third-party sources; no result does not prove no new post exists."
   }
 }
