@@ -2,8 +2,28 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-03T04:27:24.000Z",
+  "checkedAt": "2026-09-03T05:30:21.000Z",
   "posts": [
+    {
+      "tweetId": "2095370639892955269",
+      "text": "Summary: Replying to a user who asked whether people were excited for Astra or the Codex reset, Tibo asked, \"Which Codex reset?\"",
+      "translatedTextZh": "摘要：一名用户询问大家是在期待 Astra 还是 Codex 额度重置，Tibo 回问：“指的是哪一次 Codex 额度重置？”",
+      "signalLevel": "weak",
+      "signalScore": 16,
+      "confirmedReset": false,
+      "reasons": [
+        "该回复直接提到 Codex 额度重置，因此与监测主题相关。",
+        "反问语气显示 Tibo 没有承认一个明确的新额度重置安排；公开追踪源将其评为轻微下行信号。",
+        "回复没有日期、时间、执行承诺或已完成措辞，不能作为额度重置排期或确认。",
+        "X 原帖直连本次返回 403；正文、归属与时间来自公开 X API 追踪页，因此仅保存准确摘要并标记 summary-only。"
+      ],
+      "createdAt": "2026-09-03T04:37:45.311Z",
+      "createdAtShanghai": "2026-09-03T12:37:45.311+08:00",
+      "detectedAt": "2026-09-03T05:30:21.000Z",
+      "url": "https://x.com/thsottiaux/status/2095370639892955269",
+      "kind": "reply",
+      "verificationStatus": "summary-only"
+    },
     {
       "tweetId": "2094293383573545000",
       "text": "Summary: In a reply to a user asking for dated reset announcements, Tibo said he tries to pre-announce resets these days when he can.",
@@ -108,29 +128,26 @@
     }
   ],
   "prediction": {
-    "probability": 44,
+    "probability": 41,
     "level": "weak",
-    "windowStart": "2026-09-03T04:27:24.000Z",
-    "windowEnd": "2026-09-05T04:27:24.000Z",
+    "windowStart": "2026-09-03T05:30:21.000Z",
+    "windowEnd": "2026-09-05T05:30:21.000Z",
     "reasons": [
-      "最近一次全局额度重置已于北京时间 2026 年 8 月 31 日确认完成。",
-      "最近 72 小时内唯一未完成型相关内容，是已入库的 Tibo 回复：他表示会在条件允许时尽量提前预告额度重置；该表述没有给出下一次额度重置的日期、时间或执行承诺。",
-      "公开追踪源在 2026 年 9 月 3 日 03:01 UTC 的最近一次 X 汇总中显示 0 条会改变预测的新增信号，5/5 来源正常响应。",
-      "追踪模型当前给出的无直接新信号经验基线为未来 24 小时约 25%、未来 48 小时约 44%。本记录使用与观察窗口匹配的 48 小时概率，信号等级仍为弱。",
-      "Tibo 的最新可见回复仍为 2026 年 9 月 2 日 23:19 UTC 的“Should have been 50'000. I get it.”，不涉及 Codex、ChatGPT Work、usage、quota 或额度重置，因此未作为相关信号入库。",
-      "本轮未发现 Tibo 新发布的 Codex、ChatGPT Work、usage、quota、额度重置、按钮或时间安排相关内容。",
-      "当前历史页仍未显示新的全局 Codex 额度重置确认，最新确认事件仍为 2026 年 8 月 31 日。",
-      "44% 概率与观察窗口均为第三方经验模型辅助下的推测，不是 Tibo 或 OpenAI 的官方承诺。",
-      "公开来源覆盖仍有限，未检出新内容不能证明 Tibo 没有发布其他新帖。"
+      "最近 72 小时内发现一条新的 Tibo 相关回复：面对“期待 Astra 还是 Codex 额度重置”的问题，他反问“指的是哪一次 Codex 额度重置？”。",
+      "该回复没有给出日期、时间、执行承诺或已经完成的措辞，属于弱下行信号，不构成新的额度重置排期或确认。",
+      "公开追踪模型从未来 24 小时 25%、未来 48 小时 44% 的经验基线轻微下调至 23% 和 41%；本记录采用与 48 小时观察窗口匹配的 41%。",
+      "截至 2026 年 9 月 3 日 05:01 UTC，公开追踪页从 450 条小时记录中展示 2 条会改变预测的信号，最新确认事件仍是 2026 年 8 月 31 日的全局额度重置。",
+      "41% 概率和观察窗口均为基于公开信号的推测，不是 Tibo 或 OpenAI 的官方承诺。",
+      "未使用直接 X API，且 X 原帖访问可能受限；公开来源未检出其他新内容，不能证明 Tibo 没有发布其他帖子。"
     ],
-    "sourceTweetId": "2094293383573545000"
+    "sourceTweetId": "2095370639892955269"
   },
   "monitor": {
     "account": "@thsottiaux",
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new reset-related post, reply, quote, announcement, or completed reset found. The latest X collection at 03:01 UTC reported zero forecast-changing signals; all 5/5 tracker sources were responding, and the 48-hour estimate remained 44%. History was preserved.",
-    "coverageNote": "No direct X API was available in this run. X profile access can be restricted, so this check depends on public search and third-party sources; no result does not prove no new post exists."
+    "lastResult": "Added one new weak/downward reset-related Tibo reply from Sep 3 04:37 UTC. It contains no schedule or completed-reset confirmation. The public tracker showed 23% within 24h and 41% within 48h, with 5/5 sources responding; reset-event history was preserved.",
+    "coverageNote": "No direct X API was available in this run. X profile and status access can be restricted, so this check depends on public search and third-party X API monitoring; no result does not prove no new post exists."
   }
 }
