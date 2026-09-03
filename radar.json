@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-03T09:31:13.000Z",
+  "checkedAt": "2026-09-03T10:30:14.000Z",
   "posts": [
     {
       "tweetId": "2095370639892955269",
@@ -128,19 +128,18 @@
     }
   ],
   "prediction": {
-    "probability": 40,
+    "probability": 36,
     "level": "weak",
-    "windowStart": "2026-09-03T09:31:13.000Z",
-    "windowEnd": "2026-09-05T09:31:13.000Z",
+    "windowStart": "2026-09-03T10:30:14.000Z",
+    "windowEnd": "2026-09-05T10:30:14.000Z",
     "reasons": [
-      "最近 72 小时内唯一未完成型相关内容仍是 Tibo 的回复：面对“期待 Astra 还是 Codex 额度重置”的问题，他反问“指的是哪一次 Codex 额度重置？”。",
-      "该回复没有给出日期、时间、执行承诺或已经完成的措辞，属于弱下行信号，不构成新的额度重置排期或确认。",
-      "公开追踪模型当前给出的推测为未来 24 小时 22%、未来 48 小时 40%；本记录采用与 48 小时观察窗口匹配的 40%。",
-      "公开追踪页在 2026 年 9 月 3 日 09:29 UTC 显示 5/5 来源正常响应，最近一次 X 汇总更新至 09:00 UTC；452 条小时记录中仅 1 条当前预测变化信号，且已入库。",
-      "Tibo 最新可见回复仍是 2026 年 9 月 3 日 06:12 UTC 的“Interesting”，未直接涉及 Codex、ChatGPT Work、usage、quota、额度重置、按钮或时间安排，因此未作为相关信号入库。",
-      "最新确认事件仍为 2026 年 8 月 31 日的全局额度重置。",
-      "40% 概率和观察窗口均为基于公开信号的推测，不是 Tibo 或 OpenAI 的官方承诺。",
-      "未使用直接 X API，且 X 原帖访问可能受限；公开来源未检出新相关内容，不能证明 Tibo 没有发布其他帖子。"
+      "The only reset-related signal in the most recent 72-hour window remains Tibo's Sep 3 reply asking “Which Codex reset?”, a weak downward signal with no date, timing, execution promise, or completion confirmation.",
+      "The public tracker currently estimates a 19% chance within 24 hours and 36% within 48 hours; this radar uses 36% for the displayed 48-hour observation window.",
+      "At 2026-09-03 10:30 UTC the public tracker reported 5/5 sources responding, with its latest X collection at 10:01 UTC.",
+      "The latest publicly surfaced Tibo reply was “Interesting” at 06:12 UTC and was not stored because it was unrelated to usage or reset.",
+      "The latest explicitly confirmed completed reset remains the Aug 31 global reset for paid ChatGPT Work and Codex subscriptions.",
+      "This prediction is speculative and is not an official commitment by Tibo or OpenAI.",
+      "Public-source coverage is incomplete and the absence of a discovered post does not prove that no new post exists; direct X API access was not available in this run."
     ],
     "sourceTweetId": "2095370639892955269"
   },
@@ -149,7 +148,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new unique reset-related post, reply, quote, announcement, or completed reset was found after the stored Sep 3 04:37 UTC reply. The public tracker checked at 09:29 UTC with 5/5 sources responding and X collection through 09:00 UTC. Estimates remained 22% within 24h and 40% within 48h; history was preserved.",
+    "lastResult": "No new unique reset-related post, reply, quote, announcement, or completed reset was found after the stored Sep 3 04:37 UTC reply. The public tracker checked at 10:30 UTC with 5/5 sources responding and X collection through 10:01 UTC. Estimates eased to 19% within 24 hours and 36% within 48 hours; history was preserved.",
     "coverageNote": "No direct X API was available in this run. X profile and status access can be restricted, so this check depends on public search and third-party X API monitoring; no result does not prove no new post exists."
   }
 }
