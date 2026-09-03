@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-03T21:31:29.000Z",
+  "checkedAt": "2026-09-03T22:30:43.000Z",
   "posts": [
     {
       "tweetId": "2095597659545591917",
@@ -148,19 +148,19 @@
     }
   ],
   "prediction": {
-    "probability": 38,
+    "probability": 34,
     "level": "weak",
-    "windowStart": "2026-09-03T21:31:29.000Z",
-    "windowEnd": "2026-09-05T21:31:29.000Z",
+    "windowStart": "2026-09-03T22:30:43.000Z",
+    "windowEnd": "2026-09-05T22:30:43.000Z",
     "reasons": [
       "Tibo's Sep 3 reply says GPT-6 Astra will use each plan's normal usage allocation, with 100% of that allocation usable for Astra; this remains a weak downward signal rather than a reset announcement.",
       "Tibo's earlier Sep 3 reply asking “Which Codex reset?” remains a weak downward signal with no date, timing, execution promise, or completion confirmation.",
-      "The public tracker currently estimates a 20% chance within 24 hours and 38% within 48 hours; this radar uses 38% for the displayed 48-hour observation window.",
-      "At 2026-09-03 21:05 UTC the public tracker reported 5/5 sources responding, with its latest full X collection at 21:00 UTC.",
-      "Tibo's latest visible activity at 20:50 UTC concerned Astra and did not change the reset forecast.",
+      "The public tracker now estimates an 18% chance within 24 hours and 34% within 48 hours; this radar uses 34% for the displayed 48-hour observation window.",
+      "At 2026-09-03 22:05 UTC the public tracker reported 5/5 sources responding, with its latest full X collection at 22:00 UTC.",
+      "Tibo's latest visible activity remained an Astra-related reply at 20:50 UTC and did not contain a reset, quota, usage-reset, timing, or completion signal.",
       "The latest explicitly confirmed completed reset remains the Aug 31 global reset for paid ChatGPT Work and Codex subscriptions.",
       "This prediction is speculative and is not an official commitment by Tibo or OpenAI.",
-      "Public-source coverage is incomplete and the absence of a discovered post does not prove that no new post exists; direct X status access returned 403 in this run."
+      "Public-source coverage is incomplete and the absence of a discovered post does not prove that no new post exists; direct X status access may be restricted."
     ],
     "sourceTweetId": "2095597659545591917"
   },
@@ -169,7 +169,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new reset-relevant Tibo signal was discovered. The public tracker reported 5/5 sources responding at 21:05 UTC and a full X collection through 21:00 UTC. Tibo's latest visible reply at 20:50 UTC concerned Astra but contained no reset, quota, usage-reset, timing, or completion signal. Forecast remains speculative at 20% within 24 hours and 38% within 48 hours; history was preserved.",
-    "coverageNote": "No direct X API was available in this run. X status access returned 403, so coverage relies on indexed public search and a public X API tracker; no result does not prove no new post exists."
+    "lastResult": "No new reset-relevant Tibo signal was discovered. The public tracker reported 5/5 sources responding at 22:05 UTC and a full X collection through 22:00 UTC. Tibo's latest visible reply remained Astra-related and contained no reset, quota, usage-reset, timing, or completion signal. The speculative forecast moved to 18% within 24 hours and 34% within 48 hours; all history was preserved.",
+    "coverageNote": "No direct X API was available in this run. Coverage relies on indexed public search and a public X API tracker; no result does not prove no new post exists, and direct X status access can be restricted."
   }
 }
