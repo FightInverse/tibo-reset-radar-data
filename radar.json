@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
-  "sourceHealthy": false,
-  "checkedAt": "2026-09-03T01:32:28.000Z",
+  "sourceHealthy": true,
+  "checkedAt": "2026-09-03T02:29:04.000Z",
   "posts": [
     {
       "tweetId": "2094293383573545000",
@@ -110,17 +110,18 @@
   "prediction": {
     "probability": 44,
     "level": "weak",
-    "windowStart": "2026-09-03T01:32:28.000Z",
-    "windowEnd": "2026-09-05T01:32:28.000Z",
+    "windowStart": "2026-09-03T02:29:04.000Z",
+    "windowEnd": "2026-09-05T02:29:04.000Z",
     "reasons": [
       "最近一次全局额度重置已于北京时间 2026 年 8 月 31 日确认完成。",
       "最近 72 小时内唯一未完成型相关内容，是已入库的 Tibo 回复：他表示会在条件允许时尽量提前预告额度重置；该表述没有给出下一次额度重置的日期、时间或执行承诺。",
-      "公开追踪源最近一次成功读取显示：2026 年 9 月 3 日 00:01 UTC 的 X 汇总中有 0 条会改变预测的新增信号，5/5 来源正常响应；但本轮直接访问该追踪页两次超时，因此 sourceHealthy 暂标为 false。",
-      "本轮公开搜索未发现 Tibo 新发布的额度重置信号；检出的 2026 年 9 月 2 日 16:11 UTC 帖子仅谈 ChatGPT 桌面应用和生产力，不涉及 usage、quota 或额度重置，因此未入库。",
-      "追踪模型在无直接新信号时的经验基线为未来 24 小时约 25%、未来 48 小时约 44%。本记录使用与观察窗口匹配的 48 小时概率，信号等级仍为弱。",
-      "当前公开历史仍未显示新的全局 Codex 额度重置确认，最新确认事件仍为 2026 年 8 月 31 日。",
+      "公开追踪源在 2026 年 9 月 3 日 02:01 UTC 的最近一次 X 汇总中显示 0 条会改变预测的新增信号，5/5 来源正常响应。",
+      "追踪模型当前给出的无直接新信号经验基线为未来 24 小时约 25%、未来 48 小时约 44%。本记录使用与观察窗口匹配的 48 小时概率，信号等级仍为弱。",
+      "Tibo 的最新可见回复仍为 2026 年 9 月 2 日 23:19 UTC 的“Should have been 50'000. I get it.”，不涉及 Codex、ChatGPT Work、usage、quota 或额度重置，因此未作为相关信号入库。",
+      "本轮未发现 Tibo 新发布的 Codex、ChatGPT Work、usage、quota、额度重置、按钮或时间安排相关内容。",
+      "当前历史页仍未显示新的全局 Codex 额度重置确认，最新确认事件仍为 2026 年 8 月 31 日。",
       "44% 概率与观察窗口均为第三方经验模型辅助下的推测，不是 Tibo 或 OpenAI 的官方承诺。",
-      "公开来源覆盖有限且本轮追踪页超时，未检出新内容不能证明 Tibo 没有发布其他新帖。"
+      "公开来源覆盖仍有限，未检出新内容不能证明 Tibo 没有发布其他新帖。"
     ],
     "sourceTweetId": "2094293383573545000"
   },
@@ -129,7 +130,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new reset-related post, reply, quote, announcement, or completed reset found in accessible public search. The primary tracker timed out twice during this run, so source health is marked degraded; its most recent successful snapshot had zero forecast-changing signals and a 44% 48-hour estimate. History was preserved.",
-    "coverageNote": "No direct X API was available in this run. The primary tracker timed out and X profile/search indexing can be incomplete, so no result does not prove no new post exists."
+    "lastResult": "No new reset-related post, reply, quote, announcement, or completed reset found. The latest X collection at 02:01 UTC reported zero forecast-changing signals; all 5/5 tracker sources were responding, and the 48-hour estimate remained 44%. History was preserved.",
+    "coverageNote": "No direct X API was available in this run. X profile access can be restricted, so this check depends on public search and third-party sources; no result does not prove no new post exists."
   }
 }
