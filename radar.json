@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-03T12:32:56.000Z",
+  "checkedAt": "2026-09-03T13:31:38.000Z",
   "posts": [
     {
       "tweetId": "2095370639892955269",
@@ -130,12 +130,12 @@
   "prediction": {
     "probability": 39,
     "level": "weak",
-    "windowStart": "2026-09-03T12:32:56.000Z",
-    "windowEnd": "2026-09-05T12:32:56.000Z",
+    "windowStart": "2026-09-03T13:31:38.000Z",
+    "windowEnd": "2026-09-05T13:31:38.000Z",
     "reasons": [
       "The only reset-related signal in the most recent 72-hour window remains Tibo's Sep 3 reply asking “Which Codex reset?”, a weak downward signal with no date, timing, execution promise, or completion confirmation.",
       "The public tracker currently estimates a 22% chance within 24 hours and 39% within 48 hours; this radar uses 39% for the displayed 48-hour observation window.",
-      "At 2026-09-03 12:30 UTC the public tracker reported 5/5 sources responding, with its latest X collection at 12:00 UTC.",
+      "At 2026-09-03 13:31 UTC the public tracker reported 5/5 sources responding, with its latest X collection at 13:00 UTC.",
       "The latest publicly surfaced Tibo reply was “Interesting” at 06:12 UTC and was not stored because it was unrelated to usage or reset.",
       "The latest explicitly confirmed completed reset remains the Aug 31 global reset for paid ChatGPT Work and Codex subscriptions.",
       "This prediction is speculative and is not an official commitment by Tibo or OpenAI.",
@@ -148,7 +148,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new unique reset-related post, reply, quote, announcement, or completed reset was found after the stored Sep 3 04:37 UTC reply. The public tracker checked at 12:30 UTC with 5/5 sources responding and X collection through 12:00 UTC. It estimated 22% within 24 hours and 39% within 48 hours; history was preserved.",
+    "lastResult": "No new unique reset-related post, reply, quote, announcement, or completed reset was found after the stored Sep 3 04:37 UTC reply. The public tracker checked at 13:31 UTC with 5/5 sources responding and X collection through 13:00 UTC. It estimated 22% within 24 hours and 39% within 48 hours; history was preserved.",
     "coverageNote": "No direct X API was available in this run. X profile and status access can be restricted, so this check depends on public search and third-party X API monitoring; no result does not prove no new post exists."
   }
 }
