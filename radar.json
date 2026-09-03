@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-03T18:31:29.000Z",
+  "checkedAt": "2026-09-03T19:30:33.000Z",
   "posts": [
     {
       "tweetId": "2095370639892955269",
@@ -128,15 +128,15 @@
     }
   ],
   "prediction": {
-    "probability": 40,
+    "probability": 38,
     "level": "weak",
-    "windowStart": "2026-09-03T18:31:29.000Z",
-    "windowEnd": "2026-09-05T18:31:29.000Z",
+    "windowStart": "2026-09-03T19:30:33.000Z",
+    "windowEnd": "2026-09-05T19:30:33.000Z",
     "reasons": [
       "The only reset-related signal in the most recent 72-hour window remains Tibo's Sep 3 reply asking “Which Codex reset?”, a weak downward signal with no date, timing, execution promise, or completion confirmation.",
-      "The public tracker currently estimates a 20% chance within 24 hours and 40% within 48 hours; this radar uses 40% for the displayed 48-hour observation window.",
-      "At 2026-09-03 18:03 UTC the public tracker reported 5/5 sources responding, with its latest X collection at 18:01 UTC.",
-      "Newly surfaced Tibo posts about the Sep 3 service outage and traffic absorption did not mention usage quotas or any reset, so they were not stored as reset signals.",
+      "The public tracker currently estimates a 21% chance within 24 hours and 38% within 48 hours; this radar uses 38% for the displayed 48-hour observation window.",
+      "At 2026-09-03 19:03 UTC the public tracker reported 5/5 sources responding, with its latest X collection at 19:00 UTC.",
+      "The latest publicly surfaced Tibo reply, “Let me sketch that out,” posted at 18:29 UTC, was not stored because it did not concern usage quotas or a reset.",
       "The latest explicitly confirmed completed reset remains the Aug 31 global reset for paid ChatGPT Work and Codex subscriptions.",
       "This prediction is speculative and is not an official commitment by Tibo or OpenAI.",
       "Public-source coverage is incomplete and the absence of a discovered post does not prove that no new post exists; direct X profile access was unavailable in this run."
@@ -148,7 +148,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new unique reset-related post, reply, quote, announcement, or completed reset was found after the stored Sep 3 04:37 UTC reply. The public tracker reported 5/5 sources responding and X collection through 18:01 UTC. Newly surfaced Tibo outage posts were unrelated to usage or reset; the tracker estimated 20% within 24 hours and 40% within 48 hours. History was preserved.",
+    "lastResult": "No new unique reset-related post, reply, quote, announcement, or completed reset was found after the stored Sep 3 04:37 UTC reply. The public tracker reported 5/5 sources responding and X collection through 19:00 UTC. Its newest Tibo reply at 18:29 UTC was unrelated; it estimated 21% within 24 hours and 38% within 48 hours. History was preserved.",
     "coverageNote": "No direct X API was available in this run. X profile and status access can be restricted, so this check depends on public search and third-party X API monitoring; no result does not prove no new post exists."
   }
 }
