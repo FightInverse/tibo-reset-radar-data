@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-03T05:30:21.000Z",
+  "checkedAt": "2026-09-03T06:28:35.000Z",
   "posts": [
     {
       "tweetId": "2095370639892955269",
@@ -130,15 +130,16 @@
   "prediction": {
     "probability": 41,
     "level": "weak",
-    "windowStart": "2026-09-03T05:30:21.000Z",
-    "windowEnd": "2026-09-05T05:30:21.000Z",
+    "windowStart": "2026-09-03T06:28:35.000Z",
+    "windowEnd": "2026-09-05T06:28:35.000Z",
     "reasons": [
-      "最近 72 小时内发现一条新的 Tibo 相关回复：面对“期待 Astra 还是 Codex 额度重置”的问题，他反问“指的是哪一次 Codex 额度重置？”。",
+      "最近 72 小时内仍只有一条未完成型相关新内容：Tibo 面对“期待 Astra 还是 Codex 额度重置”的问题，反问“指的是哪一次 Codex 额度重置？”。",
       "该回复没有给出日期、时间、执行承诺或已经完成的措辞，属于弱下行信号，不构成新的额度重置排期或确认。",
-      "公开追踪模型从未来 24 小时 25%、未来 48 小时 44% 的经验基线轻微下调至 23% 和 41%；本记录采用与 48 小时观察窗口匹配的 41%。",
-      "截至 2026 年 9 月 3 日 05:01 UTC，公开追踪页从 450 条小时记录中展示 2 条会改变预测的信号，最新确认事件仍是 2026 年 8 月 31 日的全局额度重置。",
+      "公开追踪模型给出的当前推测为未来 24 小时 23%、未来 48 小时 41%；本记录采用与 48 小时观察窗口匹配的 41%。",
+      "公开追踪页在 2026 年 9 月 3 日 05:58 UTC 显示 5/5 来源正常响应；最近一次 X 汇总仍为 05:01 UTC，未出现晚于已入库回复的预测变化信号。",
+      "最新确认事件仍为 2026 年 8 月 31 日的全局额度重置。",
       "41% 概率和观察窗口均为基于公开信号的推测，不是 Tibo 或 OpenAI 的官方承诺。",
-      "未使用直接 X API，且 X 原帖访问可能受限；公开来源未检出其他新内容，不能证明 Tibo 没有发布其他帖子。"
+      "未使用直接 X API，且 X 原帖访问可能受限；公开来源未检出新内容，不能证明 Tibo 没有发布其他帖子。"
     ],
     "sourceTweetId": "2095370639892955269"
   },
@@ -147,7 +148,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "Added one new weak/downward reset-related Tibo reply from Sep 3 04:37 UTC. It contains no schedule or completed-reset confirmation. The public tracker showed 23% within 24h and 41% within 48h, with 5/5 sources responding; reset-event history was preserved.",
+    "lastResult": "No new unique reset-related post, reply, quote, announcement, or completed reset was found after the Sep 3 04:37 UTC Tibo reply already stored. At 05:58 UTC the public tracker reported 5/5 sources responding, a 05:01 UTC latest X collection, and unchanged estimates of 23% within 24h and 41% within 48h. History was preserved.",
     "coverageNote": "No direct X API was available in this run. X profile and status access can be restricted, so this check depends on public search and third-party X API monitoring; no result does not prove no new post exists."
   }
 }
