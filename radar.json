@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-04T14:32:39.000Z",
+  "checkedAt": "2026-09-04T15:29:26.000Z",
   "events": [
     {
       "confirmed": true,
@@ -29,12 +29,33 @@
   "monitor": {
     "account": "@thsottiaux",
     "cadence": "hourly",
-    "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；搜索不到新内容不代表没有新帖。",
-    "lastResult": "未发现新的相关额度重置信号或明确重置确认。公开追踪源截至 2026-09-04 14:16 UTC 显示 5/5 数据源响应，X 内容采集截至 14:00 UTC；未来24小时/48小时推测为20%/38%。已保留全部 posts、events 和历史确认记录。",
+    "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；搜索不到完成确认不代表所有账户均未到账。",
+    "lastResult": "发现并入库一条新的强 Banked Reset 信号：Tibo 承诺付费 ChatGPT 套餐用户每等待 Astra 一天将获得一次可储存额度重置，首个原计划约三小时后到账。当前未找到 Tibo 的明确完成确认，因此未新增 events。公开主追踪源截至 2026-09-04 15:16 UTC 显示 5/5 数据源响应，X 内容采集截至 15:00 UTC；另一个独立追踪源将该信号的48小时推测概率评为84%。",
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
   "posts": [
+    {
+      "confirmedReset": false,
+      "createdAt": "2026-09-03T23:12:09.470Z",
+      "createdAtShanghai": "2026-09-04T07:12:09.470+08:00",
+      "detectedAt": "2026-09-04T15:29:26.000Z",
+      "kind": "post",
+      "reasons": [
+        "Tibo 明确承诺：付费 ChatGPT 套餐用户每等待 Astra 一天，将获得一次可储存的 Banked Reset，并从当天开始计算。",
+        "帖子给出首个 Banked Reset 约三小时后到账的具体时间提示，属于强重置信号。",
+        "适用范围带有条件：用户必须是付费 ChatGPT 套餐且当时尚未获得 Astra 访问权限。",
+        "原定首个到账时间约为 2026-09-04 10:12（北京时间），但本轮未找到 Tibo 对实际到账的明确完成确认，因此 confirmedReset 保持 false，且不新增 events。",
+        "X 原帖直连本次无法正常打开；正文、归属与时间由 X 搜索索引及多个公开来源交叉核对，因此仅保存准确摘要并标记 summary-only。"
+      ],
+      "signalLevel": "strong",
+      "signalScore": 92,
+      "text": "Summary: Tibo said paid ChatGPT plan users would receive one banked reset for every day they do not have access to Astra, starting that day. He said the first one was expected to land in about three hours and that the team was working to provide access as quickly as possible.",
+      "translatedTextZh": "摘要：Tibo 表示，付费 ChatGPT 套餐用户每等待 Astra 访问权限一天，就会获得一次可储存的额度重置，并从当天开始计算。他称首个额度重置预计约三小时后到账，团队正尽快开放访问。",
+      "tweetId": "2095651088502591861",
+      "url": "https://x.com/thsottiaux/status/2095651088502591861",
+      "verificationStatus": "summary-only"
+    },
     {
       "confirmedReset": false,
       "createdAt": "2026-09-03T19:39:51.014Z",
@@ -153,22 +174,21 @@
     }
   ],
   "prediction": {
-    "probability": 38,
-    "level": "weak",
-    "windowStart": "2026-09-04T14:32:39.000Z",
-    "windowEnd": "2026-09-06T14:32:39.000Z",
+    "probability": 84,
+    "level": "strong",
+    "windowStart": "2026-09-04T15:29:26.000Z",
+    "windowEnd": "2026-09-05T15:29:26.000Z",
     "reasons": [
-      "最近72小时内，Tibo 关于 Astra 使用各套餐正常额度的回复属于弱下行信号，没有额外额度或额度重置承诺。",
-      "Tibo 对“哪一次 Codex reset？”的反问没有提供日期、时间或执行承诺，也不构成新的额度重置安排。",
-      "公开追踪源截至 2026-09-04 14:16 UTC 给出未来24小时20%、未来48小时38%的推测；本字段采用48小时概率38%。",
-      "公开追踪源显示 5/5 数据源响应，最近一次 X 内容采集截至 2026-09-04 14:00 UTC。",
-      "Tibo 最新可见回复“hahaha”与 usage、quota 或 reset 无关，未计为信号。",
-      "其他 Astra、容量或产品讨论没有提供可核验的额度重置时间或完成确认。",
-      "最近一次明确确认的全局额度重置仍为 2026-08-31，当前没有新的完成确认。",
-      "本预测仅依据公开信息推测，不代表 Tibo、OpenAI 或官方承诺。",
-      "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；未检出新内容不等于该账号没有发布新帖。"
+      "最近72小时内，Tibo 明确承诺：付费 ChatGPT 套餐用户每等待 Astra 一天将获得一次 Banked Reset，这是直接且高强度的额度重置信号。",
+      "帖子称首个 Banked Reset 约三小时后到账；按发帖时间推算，原定时间约为北京时间 2026-09-04 10:12，但当前尚无 Tibo 的明确完成确认。",
+      "“每一天”意味着在用户仍未获得 Astra 访问权限的条件下，未来24小时仍存在较高概率出现新的 Banked Reset 配额。",
+      "独立公开追踪源已将该内容评为强信号，并给出约84%的48小时推测概率；本预测采用84%，但不是官方保证。",
+      "此前“哪一次 Codex reset？”以及 Astra 使用正常套餐额度的回复仍是弱下行背景信号。",
+      "最近一次明确确认的全局额度重置仍为 2026-08-31；本次尚未新增完成事件。",
+      "本预测针对条件式 Banked Reset，不等同于所有用户的全局 Hard Reset，也不代表 Tibo、OpenAI 或官方承诺的精确到账时间。",
+      "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；未找到完成确认不等于所有账户均未到账。"
     ],
-    "sourceTweetId": "2095597659545591917"
+    "sourceTweetId": "2095651088502591861"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
