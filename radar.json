@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-04T04:27:43.000Z",
+  "checkedAt": "2026-09-04T05:27:28.000Z",
   "events": [
     {
       "confirmed": true,
@@ -30,7 +30,7 @@
     "account": "@thsottiaux",
     "cadence": "hourly",
     "coverageNote": "The public tracker reported 5/5 sources responding, but public indexing and tracker collection are not equivalent to exhaustive direct account access. Failure to discover a post does not prove that no new post exists.",
-    "lastResult": "No new reset-relevant Tibo signal was discovered. The public tracker reported 5/5 sources responding and a full X collection through 04:00 UTC. Tibo's latest visible reply remained Astra-related and did not mention quotas or resets. The speculative forecast is 21% within 24 hours and 40% within 48 hours; all posts and events were preserved.",
+    "lastResult": "No new reset-relevant Tibo signal was discovered. The public tracker reported 5/5 sources responding and a full X collection through 05:00 UTC. Tibo's latest visible reply at 04:27 UTC was unrelated to Codex usage or resets. The speculative forecast remains 21% within 24 hours and 40% within 48 hours; all posts and events were preserved.",
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
@@ -155,14 +155,14 @@
   "prediction": {
     "probability": 40,
     "level": "weak",
-    "windowStart": "2026-09-04T04:27:43.000Z",
-    "windowEnd": "2026-09-06T04:27:43.000Z",
+    "windowStart": "2026-09-04T05:27:28.000Z",
+    "windowEnd": "2026-09-06T05:27:28.000Z",
     "reasons": [
       "Tibo's Sep 3 reply says GPT-6 Astra will use each plan's normal usage allocation, with 100% of that allocation usable for Astra; this remains a weak downward signal rather than a reset announcement.",
       "Tibo's Sep 3 reply asking “Which Codex reset?” remains the clearest recent semantic signal and contains no date, timing, execution promise, or completion confirmation.",
       "The public tracker currently estimates a 21% chance within 24 hours and 40% within 48 hours; this radar uses 40% for the displayed 48-hour observation window.",
-      "At 2026-09-04 04:08 UTC the public tracker reported 5/5 sources responding, with its latest full X collection at 04:00 UTC.",
-      "Tibo's latest visible reply at 00:48 UTC confirmed Astra availability for Plus users and did not mention a reset, quota refresh, timing, or completion.",
+      "At 2026-09-04 05:08 UTC the public tracker reported 5/5 sources responding, with its latest full X collection at 05:00 UTC.",
+      "Tibo's latest visible reply at 04:27 UTC was merely “hahaha” and was unrelated to Codex usage, quotas, or resets.",
       "Other recent monitored-account posts concern Astra rollout or capacity and do not materially predict a global reset.",
       "The latest explicitly confirmed completed reset remains the Aug 31 global reset for paid ChatGPT Work and Codex subscriptions.",
       "This prediction is speculative and is not an official commitment by Tibo or OpenAI.",
