@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-04T12:31:16.000Z",
+  "checkedAt": "2026-09-04T13:27:53.000Z",
   "events": [
     {
       "confirmed": true,
@@ -29,8 +29,8 @@
   "monitor": {
     "account": "@thsottiaux",
     "cadence": "hourly",
-    "coverageNote": "The public tracker reported 5/5 sources responding, but public indexing and tracker collection are not equivalent to exhaustive direct account access. Failure to discover a post does not prove that no new post exists.",
-    "lastResult": "No new reset-relevant Tibo signal was discovered. The public tracker reported 5/5 sources responding with a full X collection through 12:00 UTC. Tibo's latest visible reply remained unrelated to Codex usage or resets. The speculative forecast remains 20% within 24 hours and 37% within 48 hours; all posts and events were preserved.",
+    "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；搜索不到新内容不代表没有新帖。",
+    "lastResult": "未发现新的相关重置信号或明确重置确认。公开追踪源截至 2026-09-04 13:15 UTC 显示 5/5 数据源响应，X 内容采集截至 13:00 UTC；未来24小时/48小时推测为20%/37%。已保留全部 posts、events 和历史确认记录。",
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
@@ -155,18 +155,18 @@
   "prediction": {
     "probability": 37,
     "level": "weak",
-    "windowStart": "2026-09-04T12:31:16.000Z",
-    "windowEnd": "2026-09-06T12:31:16.000Z",
+    "windowStart": "2026-09-04T13:27:53.000Z",
+    "windowEnd": "2026-09-06T13:27:53.000Z",
     "reasons": [
-      "Tibo's Sep 3 reply says GPT-6 Astra will use each plan's normal usage allocation, with 100% of that allocation usable for Astra; this remains a weak downward signal rather than a reset announcement.",
-      "Tibo's Sep 3 reply asking “Which Codex reset?” contains no date, timing, execution promise, or completion confirmation and remains a downward signal.",
-      "The public tracker currently estimates a 20% chance within 24 hours and 37% within 48 hours; this radar uses 37% for the displayed 48-hour observation window.",
-      "At 2026-09-04 12:14 UTC the public tracker reported 5/5 sources responding, with its latest full X collection at 12:00 UTC.",
-      "Tibo's latest visible reply at 04:27 UTC was merely “hahaha” and was unrelated to Codex usage, quotas, or resets.",
-      "Other recent monitored-account posts concern Astra rollout or capacity and do not materially predict a global reset.",
-      "The latest explicitly confirmed completed reset remains the Aug 31 global reset for paid ChatGPT Work and Codex subscriptions.",
-      "This prediction is speculative and is not an official commitment by Tibo or OpenAI.",
-      "Public-source coverage is not equivalent to exhaustive direct account access, and failure to discover a post does not prove that no new post exists."
+      "最近72小时内，Tibo 关于 Astra 使用各套餐正常额度的回复属于弱下行信号，没有额外额度或重置承诺。",
+      "Tibo 对“哪一次 Codex reset？”的反问没有提供日期、时间或执行承诺，也不构成新的重置安排。",
+      "公开追踪源截至 2026-09-04 13:15 UTC 给出未来24小时20%、未来48小时37%的推测；本字段采用48小时概率37%。",
+      "公开追踪源显示 5/5 数据源响应，最近一次 X 内容采集截至 2026-09-04 13:00 UTC。",
+      "最新可见回复“hahaha”与 usage、quota 或 reset 无关，未计为信号。",
+      "其他 Astra、容量或产品讨论没有提供可核验的额度重置时间或完成确认。",
+      "最近一次明确确认的全局重置仍为 2026-08-31，当前没有新的完成确认。",
+      "本预测仅依据公开信息推测，不代表 Tibo、OpenAI 或官方承诺。",
+      "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；未检出新内容不等于该账号没有发布新帖。"
     ],
     "sourceTweetId": "2095597659545591917"
   },
