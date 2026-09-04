@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": true,
-  "checkedAt": "2026-09-03T23:27:18.000Z",
+  "checkedAt": "2026-09-04T00:30:18.000Z",
   "posts": [
     {
       "tweetId": "2095597659545591917",
@@ -148,17 +148,18 @@
     }
   ],
   "prediction": {
-    "probability": 35,
+    "probability": 33,
     "level": "weak",
-    "windowStart": "2026-09-03T23:27:18.000Z",
-    "windowEnd": "2026-09-05T23:27:18.000Z",
+    "windowStart": "2026-09-04T00:30:18.000Z",
+    "windowEnd": "2026-09-06T00:30:18.000Z",
     "reasons": [
       "Tibo's Sep 3 reply says GPT-6 Astra will use each plan's normal usage allocation, with 100% of that allocation usable for Astra; this remains a weak downward signal rather than a reset announcement.",
       "Tibo's earlier Sep 3 reply asking “Which Codex reset?” remains a weak downward signal with no date, timing, execution promise, or completion confirmation.",
-      "The public tracker now estimates a 19% chance within 24 hours and 35% within 48 hours; this radar uses 35% for the displayed 48-hour observation window.",
-      "At 2026-09-03 23:05 UTC the public tracker reported 5/5 sources responding, with its latest full X collection at 23:00 UTC.",
-      "Tibo's latest visible reply at 22:36 UTC said “Get shipping” and did not contain a reset, quota, usage-reset, timing, or completion signal.",
+      "The public tracker now estimates a 17% chance within 24 hours and 33% within 48 hours; this radar uses 33% for the displayed 48-hour observation window.",
+      "At 2026-09-04 00:06 UTC the public tracker reported 5/5 sources responding, with its latest full X collection at 00:01 UTC.",
+      "Tibo's latest visible reply at 23:47 UTC was unrelated to reset timing or usage limits and did not change the forecast.",
       "The latest explicitly confirmed completed reset remains the Aug 31 global reset for paid ChatGPT Work and Codex subscriptions.",
+      "A recent Reddit question asked whether Astra access came with a reset, but it supplied no evidence and is not treated as a Tibo signal or confirmation.",
       "This prediction is speculative and is not an official commitment by Tibo or OpenAI.",
       "Public-source coverage is incomplete and the absence of a discovered post does not prove that no new post exists; direct X status access may be restricted."
     ],
@@ -169,7 +170,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new reset-relevant Tibo signal was discovered. The public tracker reported 5/5 sources responding at 23:05 UTC and a full X collection through 23:00 UTC. Tibo's latest visible reply at 22:36 UTC was unrelated to quotas or resets. The speculative forecast is 19% within 24 hours and 35% within 48 hours; all history was preserved.",
+    "lastResult": "No new reset-relevant Tibo signal was discovered. The public tracker reported 5/5 sources responding at 00:06 UTC and a full X collection through 00:01 UTC. Tibo's latest visible reply at 23:47 UTC was unrelated to quotas or resets. The speculative forecast is 17% within 24 hours and 33% within 48 hours; all history was preserved.",
     "coverageNote": "No direct X API was available in this run. Coverage relies on indexed public search and a public X API tracker; no result does not prove no new post exists, and direct X status access can be restricted."
   }
 }
