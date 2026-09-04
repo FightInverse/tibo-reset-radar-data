@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-04T21:28:27.000Z",
+  "checkedAt": "2026-09-04T22:28:52.000Z",
   "events": [
     {
       "confirmed": true,
@@ -29,12 +29,33 @@
   "monitor": {
     "account": "@thsottiaux",
     "cadence": "hourly",
-    "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；搜索不到完成确认不代表所有账户均未到账。",
-    "lastResult": "发现并入库一条新的中等信号：Tibo 确认 Astra 正在分阶段开放，Pro 和 Business 优先，随后扩展至 Plus。该变化会缩小此前每日 Banked Reset 承诺的适用人群，但不是新的额度重置或到账确认；未新增 events。X 原帖直连不可用，记录标记为 summary-only。",
+    "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；未找到完成确认不代表所有账户均未到账。",
+    "lastResult": "发现并入库一条新的强信号：Tibo 表示部分当天尚未获得 Astra 的 Plus 和 Business 用户会获得一次 Banked Reset，预计在太平洋时间当天结束前到账；太平洋时间 20:00 前创建的账户也可获得。帖子是未来安排，不是到账完成确认，因此未新增 events。X 原帖直连不可用，记录标记为 summary-only。",
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
   "posts": [
+    {
+      "confirmedReset": false,
+      "createdAt": "2026-09-04T20:57:17.466Z",
+      "createdAtShanghai": "2026-09-05T04:57:17.466+08:00",
+      "detectedAt": "2026-09-04T22:28:52.000Z",
+      "kind": "post",
+      "reasons": [
+        "Tibo 明确表示，部分 Plus 和 Business 用户当天尚不会获得 Astra，因此会获得一次 Banked Reset，属于直接且高强度的额度重置信号。",
+        "帖子给出到账时限为太平洋时间当天结束前；按 2026 年 9 月的 PDT（UTC−7）换算，保守截止约为北京时间 2026-09-05 15:00。",
+        "帖子同时说明，在太平洋时间 20:00 前创建账户的用户也可获得；换算为北京时间 2026-09-05 11:00 前。",
+        "这是未来到账安排，而不是已完成或已传播的确认，因此 confirmedReset 为 false，且不新增 events。",
+        "X 原帖直连本次返回 403；原文含义、Tweet ID 与时间由 X 搜索索引及公开追踪页交叉核对，故保存准确摘要并标记 summary-only。"
+      ],
+      "signalLevel": "strong",
+      "signalScore": 96,
+      "text": "Summary: Tibo said some Plus and Business users would not yet receive Astra access that day, so they were covered with a banked reset. He said it would land by the end of the day, and accounts created by 8 PM Pacific Time would also receive it.",
+      "translatedTextZh": "摘要：Tibo 表示，部分 Plus 和 Business 用户当天尚不会获得 Astra 访问权限，因此会获得一次可储存的额度重置。该额度重置将在当天结束前到账；太平洋时间 20:00 前创建的账户也可以获得。",
+      "tweetId": "2095979536043401428",
+      "url": "https://x.com/thsottiaux/status/2095979536043401428",
+      "verificationStatus": "summary-only"
+    },
     {
       "confirmedReset": false,
       "createdAt": "2026-09-04T19:44:22.299Z",
@@ -216,21 +237,19 @@
   ],
   "prediction": {
     "level": "strong",
-    "probability": 82,
+    "probability": 96,
     "reasons": [
-      "最近72小时内，Tibo 明确表示：付费 ChatGPT 套餐用户每等待 Astra 一天将获得一次可储存的 Banked Reset，这是直接且高强度的条件式额度重置信号。",
-      "最新帖子确认 Astra 正在分阶段开放：Pro 和 Business 优先，部分用户已经开始获得访问，随后将尽快扩大到所有 Plus 订阅。",
-      "这一开放进度会缩小仍符合“等待 Astra”条件的人群，因此条件式 Banked Reset 的总体概率从86%下调至82%；对尚未获得 Astra 的付费用户，日度承诺仍然有效。",
-      "已获得 Astra 的账户原则上不再属于此前公告所述的等待人群，不能据此期待继续获得新的 Banked Reset。",
-      "本轮没有 Tibo 明确写明 Banked Reset 已到账、已传播完成或新增全局 Hard Reset，因此 events 保持不变。",
-      "当前82%仅针对仍未获得 Astra 的付费用户之条件式 Banked Reset，不适用于所有账户或一般性全局重置。",
-      "最近一次明确确认的全局额度重置仍为 2026-08-31。",
-      "本预测仅依据公开信息推测，不代表 Tibo、OpenAI 或官方承诺的精确到账时间。",
-      "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；未找到完成确认不等于所有账户均未到账。"
+      "最近72小时内，Tibo 已两次明确宣布与 Astra 等待期相关的 Banked Reset；最新帖子直接覆盖当天仍未获得 Astra 的部分 Plus 和 Business 用户。",
+      "最新帖子称本次 Banked Reset 将在太平洋时间 2026-09-04 当天结束前到账；按 PDT（UTC−7）保守换算，预测窗口截止约为北京时间 2026-09-05 15:00。",
+      "太平洋时间 20:00 前创建账户的用户也在公告覆盖范围内，对应北京时间 2026-09-05 11:00 前。",
+      "该安排只适用于帖子所述仍未获得 Astra 的部分 Plus 和 Business 用户，不是面向所有账户的全局 Hard Reset。",
+      "帖子使用未来时态，尚未明确确认已到账或完成传播，因此 events 保持不变。",
+      "本预测为依据公开帖子作出的推测，不代表 Tibo、OpenAI 或官方对每个账户的精确到账承诺。",
+      "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；未发现完成确认不等于所有账户均未到账。"
     ],
-    "sourceTweetId": "2095651088502591861",
-    "windowStart": "2026-09-04T21:28:27.000Z",
-    "windowEnd": "2026-09-05T21:28:27.000Z"
+    "sourceTweetId": "2095979536043401428",
+    "windowEnd": "2026-09-05T06:59:59.000Z",
+    "windowStart": "2026-09-04T20:57:17.466Z"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
