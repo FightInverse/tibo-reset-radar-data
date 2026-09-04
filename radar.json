@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-04T20:29:30.000Z",
+  "checkedAt": "2026-09-04T21:28:27.000Z",
   "events": [
     {
       "confirmed": true,
@@ -30,11 +30,32 @@
     "account": "@thsottiaux",
     "cadence": "hourly",
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；搜索不到完成确认不代表所有账户均未到账。",
-    "lastResult": "未发现新的相关额度重置信号或 Tibo 的明确到账确认。最新可见账号内容与桌面应用团队有关，不涉及 usage、quota 或 reset；最新相关记录仍是已入库的条件式 Banked Reset 公告和“hahaha”间接回复。本轮未新增 posts 或 events，并保留全部历史数据。",
+    "lastResult": "发现并入库一条新的中等信号：Tibo 确认 Astra 正在分阶段开放，Pro 和 Business 优先，随后扩展至 Plus。该变化会缩小此前每日 Banked Reset 承诺的适用人群，但不是新的额度重置或到账确认；未新增 events。X 原帖直连不可用，记录标记为 summary-only。",
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
   "posts": [
+    {
+      "confirmedReset": false,
+      "createdAt": "2026-09-04T19:44:22.299Z",
+      "createdAtShanghai": "2026-09-05T03:44:22.299+08:00",
+      "detectedAt": "2026-09-04T21:28:27.000Z",
+      "kind": "post",
+      "reasons": [
+        "Tibo 表示 Astra 正在分阶段开放，Pro 和 Business 订阅优先，部分用户已可在 ChatGPT Work 与 Codex 中看到。",
+        "这一进展直接影响此前“每等待 Astra 一天获得一次 Banked Reset”的适用人群：已获得 Astra 的账户将不再符合等待条件。",
+        "帖子同时表示将尽快扩大到全部 Plus 订阅，说明等待人群可能继续缩小，属于中等强度的条件变化信号。",
+        "帖子没有宣布新的额度重置、到账时间或完成确认，因此 confirmedReset 为 false，且不新增 events。",
+        "X 原帖直连本次无法正常打开；正文含义由 X 搜索索引、转发摘要及公开转载交叉核对，故保存准确摘要并标记 summary-only。"
+      ],
+      "signalLevel": "medium",
+      "signalScore": 58,
+      "text": "Summary: Tibo said the Astra rollout is progressing. Pro and Business subscriptions are receiving access first, and some users should begin seeing Astra in ChatGPT Work and Codex. He said the team would then expand access to all Plus subscriptions as quickly as possible.",
+      "translatedTextZh": "摘要：Tibo 表示 Astra 正在推进分阶段开放。Pro 和 Business 订阅优先获得访问权限，部分用户应已开始在 ChatGPT Work 和 Codex 中看到 Astra；随后团队会尽快扩大到所有 Plus 订阅。",
+      "tweetId": "2095961185262997556",
+      "url": "https://x.com/thsottiaux/status/2095961185262997556",
+      "verificationStatus": "summary-only"
+    },
     {
       "confirmedReset": false,
       "createdAt": "2026-09-04T04:27:14.379Z",
@@ -195,22 +216,21 @@
   ],
   "prediction": {
     "level": "strong",
-    "probability": 86,
+    "probability": 82,
     "reasons": [
       "最近72小时内，Tibo 明确表示：付费 ChatGPT 套餐用户每等待 Astra 一天将获得一次可储存的 Banked Reset，这是直接且高强度的条件式额度重置信号。",
-      "用户感谢首个 Astra 相关额度重置时，Tibo 回复“hahaha”；该内容仍只构成弱的间接回应，不是明确到账确认。",
-      "原始公告称首个 Banked Reset 约三小时后到账；按发帖时间推算约为北京时间 2026-09-04 10:12，但本轮仍未找到 Tibo 明确写明已到账或已传播完成的内容。",
-      "“每一天”意味着在用户仍未获得 Astra 访问权限的条件下，未来24小时仍有较高概率获得新的 Banked Reset 配额。",
-      "严格真实性标准下，第三方追踪记录和用户侧讨论不能替代 Tibo 对实际到账的明确完成确认，因此 events 保持不变。",
-      "最新可见的 Tibo 账号摘要内容赞扬桌面应用团队成员，与 usage、quota 或 reset 无关，未计入信号。",
-      "一般性公共/全局重置缺少新提示；当前86%仅针对尚未获得 Astra 的付费用户之条件式 Banked Reset。",
+      "最新帖子确认 Astra 正在分阶段开放：Pro 和 Business 优先，部分用户已经开始获得访问，随后将尽快扩大到所有 Plus 订阅。",
+      "这一开放进度会缩小仍符合“等待 Astra”条件的人群，因此条件式 Banked Reset 的总体概率从86%下调至82%；对尚未获得 Astra 的付费用户，日度承诺仍然有效。",
+      "已获得 Astra 的账户原则上不再属于此前公告所述的等待人群，不能据此期待继续获得新的 Banked Reset。",
+      "本轮没有 Tibo 明确写明 Banked Reset 已到账、已传播完成或新增全局 Hard Reset，因此 events 保持不变。",
+      "当前82%仅针对仍未获得 Astra 的付费用户之条件式 Banked Reset，不适用于所有账户或一般性全局重置。",
       "最近一次明确确认的全局额度重置仍为 2026-08-31。",
       "本预测仅依据公开信息推测，不代表 Tibo、OpenAI 或官方承诺的精确到账时间。",
       "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；未找到完成确认不等于所有账户均未到账。"
     ],
     "sourceTweetId": "2095651088502591861",
-    "windowEnd": "2026-09-05T20:29:30.000Z",
-    "windowStart": "2026-09-04T20:29:30.000Z"
+    "windowStart": "2026-09-04T21:28:27.000Z",
+    "windowEnd": "2026-09-05T21:28:27.000Z"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
