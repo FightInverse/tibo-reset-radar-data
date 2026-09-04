@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
   "sourceHealthy": false,
-  "checkedAt": "2026-09-04T01:27:34.000Z",
+  "checkedAt": "2026-09-04T02:27:34.000Z",
   "posts": [
     {
       "tweetId": "2095597659545591917",
@@ -148,18 +148,19 @@
     }
   ],
   "prediction": {
-    "probability": 33,
+    "probability": 31,
     "level": "weak",
-    "windowStart": "2026-09-04T01:27:34.000Z",
-    "windowEnd": "2026-09-06T01:27:34.000Z",
+    "windowStart": "2026-09-04T02:27:34.000Z",
+    "windowEnd": "2026-09-06T02:27:34.000Z",
     "reasons": [
       "Tibo's Sep 3 reply says GPT-6 Astra will use each plan's normal usage allocation, with 100% of that allocation usable for Astra; this remains a weak downward signal rather than a reset announcement.",
       "Tibo's earlier Sep 3 reply asking “Which Codex reset?” remains a weak downward signal with no date, timing, execution promise, or completion confirmation.",
-      "The last healthy public tracker reading estimated a 17% chance within 24 hours and 33% within 48 hours; this radar temporarily retains 33% because the tracker timed out twice during this run.",
-      "Indexed public search found no new reset-relevant Tibo post, but search coverage is incomplete and does not prove that no new post exists.",
+      "The public tracker now estimates a 16% chance within 24 hours and 31% within 48 hours; this radar uses 31% for the displayed 48-hour observation window.",
+      "At 2026-09-04 02:07 UTC the public tracker was reachable and its latest full X collection was 02:00 UTC, but only 2/5 monitored sources were responding.",
+      "Tibo's latest visible reply at 00:48 UTC confirmed Astra availability for Plus users and did not mention a reset, quota refresh, timing, or completion.",
       "The latest explicitly confirmed completed reset remains the Aug 31 global reset for paid ChatGPT Work and Codex subscriptions.",
       "This prediction is speculative and is not an official commitment by Tibo or OpenAI.",
-      "Public-source coverage is currently degraded because the public tracker was unavailable and direct X status access may be restricted."
+      "Public-source coverage is degraded and the absence of a discovered post does not prove that no new post exists; direct X status access may be restricted."
     ],
     "sourceTweetId": "2095597659545591917"
   },
@@ -168,7 +169,7 @@
     "timezone": "Asia/Shanghai",
     "cadence": "hourly",
     "mode": "public-web-search",
-    "lastResult": "No new reset-relevant Tibo signal was discovered through indexed public search. The public tracker timed out on two attempts, so source health is marked degraded and the last healthy speculative forecast of 17% within 24 hours and 33% within 48 hours is retained. All posts, events, and historical confirmations were preserved.",
-    "coverageNote": "The public tracker timed out twice and no direct X API was available. Coverage is incomplete; failure to discover a post does not prove that no new post exists."
+    "lastResult": "No new reset-relevant Tibo signal was discovered. The public tracker recovered and showed an X collection through 02:00 UTC, but only 2/5 monitored sources were responding, so source health remains degraded. Tibo's latest visible reply confirmed Astra for Plus users and was unrelated to quotas or resets. The speculative forecast is 16% within 24 hours and 31% within 48 hours; all history was preserved.",
+    "coverageNote": "The public tracker was reachable but reported only 2/5 sources responding, and no direct X API was available in this run. Coverage is incomplete; failure to discover a post does not prove that no new post exists."
   }
 }
