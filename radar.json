@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-05T07:32:36.000Z",
+  "checkedAt": "2026-09-05T08:30:15.000Z",
   "events": [
     {
       "confirmed": true,
@@ -30,7 +30,7 @@
     "account": "@thsottiaux",
     "cadence": "hourly",
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；未找到完成确认不代表所有账户均未到账。",
-    "lastResult": "未发现新的相关 Tibo 重置信号或本次 Banked Reset 的明确到账确认。原定保守到账窗口已于北京时间 15:00 结束；因 OpenAI 帮助中心提示到账显示可能需要数小时，预测已下调为 72% 的延迟传播观察，窗口至 9 月 6 日 03:32。posts 与 events 保持不变。",
+    "lastResult": "未发现新的相关 Tibo 重置信号或本次 Banked Reset 的明确到账确认。公开追踪源截至北京时间 16:08 仍显示计划时间已过但尚无到账确认；Tibo 最新回复仅谈 Astra 持续构建与发布，不构成重置信号。延迟传播推测保持 72%，观察窗口至北京时间 9 月 6 日 03:32；posts 与 events 保持不变。",
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
@@ -260,18 +260,19 @@
   "prediction": {
     "level": "medium",
     "probability": 72,
+    "windowStart": "2026-09-05T07:32:36.000Z",
+    "windowEnd": "2026-09-05T19:32:36.000Z",
     "reasons": [
       "Tibo 已明确承诺向所有 Plus、Pro 和 Business 用户发放一次完整的 Banked Reset，但原公告所称的太平洋时间当天结束前到账窗口已于北京时间 2026-09-05 15:00 结束。",
-      "截至本轮，未发现 Tibo 明确确认本次 Banked Reset 已到账或完成传播，公开追踪源也仍将其标记为已排期但尚无到账确认，因此概率由强信号阶段下调。",
-      "OpenAI 帮助中心列明现有 Plus、Pro 和 Business 用户在 9 月 4 日可获得 Banked Reset，并提示到账显示可能需要数小时；据此保留一个延迟传播观察窗口。",
-      "新的观察窗口为北京时间 2026-09-05 15:32 至 2026-09-06 03:32，仅是对延迟到账的推测，并非 Tibo 或 OpenAI 给出的新承诺。",
+      "截至北京时间 2026-09-05 16:30，未发现 Tibo 明确确认本次 Banked Reset 已到账或完成传播；公开追踪源仍显示“计划时间已过，但尚无到账确认”。",
+      "OpenAI 帮助中心列明现有 Plus、Pro 和 Business 用户在 9 月 4 日可获得 Banked Reset，并提示到账显示可能需要数小时；据此继续保留延迟传播观察窗口。",
+      "Tibo 最新公开回复仅表示 Astra 持续构建和发布，没有出现 reset、quota、到账或传播完成等新信息，不构成新的额度重置信号。",
+      "观察窗口为北京时间 2026-09-05 15:32 至 2026-09-06 03:32，仅是对延迟到账的推测，并非 Tibo 或 OpenAI 给出的新承诺。",
       "这是可储存的 Banked Reset，并非自动刷新所有账户当前额度的全局 Hard Reset。",
       "尚无明确完成确认，因此 events 保持不变。",
       "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；未发现完成确认不等于所有账户均未到账。"
     ],
-    "sourceTweetId": "2096035437299237298",
-    "windowStart": "2026-09-05T07:32:36.000Z",
-    "windowEnd": "2026-09-05T19:32:36.000Z"
+    "sourceTweetId": "2096035437299237298"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
