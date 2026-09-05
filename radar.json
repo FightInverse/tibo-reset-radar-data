@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-05T04:30:38.000Z",
+  "checkedAt": "2026-09-05T05:30:45.000Z",
   "events": [
     {
       "confirmed": true,
@@ -30,7 +30,7 @@
     "account": "@thsottiaux",
     "cadence": "hourly",
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；未找到完成确认不代表所有账户均未到账。",
-    "lastResult": "未发现新的相关 Tibo 重置信号或对本次 Banked Reset 的明确到账确认。OpenAI 帮助中心已列明 9 月 4 日现有 Plus、Pro 和 Business 用户可获得 Banked Reset，并说明到账显示可能需要数小时；已符合条件用户的保守到账窗口仍持续至北京时间约 15:00。posts 与 events 保持不变。",
+    "lastResult": "未发现新的相关 Tibo 重置信号或本次 Banked Reset 的明确到账确认。公开追踪在北京时间 13:24—13:30 仍将其标记为已排期但尚无到账确认；已符合条件用户的保守到账窗口持续至约 15:00。posts 与 events 保持不变。",
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
@@ -263,10 +263,10 @@
     "reasons": [
       "Tibo 的最新公告明确表示，将向所有 Plus、Pro 和 Business 用户发放一次完整的 Banked Reset，信号范围和措辞均非常明确。",
       "公告称额度重置将在太平洋时间 2026-09-04 当天结束前到账；按 PDT（UTC−7）保守换算，预测窗口截止约为北京时间 2026-09-05 15:00。",
-      "太平洋时间 20:00 的账户创建或升级资格截止时间已于北京时间 2026-09-05 11:00 过去；已符合条件用户仍处于到账窗口内。",
-      "OpenAI 帮助中心已列明现有 Plus、Pro 和 Business 用户在 9 月 4 日可获得 Banked Reset，并提示显示到账可能需要数小时；这支持仍在分批传播的判断，但不是 Tibo 的完成确认。",
+      "账户创建或升级资格截止时间已于北京时间 2026-09-05 11:00 过去；已符合条件用户仍处于到账窗口内。",
+      "OpenAI 帮助中心列明现有 Plus、Pro 和 Business 用户在 9 月 4 日可获得 Banked Reset，并提示到账显示可能需要数小时；这支持分批传播判断，但不是 Tibo 的完成确认。",
       "这是可储存的 Banked Reset，并非自动刷新所有账户当前额度的全局 Hard Reset。",
-      "本轮尚未发现 Tibo 明确确认本次 Banked Reset 已到账或完成传播，因此 events 保持不变。",
+      "截至本轮，公开追踪仍未发现 Tibo 明确确认本次 Banked Reset 已到账或完成传播，因此 events 保持不变。",
       "98% 是对公告覆盖用户在所述窗口内获得 Banked Reset 的推测，不代表每个账户的官方精确到账保证。",
       "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；未发现完成确认不等于所有账户均未到账。"
     ],
