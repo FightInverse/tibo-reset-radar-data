@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-05T06:27:10.000Z",
+  "checkedAt": "2026-09-05T07:32:36.000Z",
   "events": [
     {
       "confirmed": true,
@@ -30,7 +30,7 @@
     "account": "@thsottiaux",
     "cadence": "hourly",
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；未找到完成确认不代表所有账户均未到账。",
-    "lastResult": "未发现新的相关 Tibo 重置信号或本次 Banked Reset 的明确到账确认。公开追踪在北京时间约 14:00—14:27 仍标记为已排期但尚无到账确认；保守到账窗口持续至约 15:00。posts 与 events 保持不变。",
+    "lastResult": "未发现新的相关 Tibo 重置信号或本次 Banked Reset 的明确到账确认。原定保守到账窗口已于北京时间 15:00 结束；因 OpenAI 帮助中心提示到账显示可能需要数小时，预测已下调为 72% 的延迟传播观察，窗口至 9 月 6 日 03:32。posts 与 events 保持不变。",
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
@@ -258,21 +258,20 @@
     }
   ],
   "prediction": {
-    "level": "strong",
-    "probability": 98,
+    "level": "medium",
+    "probability": 72,
     "reasons": [
-      "Tibo 的最新公告明确表示，将向所有 Plus、Pro 和 Business 用户发放一次完整的 Banked Reset，信号范围和措辞均非常明确。",
-      "公告称额度重置将在太平洋时间 2026-09-04 当天结束前到账；按 PDT（UTC−7）保守换算，预测窗口截止约为北京时间 2026-09-05 15:00。",
-      "账户创建或升级资格截止时间已于北京时间 2026-09-05 11:00 过去；已符合条件用户仍处于到账窗口内。",
-      "OpenAI 帮助中心列明现有 Plus、Pro 和 Business 用户在 9 月 4 日可获得 Banked Reset，并提示到账显示可能需要数小时；这支持分批传播判断，但不是 Tibo 的完成确认。",
+      "Tibo 已明确承诺向所有 Plus、Pro 和 Business 用户发放一次完整的 Banked Reset，但原公告所称的太平洋时间当天结束前到账窗口已于北京时间 2026-09-05 15:00 结束。",
+      "截至本轮，未发现 Tibo 明确确认本次 Banked Reset 已到账或完成传播，公开追踪源也仍将其标记为已排期但尚无到账确认，因此概率由强信号阶段下调。",
+      "OpenAI 帮助中心列明现有 Plus、Pro 和 Business 用户在 9 月 4 日可获得 Banked Reset，并提示到账显示可能需要数小时；据此保留一个延迟传播观察窗口。",
+      "新的观察窗口为北京时间 2026-09-05 15:32 至 2026-09-06 03:32，仅是对延迟到账的推测，并非 Tibo 或 OpenAI 给出的新承诺。",
       "这是可储存的 Banked Reset，并非自动刷新所有账户当前额度的全局 Hard Reset。",
-      "截至本轮，公开追踪仍未发现 Tibo 明确确认本次 Banked Reset 已到账或完成传播，因此 events 保持不变。",
-      "98% 是对公告覆盖用户在所述窗口内获得 Banked Reset 的推测，不代表每个账户的官方精确到账保证。",
+      "尚无明确完成确认，因此 events 保持不变。",
       "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；未发现完成确认不等于所有账户均未到账。"
     ],
     "sourceTweetId": "2096035437299237298",
-    "windowStart": "2026-09-05T00:39:25.364Z",
-    "windowEnd": "2026-09-05T06:59:59.000Z"
+    "windowStart": "2026-09-05T07:32:36.000Z",
+    "windowEnd": "2026-09-05T19:32:36.000Z"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
