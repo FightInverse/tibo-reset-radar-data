@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-05T05:30:45.000Z",
+  "checkedAt": "2026-09-05T06:27:10.000Z",
   "events": [
     {
       "confirmed": true,
@@ -30,7 +30,7 @@
     "account": "@thsottiaux",
     "cadence": "hourly",
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；未找到完成确认不代表所有账户均未到账。",
-    "lastResult": "未发现新的相关 Tibo 重置信号或本次 Banked Reset 的明确到账确认。公开追踪在北京时间 13:24—13:30 仍将其标记为已排期但尚无到账确认；已符合条件用户的保守到账窗口持续至约 15:00。posts 与 events 保持不变。",
+    "lastResult": "未发现新的相关 Tibo 重置信号或本次 Banked Reset 的明确到账确认。公开追踪在北京时间约 14:00—14:27 仍标记为已排期但尚无到账确认；保守到账窗口持续至约 15:00。posts 与 events 保持不变。",
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
