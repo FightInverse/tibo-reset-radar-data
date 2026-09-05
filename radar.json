@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-05T10:29:11.000Z",
+  "checkedAt": "2026-09-05T11:31:58.000Z",
   "events": [
     {
       "confirmed": true,
@@ -29,8 +29,8 @@
   "monitor": {
     "account": "@thsottiaux",
     "cadence": "hourly",
-    "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；第三方按排期自动标记完成不等于存在直接到账确认。",
-    "lastResult": "未发现新的相关 Tibo 重置信号或其本人发布的 Banked Reset 到账确认。CodexRunway 页面虽按预定时间显示“完成”，但底层数据仍是 reset_scheduled，且注明 Tibo 未发完成帖，不能据此新增确认事件。延迟传播推测下调至 64%，观察窗口至北京时间 9 月 6 日 03:32；posts 与 events 保持不变。",
+    "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；第三方页面状态与底层事件数据可能不同，未找到直接确认不代表所有账户均未到账。",
+    "lastResult": "未发现新的相关 Tibo 重置信号或其本人发布的 Banked Reset 到账确认。CodexRunway 最新底层数据未把本次排期列为 completed，codexreset.org 的最近权威确认仍是 8 月 31 日。延迟传播推测下调至 60%，观察窗口至北京时间 9 月 6 日 03:32；posts 与 events 保持不变。",
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
@@ -259,15 +259,15 @@
   ],
   "prediction": {
     "level": "medium",
-    "probability": 64,
+    "probability": 60,
     "windowStart": "2026-09-05T07:32:36.000Z",
     "windowEnd": "2026-09-05T19:32:36.000Z",
     "reasons": [
       "Tibo 已明确承诺向所有 Plus、Pro 和 Business 用户发放一次完整的 Banked Reset，但原公告所称的太平洋时间当天结束前到账窗口已于北京时间 2026-09-05 15:00 结束。",
-      "截至北京时间 2026-09-05 18:29，未发现 Tibo 明确确认本次 Banked Reset 已到账或完成传播。",
-      "CodexRunway 页面已按排期时间显示为“完成”，但其底层 status.json 仍把相关记录标记为 reset_scheduled，且没有 Tibo 完成帖；该自动状态不足以满足明确确认规则。",
-      "OpenAI 帮助中心列明现有 Plus、Pro 和 Business 用户在 9 月 4 日可获得 Banked Reset，并提示显示可能需要数小时；据此继续保留延迟传播观察窗口。",
-      "因距离原计划截止时间继续增加且仍无直接完成确认，延迟到账推测概率下调至 64%。",
+      "截至北京时间 2026-09-05 19:31，未发现 Tibo 明确确认本次 Banked Reset 已到账或完成传播，也未发现新的额度重置信号。",
+      "CodexRunway 页面曾按排期时间显示“完成”，但其最新底层 status.json 已不再包含本次 Banked Reset 的 completed 记录；另一公开监测源的最新确认事件仍停留在 8 月 31 日。",
+      "OpenAI 帮助中心列明现有 Plus、Pro 和 Business 用户在 9 月 4 日可获得 Banked Reset，并提示显示可能需要数小时；据此仍保留延迟传播观察窗口。",
+      "因距离原计划截止时间继续增加且没有直接完成确认，延迟到账推测概率下调至 60%。",
       "观察窗口为北京时间 2026-09-05 15:32 至 2026-09-06 03:32，仅是对延迟到账的推测，并非 Tibo 或 OpenAI 给出的新承诺。",
       "这是可储存的 Banked Reset，并非自动刷新所有账户当前额度的全局 Hard Reset。",
       "尚无符合真实性规则的明确完成确认，因此 events 保持不变。",
