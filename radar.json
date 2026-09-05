@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-05T21:32:10.000Z",
+  "checkedAt": "2026-09-05T22:32:55.000Z",
   "events": [
     {
       "confirmed": true,
@@ -32,11 +32,11 @@
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；第三方页面状态与底层事件数据可能不同，未找到直接确认不代表所有账户均未到账。",
     "lastResult": {
       "status": "no-new-signal",
-      "checkedAt": "2026-09-05T21:32:10.000Z",
+      "checkedAt": "2026-09-05T22:32:55.000Z",
       "newPosts": 0,
       "newEvents": 0,
-      "summary": "未发现新的相关 Tibo 发言或明确到账确认。公开索引仍只显示此前的 Banked Reset 安排；没有满足完成确认标准的新证据，因此不新增帖子或事件。延迟确认推测为弱信号 20%，观察窗口仍为北京时间 9 月 6 日 04:27—16:27。",
-      "coverage": "已检查公开 X 搜索结果、Tibo 公开回复索引、Codex Reset Monitor、CodexRunway、daily.dev 与公开社区来源。X 直连和搜索索引存在覆盖限制，搜索不到不等于没有新帖。"
+      "summary": "未发现新的相关 Tibo 发言或明确到账确认。新出现的公开讨论来自其他账号或社区，不能作为 Tibo 的完成确认，因此没有新增帖子或事件。延迟确认推测降为弱信号 18%，观察窗口仍为北京时间 9 月 6 日 04:27—16:27。",
+      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway、daily.dev 及公开社区来源。X 直连和搜索索引存在覆盖限制，搜索不到不等于没有新帖。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
@@ -265,14 +265,14 @@
     }
   ],
   "prediction": {
-    "probability": 20,
+    "probability": 18,
     "level": "weak",
     "windowStart": "2026-09-05T20:27:48.000Z",
     "windowEnd": "2026-09-06T08:27:48.000Z",
     "reasons": [
       "推测：Tibo 此前已明确排期为所有 Plus、Pro 和 Business 用户发放完整 Banked Reset，但该信息仍是未来时态安排。",
-      "原定与保守到账窗口均已结束，且截至本次检查仍未发现 Tibo 新发的“已到账”“已完成”或“已传播”确认，因此将延迟确认概率下调至 20%。",
-      "公开社区存在个别账户已收到或使用 Banked Reset 的报告，但不能证明所有目标账户均已完成发放。",
+      "原定与保守到账窗口均已结束，且截至本次检查仍未发现 Tibo 新发的“已到账”“已完成”或“已传播”确认，因此将延迟确认概率下调至 18%。",
+      "公开社区和非 Tibo 账号存在个别账户已收到或使用 Banked Reset 的报告，但不能证明所有目标账户均已完成发放，也不能替代 Tibo 的明确确认。",
       "CodexRunway 的 completed 分类仍以未来时态公告为来源，而 Codex Reset Monitor 的最新明确确认仍停留在 2026-08-31，故不新增事件。",
       "公开搜索与第三方采集可能遗漏受限回复或尚未索引的 X 内容；当前窗口仅是低置信度的延迟确认观察，并非官方承诺。"
     ],
