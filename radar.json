@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-06T21:29:39.000Z",
+  "checkedAt": "2026-09-06T22:28:37.000Z",
   "events": [
     {
       "confirmed": true,
@@ -43,17 +43,57 @@
     "cadence": "hourly",
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；第三方页面状态与底层事件数据可能不同，未找到直接确认不代表所有账户均未到账。",
     "lastResult": {
-      "checkedAt": "2026-09-06T21:29:39.000Z",
-      "status": "no-new-signal",
-      "newPosts": 0,
+      "checkedAt": "2026-09-06T22:28:37.000Z",
+      "status": "new-signal",
+      "newPosts": 2,
       "newEvents": 0,
-      "summary": "未发现新的相关额度重置信号或完成确认。Tibo 的最新公开回复与额度重置无关，因此没有新增帖子或事件。当前下一次额度重置推测仍为弱信号 20%，观察窗口为北京时间 9 月 7 日 05:29—9 月 8 日 05:29。",
-      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway 和 Codex Forecast。Codex Reset Monitor 于北京时间 2026-09-07 05:20 显示 5/5 来源响应、没有新的预测性额度重置信号；其最新 Tibo 回复发布于北京时间 04:42，仅讨论评论者是否理解一条 Astra 相关内容，与额度重置无关，未入库。CodexRunway 于 05:24 显示今日无新增已完成或已排期重置。X 直连和搜索索引存在覆盖限制，搜索不到不等于没有新帖。"
+      "summary": "发现两条新的额度效率相关下行信号：Tibo 表示 Astra 相对 Sol 每项任务约便宜 50%，并宣布针对高用量长尾场景的优化最高可使订阅额度消耗降低约 3–4 倍。两条均未宣布或确认新的额度重置。下一次额度重置推测降为弱信号 16%，观察窗口为北京时间 9 月 7 日 06:28—9 月 8 日 06:28。",
+      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor 和 CodexRunway。Codex Reset Monitor 于北京时间 2026-09-07 06:21 更新，当前 3/5 来源响应，并收录两条新的相关内容；CodexRunway 于 06:24 显示今日无新增已完成或已排期重置。X 原帖直连返回 403，相关记录按准确摘要入库；公开来源覆盖不完整，搜索不到不等于没有新帖。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
   "posts": [
+    {
+      "confirmedReset": false,
+      "createdAt": "2026-09-06T21:51:18.490Z",
+      "createdAtShanghai": "2026-09-07T05:51:18.490+08:00",
+      "detectedAt": "2026-09-06T22:28:37.000Z",
+      "kind": "post",
+      "reasons": [
+        "Tibo 明确宣布已针对使用 ChatGPT 账户登录的 Astra 高用量用户完成长尾用量优化，直接涉及订阅额度消耗。",
+        "他表示在长尾场景下，订阅额度扣减最多可减少至原来的约四分之一至三分之一（即用量消耗降低最高约 3–4 倍），且质量不变；这会降低补偿性额度重置的近期必要性。",
+        "帖子没有宣布新的额度重置、日期、按钮操作或完成传播，因此 confirmedReset 为 false，且不新增 events。",
+        "Codex Reset Monitor 通过公开 X 数据记录了正文、账号归属、Tweet ID 与时间；X 原帖直连本次返回 403，因此保存准确摘要并标记 summary-only。"
+      ],
+      "signalLevel": "medium",
+      "signalScore": 52,
+      "text": "Summary: Tibo said improvements had been made for the long tail of Astra power users who sign in with a ChatGPT account. He said quality is unchanged and, in long-tail cases, the improvements can reduce subscription usage draw by up to roughly 3–4 times. The post does not announce a reset.",
+      "translatedTextZh": "摘要：Tibo 表示，针对使用 ChatGPT 账户登录的 Astra 高用量用户，团队已完成长尾用量优化。质量没有变化；在长尾场景下，该优化最多可使订阅额度消耗降低约 3–4 倍。该帖子没有宣布新的额度重置。",
+      "tweetId": "2096717905614524491",
+      "url": "https://x.com/thsottiaux/status/2096717905614524491",
+      "verificationStatus": "summary-only"
+    },
+    {
+      "confirmedReset": false,
+      "createdAt": "2026-09-06T19:59:01.888Z",
+      "createdAtShanghai": "2026-09-07T03:59:01.888+08:00",
+      "detectedAt": "2026-09-06T22:28:37.000Z",
+      "kind": "reply",
+      "reasons": [
+        "该回复直接比较 Astra 与 Sol 的订阅额度消耗，因此与 usage/quota 监测相关。",
+        "Tibo 表示，在输出大致相当时，Astra 每项任务的成本应比 Sol 低约 50%；这属于使用效率说明，对近期补偿性额度重置预期构成轻微下行信号。",
+        "回复没有宣布新的额度重置、日期、执行承诺或完成状态，因此 confirmedReset 为 false，且不新增 events。",
+        "Codex Reset Monitor 通过公开 X 数据记录了回复正文、账号归属、Tweet ID 与时间；X 原帖直连本次返回 403，因此保存准确摘要并标记 summary-only。"
+      ],
+      "signalLevel": "weak",
+      "signalScore": 24,
+      "text": "Summary: Replying to a user who said Astra at low reasoning uses limits faster than Sol at maximum reasoning, Tibo said that should not be the case and that, at roughly equivalent output, Astra is about 50% cheaper per task. The reply does not announce a reset.",
+      "translatedTextZh": "摘要：一名用户称 Astra 在低推理强度下的额度消耗仍快于 Sol 的最高推理强度；Tibo 回复称不应如此，并表示在输出大致相当时，Astra 每项任务的成本约低 50%。该回复没有宣布新的额度重置。",
+      "tweetId": "2096689650257805558",
+      "url": "https://x.com/thsottiaux/status/2096689650257805558",
+      "verificationStatus": "summary-only"
+    },
     {
       "confirmedReset": false,
       "createdAt": "2026-09-06T19:46:00.016Z",
@@ -337,16 +377,16 @@
     }
   ],
   "prediction": {
-    "probability": 20,
+    "probability": 16,
     "level": "weak",
-    "windowStart": "2026-09-06T21:29:39.000Z",
-    "windowEnd": "2026-09-07T21:29:39.000Z",
-    "sourceTweetId": "2096686370848989558",
+    "windowStart": "2026-09-06T22:28:37.000Z",
+    "windowEnd": "2026-09-07T22:28:37.000Z",
+    "sourceTweetId": "2096717905614524491",
     "reasons": [
-      "Tibo 于北京时间 9 月 7 日 03:46 澄清，Banked Reset 前后可获得的使用额度没有差别；这是既有机制说明，不是新的额度重置排期。",
-      "该回复没有日期、承诺、按钮暗示或完成确认，属于轻微下行信号。",
+      "Tibo 于北京时间 9 月 7 日 05:51 宣布 Astra 高用量长尾优化，在部分场景可使订阅额度消耗降低约 3–4 倍；这是已完成的效率改进，不是新的额度重置排期。",
+      "他此前于 03:59 表示，在输出大致相当时，Astra 每项任务的成本应比 Sol 低约 50%；两条内容都降低了补偿性额度重置的近期必要性。",
+      "两条内容均没有日期、额度重置承诺、按钮暗示或完成确认，不能视为排期或事件。",
       "9 月 5 日的全量 Banked Reset 已完成，Astra 提前完成开放后，按等待天数发放补偿额度重置的条件已基本结束。",
-      "最新公开回复仅讨论评论者是否理解一条 Astra 相关内容，没有提到额度重置、配额或执行时间。",
       "本预测为低置信度推测，不是 Tibo 或 OpenAI 的官方承诺；公开 X 直连与搜索索引存在覆盖限制。"
     ]
   },
