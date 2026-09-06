@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-06T20:29:52.000Z",
+  "checkedAt": "2026-09-06T21:29:39.000Z",
   "events": [
     {
       "confirmed": true,
@@ -43,12 +43,12 @@
     "cadence": "hourly",
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；第三方页面状态与底层事件数据可能不同，未找到直接确认不代表所有账户均未到账。",
     "lastResult": {
-      "checkedAt": "2026-09-06T20:29:52.000Z",
-      "status": "new-signal",
-      "newPosts": 1,
+      "checkedAt": "2026-09-06T21:29:39.000Z",
+      "status": "no-new-signal",
+      "newPosts": 0,
       "newEvents": 0,
-      "summary": "发现一条新的 Banked Reset 机制澄清回复：Tibo 否认额度重置前后可获得的使用额度存在差别。该回复属于弱下行信号，不是新的额度重置排期或完成确认。",
-      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway 和 Codex Forecast。Codex Reset Monitor 于北京时间 2026-09-07 04:18 显示 5/5 来源响应，并记录 Tibo 于 03:46 发布一条与 Banked Reset 机制有关的回复；X 原帖直连返回 403，因此按准确摘要和 summary-only 入库。CodexRunway 于 04:16 显示今日无新增已完成或已排期重置。公开来源仍存在覆盖限制，搜索不到不代表没有新帖。"
+      "summary": "未发现新的相关额度重置信号或完成确认。Tibo 的最新公开回复与额度重置无关，因此没有新增帖子或事件。当前下一次额度重置推测仍为弱信号 20%，观察窗口为北京时间 9 月 7 日 05:29—9 月 8 日 05:29。",
+      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway 和 Codex Forecast。Codex Reset Monitor 于北京时间 2026-09-07 05:20 显示 5/5 来源响应、没有新的预测性额度重置信号；其最新 Tibo 回复发布于北京时间 04:42，仅讨论评论者是否理解一条 Astra 相关内容，与额度重置无关，未入库。CodexRunway 于 05:24 显示今日无新增已完成或已排期重置。X 直连和搜索索引存在覆盖限制，搜索不到不等于没有新帖。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
@@ -339,14 +339,14 @@
   "prediction": {
     "probability": 20,
     "level": "weak",
-    "windowStart": "2026-09-06T20:29:52.000Z",
-    "windowEnd": "2026-09-07T20:29:52.000Z",
+    "windowStart": "2026-09-06T21:29:39.000Z",
+    "windowEnd": "2026-09-07T21:29:39.000Z",
     "sourceTweetId": "2096686370848989558",
     "reasons": [
       "Tibo 于北京时间 9 月 7 日 03:46 澄清，Banked Reset 前后可获得的使用额度没有差别；这是既有机制说明，不是新的额度重置排期。",
-      "该回复没有日期、承诺、按钮暗示或完成确认，公开监测源将其评为轻微下行信号。",
+      "该回复没有日期、承诺、按钮暗示或完成确认，属于轻微下行信号。",
       "9 月 5 日的全量 Banked Reset 已完成，Astra 提前完成开放后，按等待天数发放补偿额度重置的条件已基本结束。",
-      "历史频率仍使未来 24 小时存在一定基础概率，但当前没有直接的新全局额度重置信号。",
+      "最新公开回复仅讨论评论者是否理解一条 Astra 相关内容，没有提到额度重置、配额或执行时间。",
       "本预测为低置信度推测，不是 Tibo 或 OpenAI 的官方承诺；公开 X 直连与搜索索引存在覆盖限制。"
     ]
   },
