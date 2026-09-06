@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-06T18:30:53.000Z",
+  "checkedAt": "2026-09-06T19:29:52.000Z",
   "events": [
     {
       "confirmed": true,
@@ -43,12 +43,12 @@
     "cadence": "hourly",
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；第三方页面状态与底层事件数据可能不同，未找到直接确认不代表所有账户均未到账。",
     "lastResult": {
-      "checkedAt": "2026-09-06T18:30:53.000Z",
-      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway 和 Codex Radar。Codex Reset Monitor 于北京时间 2026-09-07 02:15 显示 5/5 来源响应，且没有新的共享/全局额度重置公告、承诺或完成确认；CodexRunway 于 02:24 显示今日无新增已完成或已排期重置；Codex Radar 最新 Tibo 动态仍为 9 月 6 日 15:04 的普通礼貌回复。公开搜索出现其他用户向 Tibo 请求额度重置和表达对 Banked Reset 的顾虑，但没有 Tibo 回应，不能归属于监测账号，未入库。X 直连和搜索索引存在覆盖限制，搜索不到不等于没有新帖。",
-      "newEvents": 0,
-      "newPosts": 0,
+      "checkedAt": "2026-09-06T19:29:52.000Z",
       "status": "no-new-signal",
-      "summary": "未发现新的相关 Tibo 发言、额度重置排期或完成确认。最新可见 Tibo 回复仍为普通礼貌回应，因此没有新增帖子或事件。当前下一次额度重置推测仍为弱信号 12%，观察窗口为北京时间 9 月 6 日 12:29—9 月 7 日 12:29。"
+      "newPosts": 0,
+      "newEvents": 0,
+      "summary": "未发现新的相关 Tibo 发言、额度重置排期或完成确认。最新可见 Tibo 回复仍为普通礼貌回应，因此没有新增帖子或事件。当前下一次额度重置推测仍为弱信号 12%，观察窗口为北京时间 9 月 6 日 12:29—9 月 7 日 12:29。",
+      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway 和 Codex Forecast。Codex Reset Monitor 于北京时间 2026-09-07 03:18 显示 5/5 来源响应，且没有新的共享/全局额度重置公告、承诺或完成确认；其最新 Tibo 动态仍为北京时间 9 月 6 日 15:04 的普通礼貌回复。CodexRunway 于北京时间 03:00 显示今日无新增已完成或已排期重置。公开搜索未发现之后可准确归属于 Tibo 的新额度重置信号；检索到的 9 月 5 日 Astra 生产力帖子不涉及额度、额度重置或补偿，因此未入库。X 直连和搜索索引存在覆盖限制，搜索不到不等于没有新帖。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
