@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-06T04:29:46.000Z",
+  "checkedAt": "2026-09-06T05:32:15.000Z",
   "events": [
     {
       "confirmed": true,
@@ -43,12 +43,12 @@
     "cadence": "hourly",
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；第三方页面状态与底层事件数据可能不同，未找到直接确认不代表所有账户均未到账。",
     "lastResult": {
-      "status": "new-confirmed-reset-event",
-      "checkedAt": "2026-09-06T04:29:46.000Z",
+      "status": "no-new-signal",
+      "checkedAt": "2026-09-06T05:32:15.000Z",
       "newPosts": 0,
-      "newEvents": 1,
-      "summary": "发现状态更新：CodexRunway 已将 9 月 5 日面向所有 Plus、Pro 和 Business 用户的全量 Banked Reset 标记为已确认发生，记录时间为北京时间 11:00，但同时注明 Tibo 未发布单独的 X 完成帖。没有发现新的 Tibo 帖子。",
-      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway、daily.dev 及公开社区来源。确认状态来自非官方公开追踪站；Tibo 原帖仅给出“太平洋时间当天结束前到账”的安排，因此精确到账时间仍受公开来源覆盖限制。"
+      "newEvents": 0,
+      "summary": "未发现新的相关 Tibo 发言、额度重置排期或完成确认。最新结果均为已入库内容，因而没有新增帖子或事件。当前下一次额度重置推测仍为弱信号 12%，观察窗口为北京时间 9 月 6 日 12:29—9 月 7 日 12:29。",
+      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway、daily.dev 及公开社区来源。Codex Reset Monitor 于北京时间 9 月 6 日 13:08 的最新 Tibo 条目仍为“150?”；CodexRunway 于 13:32 显示今天没有新的额度重置。X 直连和搜索索引存在覆盖限制，搜索不到不等于没有新帖。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
@@ -300,10 +300,10 @@
     "level": "weak",
     "probability": 12,
     "reasons": [
-      "CodexRunway 已将 9 月 5 日面向所有 Plus、Pro 和 Business 用户的 Banked Reset 标记为完成，但明确注明 Tibo 没有另发 X 完成帖。",
-      "该已完成事件降低了短期内再次发放相同 Banked Reset 的可能性。",
+      "9 月 5 日面向 Plus、Pro 和 Business 用户的 Banked Reset 已由 CodexRunway 标记为完成，短期内再次发放同类额度重置的可能性较低。",
       "最近一条 Tibo 回复“150?”没有提及新的额度重置、补偿或时间安排。",
-      "当前没有新的 Tibo 全局额度重置预告、按钮暗示或完成确认。",
+      "本轮没有发现新的 Tibo 全局额度重置预告、按钮暗示或完成确认。",
+      "Codex Reset Monitor 的最新 Tibo 条目仍是已入库回复；CodexRunway 显示今天没有新的已完成或排期额度重置。",
       "本预测仅为未来 24 小时的低置信度推测；公开 X 直连与搜索索引存在覆盖限制。"
     ],
     "sourceTweetId": "2096035437299237298",
