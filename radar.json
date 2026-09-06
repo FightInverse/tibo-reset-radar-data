@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-06T19:29:52.000Z",
+  "checkedAt": "2026-09-06T20:29:52.000Z",
   "events": [
     {
       "confirmed": true,
@@ -43,17 +43,37 @@
     "cadence": "hourly",
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；第三方页面状态与底层事件数据可能不同，未找到直接确认不代表所有账户均未到账。",
     "lastResult": {
-      "checkedAt": "2026-09-06T19:29:52.000Z",
-      "status": "no-new-signal",
-      "newPosts": 0,
+      "checkedAt": "2026-09-06T20:29:52.000Z",
+      "status": "new-signal",
+      "newPosts": 1,
       "newEvents": 0,
-      "summary": "未发现新的相关 Tibo 发言、额度重置排期或完成确认。最新可见 Tibo 回复仍为普通礼貌回应，因此没有新增帖子或事件。当前下一次额度重置推测仍为弱信号 12%，观察窗口为北京时间 9 月 6 日 12:29—9 月 7 日 12:29。",
-      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway 和 Codex Forecast。Codex Reset Monitor 于北京时间 2026-09-07 03:18 显示 5/5 来源响应，且没有新的共享/全局额度重置公告、承诺或完成确认；其最新 Tibo 动态仍为北京时间 9 月 6 日 15:04 的普通礼貌回复。CodexRunway 于北京时间 03:00 显示今日无新增已完成或已排期重置。公开搜索未发现之后可准确归属于 Tibo 的新额度重置信号；检索到的 9 月 5 日 Astra 生产力帖子不涉及额度、额度重置或补偿，因此未入库。X 直连和搜索索引存在覆盖限制，搜索不到不等于没有新帖。"
+      "summary": "发现一条新的 Banked Reset 机制澄清回复：Tibo 否认额度重置前后可获得的使用额度存在差别。该回复属于弱下行信号，不是新的额度重置排期或完成确认。",
+      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway 和 Codex Forecast。Codex Reset Monitor 于北京时间 2026-09-07 04:18 显示 5/5 来源响应，并记录 Tibo 于 03:46 发布一条与 Banked Reset 机制有关的回复；X 原帖直连返回 403，因此按准确摘要和 summary-only 入库。CodexRunway 于 04:16 显示今日无新增已完成或已排期重置。公开来源仍存在覆盖限制，搜索不到不代表没有新帖。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
   "posts": [
+    {
+      "confirmedReset": false,
+      "createdAt": "2026-09-06T19:46:00.016Z",
+      "createdAtShanghai": "2026-09-07T03:46:00.016+08:00",
+      "detectedAt": "2026-09-06T20:29:52.000Z",
+      "kind": "reply",
+      "reasons": [
+        "该回复直接讨论 Banked Reset 前后的使用额度是否不同，因此与额度重置监测相关。",
+        "Tibo 明确否认“Banked Reset 只提供约一半正常周额度”的说法，并表示额度重置前后可获得的使用额度没有差别。",
+        "回复是在澄清既有额度重置的机制，没有宣布新的额度重置、日期、按钮操作或完成状态，因此 confirmedReset 保持 false，且不新增 events。",
+        "Codex Reset Monitor 通过公开 X 数据记录了回复正文、账号归属、Tweet ID 与时间；X 原帖直连本次返回 403，因此保存准确摘要并标记 summary-only。"
+      ],
+      "signalLevel": "weak",
+      "signalScore": 18,
+      "text": "Summary: Replying to a user who claimed that a banked reset provides roughly half the normal weekly allowance while still moving the next regular reset seven days later, Tibo said that was not the case and that there is no difference between the usage received before or after a reset. The reply does not announce a new reset.",
+      "translatedTextZh": "摘要：一名用户声称，可储存额度重置只提供约一半的正常周额度，同时仍会把下一次常规重置推迟七天；Tibo 回复称情况并非如此，额度重置前后可获得的使用额度没有差别。该回复没有宣布新的额度重置。",
+      "tweetId": "2096686370848989558",
+      "url": "https://x.com/thsottiaux/status/2096686370848989558",
+      "verificationStatus": "summary-only"
+    },
     {
       "confirmedReset": false,
       "createdAt": "2026-09-05T18:46:09.268Z",
@@ -317,18 +337,18 @@
     }
   ],
   "prediction": {
+    "probability": 20,
     "level": "weak",
-    "probability": 12,
+    "windowStart": "2026-09-06T20:29:52.000Z",
+    "windowEnd": "2026-09-07T20:29:52.000Z",
+    "sourceTweetId": "2096686370848989558",
     "reasons": [
-      "9 月 5 日的全量 Banked Reset 已由公开追踪站标记为完成；Astra 已提前完成开放，此前按等待天数发放补偿额度重置的条件已基本结束。",
-      "Tibo 于北京时间 9 月 6 日 15:04 的最新公开回复仅为“你客气了”，没有额度重置、额度或执行承诺。",
-      "最新已入库的额度相关回复“150?”没有提及新的额度重置、补偿或时间安排。",
-      "当前没有新的 Tibo 全局额度重置预告、按钮暗示或完成确认。",
-      "本预测仅为低置信度推测；公开 X 直连与搜索索引存在覆盖限制。"
-    ],
-    "sourceTweetId": "2096035437299237298",
-    "windowEnd": "2026-09-07T04:29:46.000Z",
-    "windowStart": "2026-09-06T04:29:46.000Z"
+      "Tibo 于北京时间 9 月 7 日 03:46 澄清，Banked Reset 前后可获得的使用额度没有差别；这是既有机制说明，不是新的额度重置排期。",
+      "该回复没有日期、承诺、按钮暗示或完成确认，公开监测源将其评为轻微下行信号。",
+      "9 月 5 日的全量 Banked Reset 已完成，Astra 提前完成开放后，按等待天数发放补偿额度重置的条件已基本结束。",
+      "历史频率仍使未来 24 小时存在一定基础概率，但当前没有直接的新全局额度重置信号。",
+      "本预测为低置信度推测，不是 Tibo 或 OpenAI 的官方承诺；公开 X 直连与搜索索引存在覆盖限制。"
+    ]
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
