@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-06T14:31:44.000Z",
+  "checkedAt": "2026-09-06T15:31:21.000Z",
   "events": [
     {
       "confirmed": true,
@@ -43,8 +43,8 @@
     "cadence": "hourly",
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；第三方页面状态与底层事件数据可能不同，未找到直接确认不代表所有账户均未到账。",
     "lastResult": {
-      "checkedAt": "2026-09-06T14:31:44.000Z",
-      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway 和 Codex Radar。Codex Reset Monitor 于北京时间 2026-09-06 22:12 显示 5/5 来源响应，且没有新的共享/全局额度重置公告、承诺或定时信号；CodexRunway 于 21:48 显示今日无新增已完成或已排期重置；Codex Radar 最新 Tibo 动态仍为 15:04 的普通礼貌回复。X 直连和搜索索引存在覆盖限制，搜索不到不等于没有新帖。",
+      "checkedAt": "2026-09-06T15:31:21.000Z",
+      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway 和 Codex Radar。Codex Reset Monitor 于北京时间 2026-09-06 23:13 显示 5/5 来源响应，且没有新的共享/全局额度重置公告、承诺或完成确认；CodexRunway 于 23:00 显示今日无新增已完成或已排期重置；Codex Radar 最新 Tibo 动态仍为 15:04 的普通礼貌回复。X 直连和搜索索引存在覆盖限制，搜索不到不等于没有新帖。",
       "newEvents": 0,
       "newPosts": 0,
       "status": "no-new-signal",
