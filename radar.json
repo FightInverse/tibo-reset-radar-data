@@ -1,6 +1,18 @@
 {
-  "checkedAt": "2026-09-06T03:29:40.000Z",
+  "checkedAt": "2026-09-06T04:29:46.000Z",
   "events": [
+    {
+      "confirmed": true,
+      "id": "reset-2096035437299237298-banked",
+      "notes": "The unofficial public tracker CodexRunway explicitly marks the announced full Banked Reset as completed at 2026-09-05 11:00 Beijing time, while noting that Tibo did not publish a separate X completion post. The original Tibo post promised delivery by the end of the Pacific day; the exact propagation time remains independently unverified.",
+      "notesZh": "非官方公开追踪站 CodexRunway 已将这次全量 Banked Reset 明确标记为完成，记录时间为北京时间 2026-09-05 11:00；该站同时注明 Tibo 没有另发 X 完成帖。Tibo 原帖仅承诺在太平洋时间当天结束前到账，因此精确传播时间仍缺少独立验证。",
+      "predictedHit": true,
+      "resetTime": "2026-09-05T03:00:00.000Z",
+      "resetType": "Banked Reset",
+      "scope": "All Plus, Pro, and Business users",
+      "scopeZh": "所有 Plus、Pro 和 Business 用户",
+      "sourceTweetId": "2096035437299237298"
+    },
     {
       "confirmed": true,
       "id": "reset-2094252447271366730",
@@ -31,12 +43,12 @@
     "cadence": "hourly",
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；第三方页面状态与底层事件数据可能不同，未找到直接确认不代表所有账户均未到账。",
     "lastResult": {
-      "status": "no-new-signal",
-      "checkedAt": "2026-09-06T03:29:40.000Z",
+      "status": "new-confirmed-reset-event",
+      "checkedAt": "2026-09-06T04:29:46.000Z",
       "newPosts": 0,
-      "newEvents": 0,
-      "summary": "未发现新的相关 Tibo 发言或明确到账确认。公开结果仅重复已入库帖子、历史内容和非 Tibo 社区推测，因此没有新增帖子或事件。当前仍为弱信号 14%，观察窗口为北京时间 9 月 6 日 04:27—16:27。",
-      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway、daily.dev 及公开社区来源。Codex Reset Monitor 于北京时间 9 月 6 日 11:05 的最新 Tibo 条目仍为已入库的“150?”回复。X 直连和搜索索引存在覆盖限制，搜索不到不等于没有新帖。"
+      "newEvents": 1,
+      "summary": "发现状态更新：CodexRunway 已将 9 月 5 日面向所有 Plus、Pro 和 Business 用户的全量 Banked Reset 标记为已确认发生，记录时间为北京时间 11:00，但同时注明 Tibo 未发布单独的 X 完成帖。没有发现新的 Tibo 帖子。",
+      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway、daily.dev 及公开社区来源。确认状态来自非官方公开追踪站；Tibo 原帖仅给出“太平洋时间当天结束前到账”的安排，因此精确到账时间仍受公开来源覆盖限制。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
@@ -286,17 +298,17 @@
   ],
   "prediction": {
     "level": "weak",
-    "probability": 14,
+    "probability": 12,
     "reasons": [
-      "此前面向 Plus、Pro 和 Business 用户的广泛 Banked Reset 排期仍没有新的明确到账或完成传播确认。",
-      "最近一条 Tibo 回复“150?”没有提及额度重置、补偿、日期或执行状态。",
-      "本轮没有发现新的、可准确归属于 Tibo 的额度重置预告或完成确认。",
-      "公开监测页的最新 Tibo 条目仍是已入库的“150?”回复；其他结果为历史帖子或非 Tibo 社区推测。",
-      "公开 X 直连与搜索索引存在覆盖限制；未检索到新内容不等于能够证明没有新帖。"
+      "CodexRunway 已将 9 月 5 日面向所有 Plus、Pro 和 Business 用户的 Banked Reset 标记为完成，但明确注明 Tibo 没有另发 X 完成帖。",
+      "该已完成事件降低了短期内再次发放相同 Banked Reset 的可能性。",
+      "最近一条 Tibo 回复“150?”没有提及新的额度重置、补偿或时间安排。",
+      "当前没有新的 Tibo 全局额度重置预告、按钮暗示或完成确认。",
+      "本预测仅为未来 24 小时的低置信度推测；公开 X 直连与搜索索引存在覆盖限制。"
     ],
-    "sourceTweetId": "2096308922294652979",
-    "windowEnd": "2026-09-06T08:27:48.000Z",
-    "windowStart": "2026-09-05T20:27:48.000Z"
+    "sourceTweetId": "2096035437299237298",
+    "windowEnd": "2026-09-07T04:29:46.000Z",
+    "windowStart": "2026-09-06T04:29:46.000Z"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
