@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-06T06:31:09.000Z",
+  "checkedAt": "2026-09-06T07:27:27.000Z",
   "events": [
     {
       "confirmed": true,
@@ -43,12 +43,12 @@
     "cadence": "hourly",
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；第三方页面状态与底层事件数据可能不同，未找到直接确认不代表所有账户均未到账。",
     "lastResult": {
-      "status": "no-new-signal",
-      "checkedAt": "2026-09-06T06:31:09.000Z",
-      "newPosts": 0,
+      "status": "new-weak-signal-backfill",
+      "checkedAt": "2026-09-06T07:27:27.000Z",
+      "newPosts": 1,
       "newEvents": 0,
-      "summary": "未发现新的相关 Tibo 发言、额度重置排期或完成确认。搜索结果与公开监测页均只显示已入库内容，因此没有新增帖子或事件。当前下一次额度重置推测仍为弱信号 12%，观察窗口为北京时间 9 月 6 日 12:29—9 月 7 日 12:29。",
-      "coverage": "已检查公开 X 搜索结果、Tibo 回复索引、Codex Reset Monitor、CodexRunway、daily.dev 及公开社区来源。Codex Reset Monitor 于北京时间 9 月 6 日 14:08 的最新 Tibo 条目仍为“150?”；CodexRunway 于 14:00 显示今天没有新的额度重置。X 直连和搜索索引存在覆盖限制，搜索不到不等于没有新帖。"
+      "summary": "补录发现一条此前未入库的 Tibo 额度相关回复：他称一次 Astra 任务在 Plus 订阅中用时 10–15 分钟，并消耗不到每周额度的 15%。该内容没有额度重置、补偿或时间承诺，评为弱信号 22/100；没有新增事件。",
+      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway、daily.dev 及公开社区来源。新补录回复的 X 直连返回 403，故仅保存经搜索索引交叉核对的准确摘要；公开来源仍可能漏掉未索引内容。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
@@ -136,6 +136,26 @@
       "translatedTextZh": "摘要：Tibo 表示 Astra 正在推进分阶段开放。Pro 和 Business 订阅优先获得访问权限，部分用户应已开始在 ChatGPT Work 和 Codex 中看到 Astra；随后团队会尽快扩大到所有 Plus 订阅。",
       "tweetId": "2095961185262997556",
       "url": "https://x.com/thsottiaux/status/2095961185262997556",
+      "verificationStatus": "summary-only"
+    },
+    {
+      "confirmedReset": false,
+      "createdAt": "2026-09-04T15:40:47.528Z",
+      "createdAtShanghai": "2026-09-04T23:40:47.528+08:00",
+      "detectedAt": "2026-09-06T07:27:27.000Z",
+      "kind": "reply",
+      "reasons": [
+        "Tibo 明确提到 Plus 订阅的每周使用额度，并给出一次 Astra 任务消耗不到 15% 的测试结果，属于额度相关弱信号。",
+        "该回复描述的是单项任务的额度消耗，没有提及额外额度、额度重置、补偿、日期或按钮操作。",
+        "内容发布时间早于已记录的 9 月 5 日 Banked Reset 公告，因此仅作为近期历史信号补录，不代表当前出现了新的额度重置安排。",
+        "X 原帖直连返回 403；文本、账号归属和 Tweet ID 由 X 搜索索引及回复索引交叉核对，时间由 Tweet ID 的 Snowflake 时间戳换算，因此按摘要保存并标记 summary-only。"
+      ],
+      "signalLevel": "weak",
+      "signalScore": 22,
+      "text": "Summary: Tibo said he tested the task and found it could be completed comfortably on a Plus subscription. He said Astra took 10–15 minutes and used less than 15% of the weekly usage allowance.",
+      "translatedTextZh": "摘要：Tibo 表示，他测试后认为该任务可以在 Plus 订阅中轻松完成；Astra 用时 10–15 分钟，并消耗不到每周使用额度的 15%。",
+      "tweetId": "2095899886470463914",
+      "url": "https://x.com/thsottiaux/status/2095899886470463914",
       "verificationStatus": "summary-only"
     },
     {
@@ -300,11 +320,11 @@
     "level": "weak",
     "probability": 12,
     "reasons": [
-      "9 月 5 日面向 Plus、Pro 和 Business 用户的 Banked Reset 已由 CodexRunway 标记为完成，短期内再次发放同类额度重置的可能性较低。",
-      "最近一条 Tibo 回复“150?”没有提及新的额度重置、补偿或时间安排。",
-      "本轮没有发现新的 Tibo 全局额度重置预告、按钮暗示或完成确认。",
-      "Codex Reset Monitor 的最新 Tibo 条目仍是已入库回复；CodexRunway 显示今天没有新的已完成或排期额度重置。",
-      "本预测仅为未来 24 小时的低置信度推测；公开 X 直连与搜索索引存在覆盖限制。"
+      "9 月 5 日的 Banked Reset 已由公开追踪站标记为完成，短期内再次发放同类额度重置的可能性较低。",
+      "补录的 Tibo 回复称一次 Astra 任务消耗不到 Plus 每周额度的 15%，属于额度使用信息，但没有任何额度重置承诺。",
+      "最新的 Tibo 回复“150?”同样没有提及新的额度重置、补偿或时间安排。",
+      "当前没有新的 Tibo 全局额度重置预告、按钮暗示或完成确认。",
+      "本预测仅为低置信度推测；公开 X 直连与搜索索引存在覆盖限制。"
     ],
     "sourceTweetId": "2096035437299237298",
     "windowEnd": "2026-09-07T04:29:46.000Z",
