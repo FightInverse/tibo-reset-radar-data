@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-06T23:30:12.000Z",
+  "checkedAt": "2026-09-07T00:32:10.000Z",
   "events": [
     {
       "confirmed": true,
@@ -43,12 +43,12 @@
     "cadence": "hourly",
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；第三方页面状态与底层事件数据可能不同，未找到直接确认不代表所有账户均未到账。",
     "lastResult": {
-      "checkedAt": "2026-09-06T23:30:12.000Z",
+      "checkedAt": "2026-09-07T00:32:10.000Z",
       "status": "no-new-signal",
       "newPosts": 0,
       "newEvents": 0,
-      "summary": "未发现新的相关额度重置信号或完成确认。最近可验证的相关内容仍是 Astra 用量效率优化，下一次额度重置推测保持弱信号 16%，观察窗口为北京时间 9 月 7 日 07:30—9 月 8 日 07:30。",
-      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway 和 Codex Forecast。Codex Reset Monitor 于北京时间 2026-09-07 07:22 显示 5/5 来源响应，没有新增预测性额度重置信号；其最新可见 Tibo 回复发布于北京时间 06:40，与额度重置无关，未入库。CodexRunway 于 06:56 仍显示今日无新增已完成或已排期重置。X 直连和公开搜索索引存在覆盖限制，搜索不到不等于没有新帖。"
+      "summary": "未发现新的相关额度重置信号或完成确认。最近可验证的相关内容仍是 Astra 用量效率优化；下一次额度重置推测保持弱信号 16%，观察窗口为北京时间 9 月 7 日 08:32—9 月 8 日 08:32。",
+      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway 和 Codex Forecast。Codex Reset Monitor 于北京时间 2026-09-07 08:22 显示 5/5 来源响应，最新预测性内容仍是已入库的 Astra 用量效率优化；其最新可见 Tibo 回复发布于北京时间 06:40，与额度重置无关。CodexRunway 于 08:00 仍显示今日无新增已完成或已排期重置。X 直连和公开搜索索引存在覆盖限制，搜索不到不等于没有新帖。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
@@ -379,8 +379,8 @@
   "prediction": {
     "probability": 16,
     "level": "weak",
-    "windowStart": "2026-09-06T23:30:12.000Z",
-    "windowEnd": "2026-09-07T23:30:12.000Z",
+    "windowStart": "2026-09-07T00:32:10.000Z",
+    "windowEnd": "2026-09-08T00:32:10.000Z",
     "sourceTweetId": "2096717905614524491",
     "reasons": [
       "Tibo 于北京时间 9 月 7 日 05:51 宣布 Astra 高用量长尾优化，在部分场景可使订阅额度消耗降低约 3–4 倍；这是已完成的效率改进，不是新的额度重置排期。",
