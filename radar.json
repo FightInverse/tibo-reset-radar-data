@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-07T06:35:58.000Z",
+  "checkedAt": "2026-09-07T07:32:17.000Z",
   "events": [
     {
       "confirmed": true,
@@ -43,12 +43,12 @@
     "cadence": "hourly",
     "coverageNote": "公开搜索与第三方监测无法保证覆盖 X 上的全部主帖、回复和引用帖；第三方页面状态与底层事件数据可能不同，未找到直接确认不代表所有账户均未到账。",
     "lastResult": {
-      "checkedAt": "2026-09-07T06:35:58.000Z",
-      "status": "no-new-signal",
-      "newPosts": 0,
+      "checkedAt": "2026-09-07T07:32:17.000Z",
+      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、CodexRunway、codex-reset.com 和其他公开预测页。公开 X 搜索未发现北京时间 14:35 之后可准确归属于 Tibo 的新额度重置信号。CodexRunway 于北京时间 15:00 显示今日无新增已完成或已排期重置；codex-reset.com 于 15:31 更新并明确显示当前没有官方额度重置窗口。codexreset.org 本轮页面读取异常，部分动态追踪页需要 JavaScript，公开来源覆盖并不完整，搜索不到不等于没有新帖。",
       "newEvents": 0,
-      "summary": "未发现新的相关额度重置信号或完成确认。最新可见 Tibo 回复仅介绍 Astra 的产品使用方式，不涉及额度；下一次额度重置推测保持弱信号 16%，观察窗口为北京时间 9 月 7 日 14:35—9 月 8 日 14:35。",
-      "coverage": "已检查公开 X 搜索结果、Tibo 主帖与回复索引、Codex Reset Monitor、CodexRunway 和 codex-reset.com。Codex Reset Monitor 于北京时间 2026-09-07 14:27 显示 5/5 来源响应，最新可见 Tibo 回复发布于北京时间 14:12，仅介绍 Astra 在 CC CLI 与 Codex 桌面应用中的功能，与额度重置无关；预测性时间线没有新增信号。CodexRunway 于 14:32 显示今日无新增已完成或已排期重置；codex-reset.com 于 14:28 同样显示无官方额度重置窗口。X 直连和公开搜索索引存在覆盖限制，搜索不到不等于没有新帖。"
+      "newPosts": 0,
+      "status": "no-new-signal",
+      "summary": "未发现新的相关额度重置信号或完成确认。下一次额度重置推测保持弱信号 16%，观察窗口为北京时间 9 月 7 日 15:32—9 月 8 日 15:32。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
@@ -398,18 +398,18 @@
     }
   ],
   "prediction": {
-    "probability": 16,
     "level": "weak",
-    "windowStart": "2026-09-07T06:35:58.000Z",
-    "windowEnd": "2026-09-08T06:35:58.000Z",
+    "probability": 16,
     "reasons": [
       "9 月 5 日 06:30 的 Astra 全量开放帖确认按等待 Astra 天数发放补偿 Banked Reset 的主要条件已经结束。",
       "Tibo 于北京时间 9 月 7 日 05:51 宣布 Astra 高用量长尾优化，在部分场景可使订阅额度消耗降低约 3–4 倍；这是效率改进，不是新的额度重置排期。",
       "他此前于 03:59 表示，在输出大致相当时，Astra 每项任务的成本应比 Sol 低约 50%；这些效率信号降低了补偿性额度重置的近期必要性。",
-      "本轮最新可见 Tibo 回复仅介绍 Astra 在 CLI 与桌面应用中的使用方式，没有日期、额度重置承诺、按钮暗示或完成确认。",
+      "本轮公开搜索及追踪页没有出现新的 Tibo 额度重置排期、按钮暗示或完成确认。",
       "本预测为低置信度推测，不是 Tibo 或 OpenAI 的官方承诺；公开 X 直连、搜索索引和第三方监测均存在覆盖限制。"
     ],
-    "sourceTweetId": "2096717905614524491"
+    "sourceTweetId": "2096717905614524491",
+    "windowStart": "2026-09-07T07:32:17.000Z",
+    "windowEnd": "2026-09-08T07:32:17.000Z"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
