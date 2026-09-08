@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-08T02:30:12.000Z",
+  "checkedAt": "2026-09-08T03:29:00.000Z",
   "events": [
     {
       "confirmed": true,
@@ -55,12 +55,12 @@
     "cadence": "hourly",
     "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
     "lastResult": {
-      "checkedAt": "2026-09-08T02:30:12.000Z",
+      "checkedAt": "2026-09-08T03:29:00.000Z",
       "newPosts": 0,
-      "newEvents": 1,
-      "status": "new-reset-confirmation",
-      "coverage": "截至北京时间 2026-09-08 10:30，ResetBeacon 最近检查为 10:22，6/6 来源响应，并记录 09:30 的账户传播证据；codexreset.org 最近检查为 10:22，5/5 来源响应并将 02:00 UTC 标为最新确认重置；CodexRunway 最近检查为 10:08，将本次全局额度重置记录为 09:25 完成。Tibo 尚未发布单独的 X 完成帖；公开来源无法保证捕获全部回复和引用帖。",
-      "summary": "新增一项已确认全局额度重置事件：独立监测于北京时间 09:25–09:30 记录到完成与账户传播证据；没有发现新的 Tibo 帖子。"
+      "newEvents": 0,
+      "status": "no-new-signal",
+      "coverage": "截至北京时间 2026-09-08 11:29，ResetBeacon 最近检查为 11:27，6/6 来源响应；codexreset.org 最近检查为 11:22，5/5 来源响应；CodexRunway 最近检查为 11:08；codex-reset.com 最近更新为 11:24。各源继续确认此前的全局额度重置，但未发现 Tibo 新的额度重置主帖、回复或引用帖。公开来源无法保证捕获全部回复和引用帖。",
+      "summary": "未发现新的额度重置信号或新的完成事件；此前全局额度重置确认保持有效，下一次重置为低概率推测。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
@@ -432,16 +432,16 @@
   ],
   "prediction": {
     "level": "weak",
-    "probability": 4,
+    "probability": 6,
     "reasons": [
-      "推测：北京时间 9 月 8 日 09:25–09:30，CodexRunway 与 ResetBeacon 分别记录本次全局额度重置已经发生；后者提供了未使用 Banked Reset 的账户额度与重置时钟变化证据。",
-      "Tibo 的北京时间 9 月 8 日 03:24 排期信号已经命中，因此不再把该帖子视为下一次额度重置的上行信号。",
-      "ResetBeacon 在确认后将未来 24 小时概率降至约 4%；近期没有出现新的日期、按钮或里程碑信号。",
-      "预测窗口与概率仅为推测，不代表 OpenAI 或 Tibo 的官方承诺；公开来源仍无法保证覆盖全部回复和引用帖。"
+      "推测：北京时间 9 月 8 日 09:25–09:34，多个独立公开监测源已记录本次全局额度重置完成；此前的明确排期信号已经命中，不再构成下一次重置的上行信号。",
+      "截至北京时间 9 月 8 日 11:29，未发现 Tibo 新的额度重置日期、按钮、里程碑或传播异常说明。",
+      "ResetBeacon 在确认后给出的未来 24 小时概率由约 4% 调整为约 6%；其他公开追踪源给出更高的历史基线，但均没有新的官方信号。",
+      "预测窗口与概率仅为推测，不代表 OpenAI 或 Tibo 的官方承诺；公开搜索无法保证覆盖全部回复和引用帖。"
     ],
     "sourceTweetId": "2097043464538264003",
-    "windowStart": "2026-09-08T02:30:12.000Z",
-    "windowEnd": "2026-09-09T02:30:12.000Z"
+    "windowStart": "2026-09-08T03:29:00.000Z",
+    "windowEnd": "2026-09-09T03:29:00.000Z"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
