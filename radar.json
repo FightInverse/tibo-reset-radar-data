@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-08T19:30:26.000Z",
+  "checkedAt": "2026-09-08T20:29:21.000Z",
   "events": [
     {
       "confirmed": true,
@@ -55,17 +55,37 @@
     "cadence": "hourly",
     "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
     "lastResult": {
-      "checkedAt": "2026-09-08T19:30:26.000Z",
-      "newPosts": 0,
+      "checkedAt": "2026-09-08T20:29:21.000Z",
+      "coverage": "截至北京时间 2026-09-09 04:29，ResetBeacon 最近检查为 04:27，6/6 来源响应；codexreset.org 最近检查为 04:06、最近一次 X 汇总为 04:04，5/5 来源响应；codex-reset.com 模型最近更新为 04:04；CodexRunway 最近检查为 04:16。发现 Tibo 在 04:03 发布一条新的用量优化说明；X 直连受限，按准确摘要入库。公开来源无法保证捕获全部回复和引用帖。",
       "newEvents": 0,
-      "status": "no-new-signal",
-      "coverage": "截至北京时间 2026-09-09 03:30，ResetBeacon 最近检查为 03:22，6/6 来源响应；codexreset.org 最近检查为 03:06、最近一次 X 汇总为 03:03，但仅 2/5 来源响应；codex-reset.com 模型最近更新为 03:01；CodexRunway 最近检查为 03:16，仍只列出 9 月 8 日已入库的两条信号。公开源均未显示上一轮之后出现新的 Tibo 额度重置排期、按钮执行或传播确认。公开来源无法保证捕获全部回复和引用帖。",
-      "summary": "没有发现新的 Tibo 额度重置信号或完成确认。OpenAI 状态事件已经修复，独立监测源仍保留短期观察，但没有 Tibo 的日期、范围或执行承诺，因此未新增 posts 或 events。"
+      "newPosts": 1,
+      "status": "new-signal",
+      "summary": "发现一条新的弱下行用量信号：Tibo 解释 Astra 长会话的显著用量节省来自请求调度与路由优化；没有新的额度重置排期或完成确认。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
   "posts": [
+    {
+      "confirmedReset": false,
+      "createdAt": "2026-09-08T20:03:11.098Z",
+      "createdAtShanghai": "2026-09-09T04:03:11.098+08:00",
+      "detectedAt": "2026-09-08T20:29:21.000Z",
+      "kind": "reply",
+      "reasons": [
+        "codexreset.org 将该回复准确归属于 Tibo（@thsottiaux），并提供了指向 Tweet ID 2097415471251464582 的 X 链接；Tweet ID 时间戳对应 2026-09-08T20:03:11.098Z。",
+        "回复解释了一项请求调度与路由优化：结合长上下文和第一方订阅中的工作负载，可在长时间运行会话的长尾场景中显著节省用量。",
+        "这属于用量效率改善的下行信号，可能降低近期通过额度重置补偿用量的必要性；回复没有提及 reset、额度调整、日期、按钮执行或传播完成。",
+        "X 原帖直连返回 403；内容、归属、Tweet ID 与时间由公开监测页及 X 链接核对，故保存准确摘要并标记 summary-only。"
+      ],
+      "signalLevel": "weak",
+      "signalScore": 32,
+      "text": "Summary: Replying to Theo about the earlier Astra usage-efficiency claim, Tibo said it is an optimization in request scheduling and routing which, together with long context and the workload seen on first-party subscriptions, produces significant savings in the long tail of long-running sessions. The reply does not announce or schedule a reset.",
+      "translatedTextZh": "摘要：在回复 Theo 关于此前 Astra 用量效率说法的内容时，Tibo 表示，这是一项请求调度与路由优化；结合长上下文以及第一方订阅中的工作负载，它能在长时间运行会话的长尾场景中带来显著节省。该回复没有宣布或排期额度重置。",
+      "tweetId": "2097415471251464582",
+      "url": "https://x.com/thsottiaux/status/2097415471251464582",
+      "verificationStatus": "summary-only"
+    },
     {
       "confirmedReset": true,
       "createdAt": "2026-09-08T04:41:58.067Z",
@@ -492,18 +512,18 @@
     }
   ],
   "prediction": {
-    "level": "weak",
     "probability": 24,
+    "level": "weak",
+    "windowStart": "2026-09-08T20:29:21.000Z",
+    "windowEnd": "2026-09-09T20:29:21.000Z",
+    "sourceTweetId": "2097415471251464582",
     "reasons": [
       "推测：最近 72 小时内最强的真实信号仍是北京时间 9 月 8 日已经完成的全局额度重置；Tibo 此后没有给出下一次额度重置的日期、范围或承诺。",
-      "Tibo 最新可见相关回复只是回顾此前曾两次重置额度；截至本轮，最近一般内容仍是北京时间 9 月 8 日 13:20 左右讨论 Codex 发布项目与 Astra，不构成新的额度重置排期或完成信号。",
-      "此前的 OpenAI 官方状态事件已经修复，但独立监测源仍在两天观察期内把它视为轻微上行背景；同时未见 Tibo 发布新的 reset、quota、按钮执行或传播暗示。",
-      "公开监测源对未来 24 小时的低置信度估计约为 23% 至 25%，未来 48 小时约为 44% 至 45%；综合刚完成全局额度重置与事件观察期，本轮采用 24% 的谨慎估计。",
-      "预测窗口与概率仅为推测，不代表 OpenAI 或 Tibo 的官方承诺；部分公开源响应不完整，公开搜索无法保证覆盖全部回复和引用帖。"
-    ],
-    "sourceTweetId": "2097183639356489952",
-    "windowStart": "2026-09-08T19:30:26.000Z",
-    "windowEnd": "2026-09-09T19:30:26.000Z"
+      "Tibo 最新可见相关回复解释了 Astra 长时间运行会话的用量节省来自请求调度与路由优化；这属于效率改善的下行背景，不是额度重置排期或执行信号。",
+      "此前的 OpenAI 官方状态事件已经修复，独立监测源仍在短期观察期内将其视为轻微上行背景；同时未见新的 reset、quota、按钮执行或传播暗示。",
+      "三个公开预测源对未来 24 小时的低置信度估计约为 24% 至 25%，未来 48 小时约为 44% 至 45%；综合刚完成全局额度重置与最新效率说明，本轮采用 24% 的谨慎估计。",
+      "预测窗口与概率仅为推测，不代表 OpenAI 或 Tibo 的官方承诺；公开监测与网页搜索无法保证覆盖全部回复和引用帖。"
+    ]
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
