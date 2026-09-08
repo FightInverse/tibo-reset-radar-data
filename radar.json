@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-08T04:27:58.000Z",
+  "checkedAt": "2026-09-08T05:30:44.000Z",
   "events": [
     {
       "confirmed": true,
@@ -55,17 +55,38 @@
     "cadence": "hourly",
     "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
     "lastResult": {
-      "checkedAt": "2026-09-08T04:27:58.000Z",
-      "newPosts": 2,
+      "checkedAt": "2026-09-08T05:30:44.000Z",
+      "newPosts": 1,
       "newEvents": 0,
-      "status": "new-signal-and-official-confirmation",
-      "coverage": "截至北京时间 2026-09-08 12:28，ResetBeacon 最近检查为 12:27，6/6 来源响应；codexreset.org 最近检查为 12:22，5/5 来源响应；CodexRunway 最近检查为 12:08；codex-reset.com 最近更新为 12:24。四个公开源均记录了 Tibo 的官方完成确认，其中 ResetBeacon 与 codexreset.org 还记录了其随后关于“没有排期”的回复。X 直连返回 403，公开来源无法保证捕获全部回复和引用帖。",
-      "summary": "发现两条新相关内容：Tibo 正式确认所有人的额度已重置，并随后表示“没有排期，只有额度重置”。已将官方确认关联到已有全局额度重置事件，未重复新增事件。"
+      "status": "new-confirmed-retrospective-signal",
+      "coverage": "截至北京时间 2026-09-08 13:30，ResetBeacon 最近检查为 13:27，6/6 来源响应并记录新回复；CodexRunway 最近检查为 13:16，也记录相同回复；codex-reset.com 最近更新为 13:27，没有新的未来官方窗口；codexreset.org 本轮请求超时。公开来源无法保证捕获全部回复和引用帖。",
+      "summary": "发现一条新的确认级回顾性回复：Tibo 称自己曾在中途两次重置额度。由于时间、范围和与既有事件的对应关系不明确，未新增可能重复的事件。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
   "posts": [
+    {
+      "confirmedReset": true,
+      "createdAt": "2026-09-08T04:41:58.067Z",
+      "createdAtShanghai": "2026-09-08T12:41:58.067+08:00",
+      "detectedAt": "2026-09-08T05:30:44.000Z",
+      "kind": "reply",
+      "reasons": [
+        "ResetBeacon 与 CodexRunway 均将该回复准确归属于 Tibo（@thsottiaux），并提供 Tweet ID 2097183639356489952；Tweet ID 时间戳对应 2026-09-08T04:41:58.067Z。",
+        "Tibo 使用过去时明确表示自己“在中途重置过两次额度”，因此该回复确认曾执行额度重置，而不只是未来意向。",
+        "回复没有说明两次额度重置的具体时间、适用范围，也无法排除其指向仓库已经记录的同一批近期全局重置；为避免重复计数，不新增无法唯一对应的 events。",
+        "该内容是回顾性说明，没有给出下一次额度重置日期或承诺，因此对未来预测仅提供有限信息。",
+        "X 原帖直连返回 403；完整回复、上下文、Tweet ID 与时间由两个公开监测源交叉核对，故保存准确摘要并标记 summary-only。"
+      ],
+      "signalLevel": "confirmed",
+      "signalScore": 93,
+      "text": "Summary: Replying to a post describing an expensive GPT-6 Astra “hello” in Codex, Tibo said the post omitted that he had reset usage twice in the middle. The reply does not identify when those resets occurred or their scope.",
+      "translatedTextZh": "摘要：一条帖子称在 Codex 中用 GPT-6 Astra 打招呼代价高昂；Tibo 回复说，该帖子漏掉了他曾在中途两次重置额度这一点。回复没有说明这两次额度重置的具体时间或适用范围。",
+      "tweetId": "2097183639356489952",
+      "url": "https://x.com/thsottiaux/status/2097183639356489952",
+      "verificationStatus": "summary-only"
+    },
     {
       "confirmedReset": false,
       "createdAt": "2026-09-08T04:07:53.201Z",
@@ -472,16 +493,16 @@
   ],
   "prediction": {
     "level": "weak",
-    "probability": 18,
+    "probability": 17,
     "reasons": [
-      "推测：Tibo 于北京时间 9 月 8 日 12:05 明确确认所有人的额度已经重置；这完成了此前的排期，不构成下一次额度重置承诺。",
-      "两分钟后，Tibo 回复称“没有排期，只有额度重置”。该说法可能暗示仍会不定期执行额度重置，但没有日期、范围或按钮状态，因此仅作为弱信号。",
-      "公开预测源对该回复的解释存在差异：ResetBeacon 的未来 24 小时概率约为 9%，另外两个监测源给出的历史基线约为 25%–30%；综合后采用 18% 的低置信度估计。",
+      "推测：Tibo 最新回复称自己曾在中途两次重置额度，但这是回顾性说明，未给出下一次额度重置的日期、范围或承诺。",
+      "此前北京时间 9 月 8 日 12:05 的全局额度重置已得到官方完成确认；刚完成重置通常降低短期再次执行的必要性。",
+      "ResetBeacon 当前未来 48 小时估计约为 30%，但未把最新回复视为新的未来重置暗示；综合其他公开基线后，对未来 24 小时采用 17% 的低置信度估计。",
       "预测窗口与概率仅为推测，不代表 OpenAI 或 Tibo 的官方承诺；公开搜索无法保证覆盖全部回复和引用帖。"
     ],
-    "sourceTweetId": "2097175062566846501",
-    "windowStart": "2026-09-08T04:27:58.000Z",
-    "windowEnd": "2026-09-09T04:27:58.000Z"
+    "sourceTweetId": "2097183639356489952",
+    "windowStart": "2026-09-08T05:30:44.000Z",
+    "windowEnd": "2026-09-09T05:30:44.000Z"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
