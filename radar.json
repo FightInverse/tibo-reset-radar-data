@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-08T12:27:53.000Z",
+  "checkedAt": "2026-09-08T13:30:15.000Z",
   "events": [
     {
       "confirmed": true,
@@ -55,11 +55,11 @@
     "cadence": "hourly",
     "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
     "lastResult": {
-      "checkedAt": "2026-09-08T12:27:53.000Z",
+      "checkedAt": "2026-09-08T13:30:15.000Z",
       "newPosts": 0,
       "newEvents": 0,
       "status": "no-new-signal",
-      "coverage": "截至北京时间 2026-09-08 20:27，ResetBeacon 最近检查为 20:12，6/6 来源响应；CodexRunway 最近检查为 20:00；codexreset.org 数据最近更新为 20:00；codex-reset.com 模型最近更新为 20:08。公开源均未显示上一轮之后出现新的额度重置排期、按钮执行或传播确认。公开来源无法保证捕获全部回复和引用帖。",
+      "coverage": "截至北京时间 2026-09-08 21:30，ResetBeacon 最近检查为 21:17，6/6 来源响应；CodexRunway 最近检查为 21:00；codex-reset.com 模型最近更新为 21:09；codexreset.org 直连本轮出现临时错误，搜索索引所见最近数据为 19:00。其余公开源均未显示上一轮之后出现新的额度重置排期、按钮执行或传播确认。公开来源无法保证捕获全部回复和引用帖。",
       "summary": "没有发现新的相关额度重置信号。最新可见的 Tibo 内容仍是关于 Codex 发布清单和 Astra 的普通帖子，不涉及新的额度、额度重置或时间窗口，因此未入库。"
     },
     "mode": "public-web-search",
@@ -501,8 +501,8 @@
       "预测窗口与概率仅为推测，不代表 OpenAI 或 Tibo 的官方承诺；公开搜索无法保证覆盖全部回复和引用帖。"
     ],
     "sourceTweetId": "2097183639356489952",
-    "windowStart": "2026-09-08T12:27:53.000Z",
-    "windowEnd": "2026-09-09T12:27:53.000Z"
+    "windowStart": "2026-09-08T13:30:15.000Z",
+    "windowEnd": "2026-09-09T13:30:15.000Z"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
