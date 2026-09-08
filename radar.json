@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-08T05:30:44.000Z",
+  "checkedAt": "2026-09-08T06:27:50.000Z",
   "events": [
     {
       "confirmed": true,
@@ -55,12 +55,12 @@
     "cadence": "hourly",
     "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
     "lastResult": {
-      "checkedAt": "2026-09-08T05:30:44.000Z",
-      "newPosts": 1,
+      "checkedAt": "2026-09-08T06:27:50.000Z",
+      "newPosts": 0,
       "newEvents": 0,
-      "status": "new-confirmed-retrospective-signal",
-      "coverage": "截至北京时间 2026-09-08 13:30，ResetBeacon 最近检查为 13:27，6/6 来源响应并记录新回复；CodexRunway 最近检查为 13:16，也记录相同回复；codex-reset.com 最近更新为 13:27，没有新的未来官方窗口；codexreset.org 本轮请求超时。公开来源无法保证捕获全部回复和引用帖。",
-      "summary": "发现一条新的确认级回顾性回复：Tibo 称自己曾在中途两次重置额度。由于时间、范围和与既有事件的对应关系不明确，未新增可能重复的事件。"
+      "status": "no-new-signal",
+      "coverage": "截至北京时间 2026-09-08 14:27，ResetBeacon 最近检查为 13:57，6/6 来源响应；CodexRunway 最近检查为 14:16；codexreset.org 最近检查为 14:24，5/5 来源响应；codex-reset.com 最近更新为 13:58。各源均未显示 12:41 回顾性回复之后出现新的额度重置排期、按钮执行或传播确认。公开来源无法保证捕获全部回复和引用帖。",
+      "summary": "没有发现新的相关额度重置信号。最新可见的 Tibo 帖子讨论 Codex 发布清单和 Astra，但未涉及额度、额度重置或时间窗口，因此未入库。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
@@ -495,14 +495,14 @@
     "level": "weak",
     "probability": 17,
     "reasons": [
-      "推测：Tibo 最新回复称自己曾在中途两次重置额度，但这是回顾性说明，未给出下一次额度重置的日期、范围或承诺。",
-      "此前北京时间 9 月 8 日 12:05 的全局额度重置已得到官方完成确认；刚完成重置通常降低短期再次执行的必要性。",
-      "ResetBeacon 当前未来 48 小时估计约为 30%，但未把最新回复视为新的未来重置暗示；综合其他公开基线后，对未来 24 小时采用 17% 的低置信度估计。",
+      "推测：最近的确认级内容仍是 Tibo 对已执行额度重置的回顾性说明，没有给出下一次额度重置的日期、范围或承诺。",
+      "Tibo 在北京时间 9 月 8 日 13:20 左右发布的最新可见内容讨论 Codex 记录多个发布项目及 Astra，没有提及 usage、quota、reset、按钮执行或传播状态，因此不构成新的额度重置信号。",
+      "多个公开监测源对未来 24 小时的低置信度基线约在 10% 至 30% 之间；综合刚完成全局额度重置且没有新官方窗口，维持 17% 的谨慎估计。",
       "预测窗口与概率仅为推测，不代表 OpenAI 或 Tibo 的官方承诺；公开搜索无法保证覆盖全部回复和引用帖。"
     ],
     "sourceTweetId": "2097183639356489952",
-    "windowStart": "2026-09-08T05:30:44.000Z",
-    "windowEnd": "2026-09-09T05:30:44.000Z"
+    "windowStart": "2026-09-08T06:27:50.000Z",
+    "windowEnd": "2026-09-09T06:27:50.000Z"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
