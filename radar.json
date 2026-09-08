@@ -1,17 +1,17 @@
 {
-  "checkedAt": "2026-09-08T03:29:00.000Z",
+  "checkedAt": "2026-09-08T04:27:58.000Z",
   "events": [
     {
       "confirmed": true,
       "id": "reset-2097043464538264003-global",
-      "notes": "Independent public monitoring confirmed propagation without a separate Tibo X completion post. ResetBeacon observed an account's weekly usage move from 87% used to 0% and its reset time move forward without a banked reset being redeemed at 2026-09-08 09:30 Beijing time; CodexRunway separately records the global reset as completed at 09:25 Beijing time. The exact fleet-wide propagation time remains account-dependent.",
-      "notesZh": "独立公开监测已确认额度重置传播，但 Tibo 没有另发 X 完成帖。ResetBeacon 于北京时间 2026-09-08 09:30 观察到一个账户的每周额度消耗从 87% 变为 0%，且重置时间向后移动；该账户未使用 Banked Reset。CodexRunway 也独立将这次全局额度重置记录为北京时间 09:25 完成。不同账户的精确传播时间仍可能存在差异。",
+      "notes": "The reset was first confirmed through independent propagation evidence: ResetBeacon observed weekly usage move from 87% used to 0% and the reset time move forward without a banked reset being redeemed at 2026-09-08 09:30 Beijing time; CodexRunway recorded completion at 09:25. Tibo later posted an explicit official confirmation at 12:05:53 Beijing time: everyone had been reset. Exact fleet-wide propagation remained account-dependent.",
+      "notesZh": "本次额度重置最初由独立传播证据确认：ResetBeacon 于北京时间 2026-09-08 09:30 观察到一个未兑换 Banked Reset 的账户，每周额度消耗从 87% 变为 0%，且重置时间向后移动；CodexRunway 记录的完成时间为 09:25。Tibo 随后于北京时间 12:05:53 发布官方明确确认，表示所有人的额度均已重置。不同账户的精确传播时间仍可能存在差异。",
       "predictedHit": true,
       "resetTime": "2026-09-08T01:30:00.000Z",
       "resetType": "Global Reset",
       "scope": "All paid subscriptions",
       "scopeZh": "所有付费订阅",
-      "sourceTweetId": "2097043464538264003"
+      "sourceTweetId": "2097174560412246215"
     },
     {
       "confirmed": true,
@@ -55,17 +55,57 @@
     "cadence": "hourly",
     "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
     "lastResult": {
-      "checkedAt": "2026-09-08T03:29:00.000Z",
-      "newPosts": 0,
+      "checkedAt": "2026-09-08T04:27:58.000Z",
+      "newPosts": 2,
       "newEvents": 0,
-      "status": "no-new-signal",
-      "coverage": "截至北京时间 2026-09-08 11:29，ResetBeacon 最近检查为 11:27，6/6 来源响应；codexreset.org 最近检查为 11:22，5/5 来源响应；CodexRunway 最近检查为 11:08；codex-reset.com 最近更新为 11:24。各源继续确认此前的全局额度重置，但未发现 Tibo 新的额度重置主帖、回复或引用帖。公开来源无法保证捕获全部回复和引用帖。",
-      "summary": "未发现新的额度重置信号或新的完成事件；此前全局额度重置确认保持有效，下一次重置为低概率推测。"
+      "status": "new-signal-and-official-confirmation",
+      "coverage": "截至北京时间 2026-09-08 12:28，ResetBeacon 最近检查为 12:27，6/6 来源响应；codexreset.org 最近检查为 12:22，5/5 来源响应；CodexRunway 最近检查为 12:08；codex-reset.com 最近更新为 12:24。四个公开源均记录了 Tibo 的官方完成确认，其中 ResetBeacon 与 codexreset.org 还记录了其随后关于“没有排期”的回复。X 直连返回 403，公开来源无法保证捕获全部回复和引用帖。",
+      "summary": "发现两条新相关内容：Tibo 正式确认所有人的额度已重置，并随后表示“没有排期，只有额度重置”。已将官方确认关联到已有全局额度重置事件，未重复新增事件。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
   "posts": [
+    {
+      "confirmedReset": false,
+      "createdAt": "2026-09-08T04:07:53.201Z",
+      "createdAtShanghai": "2026-09-08T12:07:53.201+08:00",
+      "detectedAt": "2026-09-08T04:27:58.000Z",
+      "kind": "reply",
+      "reasons": [
+        "ResetBeacon 与 Codex Reset Monitor 均将该回复准确归属于 Tibo（@thsottiaux），并提供 Tweet ID 2097175062566846501；Tweet ID 时间戳对应 2026-09-08T04:07:53.201Z。",
+        "Tibo 在回应“额度重置会改变自然每周重置时间”的用户诉求时表示“没有排期，只有额度重置”，直接使用 reset 语境，带有继续不定期重置的玩笑或暗示意味。",
+        "该回复没有给出下一次额度重置的日期、范围、按钮操作或明确承诺；不同公开预测源对其方向判断不一，因此仅评为弱信号，confirmedReset 为 false。",
+        "X 原帖直连返回 403；回复内容、上下文、Tweet ID 与时间由两个公开监测源交叉核对，故保存准确摘要并标记 summary-only。"
+      ],
+      "signalLevel": "weak",
+      "signalScore": 42,
+      "text": "Summary: Replying to a user who asked for resets to stop moving the account's natural weekly reset schedule, Tibo said there is no schedule, only resets. The reply gives no date or commitment for another reset.",
+      "translatedTextZh": "摘要：一名用户希望额度重置不要再改变账户原本的每周重置时间，Tibo 回复称“没有排期，只有额度重置”。该回复没有给出下一次额度重置的日期或承诺。",
+      "tweetId": "2097175062566846501",
+      "url": "https://x.com/thsottiaux/status/2097175062566846501",
+      "verificationStatus": "summary-only"
+    },
+    {
+      "confirmedReset": true,
+      "createdAt": "2026-09-08T04:05:53.478Z",
+      "createdAtShanghai": "2026-09-08T12:05:53.478+08:00",
+      "detectedAt": "2026-09-08T04:27:58.000Z",
+      "kind": "post",
+      "reasons": [
+        "CodexRunway 与 Codex Reset Monitor 均将该内容准确归属于 Tibo（@thsottiaux），并提供 Tweet ID 2097174560412246215；Tweet ID 时间戳对应 2026-09-08T04:05:53.478Z。",
+        "Tibo 明确表示所有人的额度已经重置，并祝用户使用 Astra 愉快，属于官方完成确认。",
+        "该帖子确认的是此前 Tweet 2097043464538264003 已排期并由独立账户传播证据证实的同一次全局额度重置，因此更新已有事件而不重复新增 events。",
+        "X 原帖直连返回 403；完整短句、归属、Tweet ID 与时间由公开监测源交叉核对，故保存准确摘要并标记 summary-only。"
+      ],
+      "signalLevel": "confirmed",
+      "signalScore": 100,
+      "text": "Summary: Tibo confirmed that usage had been reset for everyone and wished users a good week with Astra.",
+      "translatedTextZh": "摘要：Tibo 确认所有人的使用额度已经完成重置，并祝用户使用 Astra 度过愉快的一周。",
+      "tweetId": "2097174560412246215",
+      "url": "https://x.com/thsottiaux/status/2097174560412246215",
+      "verificationStatus": "summary-only"
+    },
     {
       "confirmedReset": false,
       "createdAt": "2026-09-07T19:24:57.786Z",
@@ -432,16 +472,16 @@
   ],
   "prediction": {
     "level": "weak",
-    "probability": 6,
+    "probability": 18,
     "reasons": [
-      "推测：北京时间 9 月 8 日 09:25–09:34，多个独立公开监测源已记录本次全局额度重置完成；此前的明确排期信号已经命中，不再构成下一次重置的上行信号。",
-      "截至北京时间 9 月 8 日 11:29，未发现 Tibo 新的额度重置日期、按钮、里程碑或传播异常说明。",
-      "ResetBeacon 在确认后给出的未来 24 小时概率由约 4% 调整为约 6%；其他公开追踪源给出更高的历史基线，但均没有新的官方信号。",
+      "推测：Tibo 于北京时间 9 月 8 日 12:05 明确确认所有人的额度已经重置；这完成了此前的排期，不构成下一次额度重置承诺。",
+      "两分钟后，Tibo 回复称“没有排期，只有额度重置”。该说法可能暗示仍会不定期执行额度重置，但没有日期、范围或按钮状态，因此仅作为弱信号。",
+      "公开预测源对该回复的解释存在差异：ResetBeacon 的未来 24 小时概率约为 9%，另外两个监测源给出的历史基线约为 25%–30%；综合后采用 18% 的低置信度估计。",
       "预测窗口与概率仅为推测，不代表 OpenAI 或 Tibo 的官方承诺；公开搜索无法保证覆盖全部回复和引用帖。"
     ],
-    "sourceTweetId": "2097043464538264003",
-    "windowStart": "2026-09-08T03:29:00.000Z",
-    "windowEnd": "2026-09-09T03:29:00.000Z"
+    "sourceTweetId": "2097175062566846501",
+    "windowStart": "2026-09-08T04:27:58.000Z",
+    "windowEnd": "2026-09-09T04:27:58.000Z"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
