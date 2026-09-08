@@ -1,6 +1,18 @@
 {
-  "checkedAt": "2026-09-08T01:28:44.000Z",
+  "checkedAt": "2026-09-08T02:30:12.000Z",
   "events": [
+    {
+      "confirmed": true,
+      "id": "reset-2097043464538264003-global",
+      "notes": "Independent public monitoring confirmed propagation without a separate Tibo X completion post. ResetBeacon observed an account's weekly usage move from 87% used to 0% and its reset time move forward without a banked reset being redeemed at 2026-09-08 09:30 Beijing time; CodexRunway separately records the global reset as completed at 09:25 Beijing time. The exact fleet-wide propagation time remains account-dependent.",
+      "notesZh": "独立公开监测已确认额度重置传播，但 Tibo 没有另发 X 完成帖。ResetBeacon 于北京时间 2026-09-08 09:30 观察到一个账户的每周额度消耗从 87% 变为 0%，且重置时间向后移动；该账户未使用 Banked Reset。CodexRunway 也独立将这次全局额度重置记录为北京时间 09:25 完成。不同账户的精确传播时间仍可能存在差异。",
+      "predictedHit": true,
+      "resetTime": "2026-09-08T01:30:00.000Z",
+      "resetType": "Global Reset",
+      "scope": "All paid subscriptions",
+      "scopeZh": "所有付费订阅",
+      "sourceTweetId": "2097043464538264003"
+    },
     {
       "confirmed": true,
       "id": "reset-2096035437299237298-banked",
@@ -43,12 +55,12 @@
     "cadence": "hourly",
     "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
     "lastResult": {
-      "checkedAt": "2026-09-08T01:28:44.000Z",
+      "checkedAt": "2026-09-08T02:30:12.000Z",
       "newPosts": 0,
-      "newEvents": 0,
-      "status": "no-new-signal",
-      "coverage": "截至北京时间 2026-09-08 09:28，ResetBeacon 最近检查为 09:22，6/6 来源响应，并标记“排期尚未确认”；codexreset.org 最近检查为 09:21，5/5 来源响应，没有新完成事件；CodexRunway API 于 09:24 生成，仍将 Tweet 2097043464538264003 标记为预计北京时间 10:00 生效的排期；codex-reset.com 于 09:22 仍显示今日尚未确认重置。公开来源无法保证捕获全部回复和引用帖。",
-      "summary": "未发现新的重置信号或执行确认；按夏令时换算的 09:00 目标已过，但字面 PST 对应的 10:00 尚未到达，保守窗口仍为 08:30–10:00，推测概率下调至 96%，不是精确到账保证。"
+      "newEvents": 1,
+      "status": "new-reset-confirmation",
+      "coverage": "截至北京时间 2026-09-08 10:30，ResetBeacon 最近检查为 10:22，6/6 来源响应，并记录 09:30 的账户传播证据；codexreset.org 最近检查为 10:22，5/5 来源响应并将 02:00 UTC 标为最新确认重置；CodexRunway 最近检查为 10:08，将本次全局额度重置记录为 09:25 完成。Tibo 尚未发布单独的 X 完成帖；公开来源无法保证捕获全部回复和引用帖。",
+      "summary": "新增一项已确认全局额度重置事件：独立监测于北京时间 09:25–09:30 记录到完成与账户传播证据；没有发现新的 Tibo 帖子。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
@@ -419,17 +431,17 @@
     }
   ],
   "prediction": {
-    "level": "strong",
-    "probability": 96,
+    "level": "weak",
+    "probability": 4,
     "reasons": [
-      "推测：Tibo 于北京时间 9 月 8 日 03:24 明确宣布将为所有付费订阅执行一次全局额度重置，并称其将在太平洋时间 9 月 7 日约 18:00 到账。",
-      "按太平洋夏令时换算的北京时间 09:00 目标点已过去且尚无完成确认；但原帖字面使用“PST”，按固定 UTC−8 解释对应北京时间 10:00，因此保守观察窗口仍维持 08:30–10:00。",
-      "截至北京时间 9 月 8 日 09:28，ResetBeacon 明确标记为排期尚未确认；CodexRunway、codexreset.org 与 codex-reset.com 也没有记录新的完成事件。",
-      "概率由 98% 下调至 96%，仍基于 Tibo 的明确排期；这是推测而非精确到账保证，公开索引无法保证覆盖全部回复和引用帖。"
+      "推测：北京时间 9 月 8 日 09:25–09:30，CodexRunway 与 ResetBeacon 分别记录本次全局额度重置已经发生；后者提供了未使用 Banked Reset 的账户额度与重置时钟变化证据。",
+      "Tibo 的北京时间 9 月 8 日 03:24 排期信号已经命中，因此不再把该帖子视为下一次额度重置的上行信号。",
+      "ResetBeacon 在确认后将未来 24 小时概率降至约 4%；近期没有出现新的日期、按钮或里程碑信号。",
+      "预测窗口与概率仅为推测，不代表 OpenAI 或 Tibo 的官方承诺；公开来源仍无法保证覆盖全部回复和引用帖。"
     ],
     "sourceTweetId": "2097043464538264003",
-    "windowStart": "2026-09-08T00:30:00.000Z",
-    "windowEnd": "2026-09-08T02:00:00.000Z"
+    "windowStart": "2026-09-08T02:30:12.000Z",
+    "windowEnd": "2026-09-09T02:30:12.000Z"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
