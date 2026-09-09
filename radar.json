@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-09T22:29:23.000Z",
+  "checkedAt": "2026-09-09T23:29:09.000Z",
   "events": [
     {
       "confirmed": false,
@@ -67,12 +67,12 @@
     "cadence": "hourly",
     "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
     "lastResult": {
-      "checkedAt": "2026-09-09T22:29:23.000Z",
-      "coverage": "截至北京时间 2026-09-10 06:29，ResetBeacon 最近检查为 06:02、6/6 来源响应，并于 05:31 标注“record corrected”后移除了此前的 9 月 9 日传播记录；codexreset.org 最近检查为 06:21、5/5 来源响应，codex-reset.com 于 06:15 更新，CodexRunway 最近检查为 06:16，三者均继续把 9 月 8 日列为最近一次已确认全局额度重置。未发现新的 Tibo 帖子或补偿 Banked Reset 到账确认；公开来源无法保证覆盖全部 X 主帖、回复、引用帖或账户级传播状态。",
+      "checkedAt": "2026-09-09T23:29:09.000Z",
+      "coverage": "截至北京时间 2026-09-10 07:29，ResetBeacon 最近检查为 07:07、6/6 来源响应，记录修正状态保持不变；CodexRunway 与 codex-reset.com 仍将 9 月 8 日列为最近一次全局额度重置。codexreset.org 本次页面读取出现临时内部错误；上一轮仍为 5/5 来源响应，因此视为暂时性覆盖下降。未发现新的 Tibo 额度重置信号或补偿 Banked Reset 全部到账确认；公开来源无法保证覆盖全部 X 主帖、回复、引用帖或账户级传播状态。",
       "newEvents": 0,
       "newPosts": 0,
-      "status": "correction",
-      "summary": "来源修正：ResetBeacon 撤回了此前用于确认北京时间 9 月 10 日 01:45 广泛额度刷新的传播记录。对应 event 已永久保留为撤回审计记录，但 confirmed 改为 false；当前最近一次可信的已确认全局额度重置为北京时间 9 月 8 日。"
+      "status": "no-change",
+      "summary": "未发现新的相关帖子、明确重置确认或补偿 Banked Reset 全部到账证据；保留现有 posts、events 与撤回记录。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
@@ -568,14 +568,14 @@
     "level": "weak",
     "probability": 31,
     "reasons": [
-      "推测：ResetBeacon 已修正其记录并撤回北京时间 2026-09-10 01:45 的传播观测；当前可信的最近一次全局额度重置恢复为北京时间 9 月 8 日。",
-      "Tibo 最近一条相关内容仍为 Banked Reset 补偿承诺；尚无他本人或独立账户证据明确确认补偿额度已全部到账，也没有新的全局重置时间承诺。",
-      "ResetBeacon 在记录修正后将下一次广泛额度重置的 24 小时概率调整为约 31%；codexreset.org 与 codex-reset.com 的公开预测约为 23%–25%，均属低置信度。",
+      "推测：ResetBeacon 已撤回北京时间 2026-09-10 01:45 的传播观测，当前可信的最近一次全局额度重置仍为北京时间 9 月 8 日。",
+      "Tibo 最近一条相关内容仍为 Banked Reset 补偿承诺；尚无他本人或独立账户证据明确确认补偿额度已全部到账，也没有新的全局额度重置时间承诺。",
+      "ResetBeacon 当前给出的下一次广泛额度重置 24 小时概率约为 31%；codex-reset.com 与 CodexRunway 均未发现新的官方窗口或完成确认。",
       "31% 概率和观察窗口仅为下一次广泛/全局额度重置的推测，不代表 OpenAI 或 Tibo 的正式承诺；公开来源无法保证覆盖全部 X 回复、引用帖和账户传播状态。"
     ],
     "sourceTweetId": "2097752790177370535",
-    "windowStart": "2026-09-09T22:29:23.000Z",
-    "windowEnd": "2026-09-10T22:29:23.000Z"
+    "windowStart": "2026-09-09T23:29:09.000Z",
+    "windowEnd": "2026-09-10T23:29:09.000Z"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
