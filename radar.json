@@ -1,16 +1,16 @@
 {
-  "checkedAt": "2026-09-09T21:30:21.000Z",
+  "checkedAt": "2026-09-09T22:29:23.000Z",
   "events": [
     {
-      "confirmed": true,
+      "confirmed": false,
       "id": "reset-20260909T174500Z-propagation",
-      "notes": "ResetBeacon independently observed a broad quota refresh at 2026-09-09 10:45 Pacific (2026-09-10 01:45 Beijing): weekly usage moved from 87% used to 14% while the reset clock moved forward, and no Banked Reset was redeemed. Tibo's later post confirmed a Banked Reset redemption issue and promised replacement Banked Resets to affected users, but did not state that the replacement credit itself had fully landed. CodexRunway and codex-reset.com had not independently classified this propagation observation as a new global reset at this check, so exact plan coverage remains unverified.",
-      "notesZh": "ResetBeacon 于太平洋时间 2026-09-09 10:45（北京时间 2026-09-10 01:45）独立观察到一次广泛额度刷新：每周额度消耗从 87% 降至 14%，重置时钟向后移动，且账户未兑换 Banked Reset。Tibo 随后的帖子确认存在 Banked Reset 兑换未完全生效的问题，并承诺向受影响用户补发 Banked Reset，但没有表示补发额度本身已全部到账。本次检查时，CodexRunway 与 codex-reset.com 尚未独立将该传播记录归类为新的全局额度重置，因此具体套餐覆盖范围仍未核实。",
-      "predictedHit": true,
+      "notes": "Correction: at 2026-09-09 14:31 Pacific (2026-09-10 05:31 Beijing), ResetBeacon marked its ledger as 'record corrected' and removed the September 9 propagation observation from its public history. The site's current history now starts with the September 7 reset, while codexreset.org, codex-reset.com, and CodexRunway continue to list September 8 as the latest confirmed global reset. This entry is retained permanently only as a retracted audit record; it must not be treated as a confirmed reset. Tibo's September 9 post remains a promise to replace affected Banked Resets, not a confirmation that the replacements landed.",
+      "notesZh": "修正：ResetBeacon 于太平洋时间 2026-09-09 14:31（北京时间 2026-09-10 05:31）将记录标记为“record corrected”，并从公开历史中移除了 9 月 9 日的传播观测。该站当前历史从 9 月 7 日的额度重置开始；codexreset.org、codex-reset.com 和 CodexRunway 也继续把 9 月 8 日列为最近一次已确认全局额度重置。本条永久保留仅用于记录已撤回的审计轨迹，不应再视为已确认额度重置。Tibo 9 月 9 日的帖子仍只是承诺补发受影响的 Banked Reset，并未确认补发额度已经到账。",
+      "predictedHit": false,
       "resetTime": "2026-09-09T17:45:00.000Z",
-      "resetType": "Global Reset",
-      "scope": "Broad/shared Codex users (observed propagation; exact plan coverage unverified)",
-      "scopeZh": "广泛/共享 Codex 用户（已观察到传播，具体套餐范围未核实）",
+      "resetType": "Retracted Observation",
+      "scope": "Unconfirmed; the source record was retracted",
+      "scopeZh": "未确认；来源记录已撤回",
       "sourceTweetId": "2097752790177370535"
     },
     {
@@ -67,12 +67,12 @@
     "cadence": "hourly",
     "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
     "lastResult": {
-      "checkedAt": "2026-09-09T21:30:21.000Z",
-      "coverage": "截至北京时间 2026-09-10 05:30，ResetBeacon 最近检查为 05:02、6/6 来源响应；codexreset.org 最近检查为 05:20、5/5 来源响应；codex-reset.com 于 05:11 更新；CodexRunway 最近检查为 05:08。最新相关内容仍为 Tweet ID 2097752790177370535，未发现新的 Tibo 额度重置信号或补偿 Banked Reset 全部到账确认。各来源对 01:45 传播观测的归类仍有分歧；公开来源无法保证覆盖全部 X 主帖、回复、引用帖或账户级传播状态。",
+      "checkedAt": "2026-09-09T22:29:23.000Z",
+      "coverage": "截至北京时间 2026-09-10 06:29，ResetBeacon 最近检查为 06:02、6/6 来源响应，并于 05:31 标注“record corrected”后移除了此前的 9 月 9 日传播记录；codexreset.org 最近检查为 06:21、5/5 来源响应，codex-reset.com 于 06:15 更新，CodexRunway 最近检查为 06:16，三者均继续把 9 月 8 日列为最近一次已确认全局额度重置。未发现新的 Tibo 帖子或补偿 Banked Reset 到账确认；公开来源无法保证覆盖全部 X 主帖、回复、引用帖或账户级传播状态。",
       "newEvents": 0,
       "newPosts": 0,
-      "status": "no-change",
-      "summary": "未发现新的相关帖子、明确重置确认或补偿 Banked Reset 全部到账证据；保留现有 posts、events 与历史确认记录。"
+      "status": "correction",
+      "summary": "来源修正：ResetBeacon 撤回了此前用于确认北京时间 9 月 10 日 01:45 广泛额度刷新的传播记录。对应 event 已永久保留为撤回审计记录，但 confirmed 改为 false；当前最近一次可信的已确认全局额度重置为北京时间 9 月 8 日。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
@@ -566,16 +566,16 @@
   ],
   "prediction": {
     "level": "weak",
-    "probability": 7,
+    "probability": 31,
     "reasons": [
-      "推测：最近 72 小时内已记录北京时间 2026-09-10 01:45 的独立传播观测，短期再次发生广泛/全局额度重置的可能性较低。",
-      "Tibo 最近一条相关内容仍是北京时间 02:23 的 Banked Reset 补偿承诺；截至本次检查，尚无他本人或独立账户证据明确确认补偿额度已全部到账。",
-      "ResetBeacon 给出的下一次广泛额度重置 24 小时概率仍约为 7%；codexreset.org、codex-reset.com 与 CodexRunway 均未发现新的官方重置窗口或完成确认。",
-      "7% 概率和观察窗口仅为下一次广泛/全局额度重置的推测，不代表 OpenAI 或 Tibo 的正式承诺；公开来源无法保证覆盖全部 X 回复、引用帖和账户传播状态。"
+      "推测：ResetBeacon 已修正其记录并撤回北京时间 2026-09-10 01:45 的传播观测；当前可信的最近一次全局额度重置恢复为北京时间 9 月 8 日。",
+      "Tibo 最近一条相关内容仍为 Banked Reset 补偿承诺；尚无他本人或独立账户证据明确确认补偿额度已全部到账，也没有新的全局重置时间承诺。",
+      "ResetBeacon 在记录修正后将下一次广泛额度重置的 24 小时概率调整为约 31%；codexreset.org 与 codex-reset.com 的公开预测约为 23%–25%，均属低置信度。",
+      "31% 概率和观察窗口仅为下一次广泛/全局额度重置的推测，不代表 OpenAI 或 Tibo 的正式承诺；公开来源无法保证覆盖全部 X 回复、引用帖和账户传播状态。"
     ],
     "sourceTweetId": "2097752790177370535",
-    "windowStart": "2026-09-09T21:30:21.000Z",
-    "windowEnd": "2026-09-10T21:30:21.000Z"
+    "windowStart": "2026-09-09T22:29:23.000Z",
+    "windowEnd": "2026-09-10T22:29:23.000Z"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
