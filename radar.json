@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-09T20:32:12.000Z",
+  "checkedAt": "2026-09-09T21:30:21.000Z",
   "events": [
     {
       "confirmed": true,
@@ -67,8 +67,8 @@
     "cadence": "hourly",
     "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
     "lastResult": {
-      "checkedAt": "2026-09-09T20:32:12.000Z",
-      "coverage": "截至北京时间 2026-09-10 04:32，ResetBeacon 最近检查为 03:57、6/6 来源响应；codexreset.org 最近检查为 04:20、5/5 来源响应；codex-reset.com 于 04:11 更新；CodexRunway 最近检查为 04:24。最新相关内容仍为 Tweet ID 2097752790177370535，未发现新的 Tibo 额度重置信号或补偿 Banked Reset 全部到账确认。各来源对 01:45 传播观测的归类仍有分歧；公开来源无法保证覆盖全部 X 主帖、回复、引用帖或账户级传播状态。",
+      "checkedAt": "2026-09-09T21:30:21.000Z",
+      "coverage": "截至北京时间 2026-09-10 05:30，ResetBeacon 最近检查为 05:02、6/6 来源响应；codexreset.org 最近检查为 05:20、5/5 来源响应；codex-reset.com 于 05:11 更新；CodexRunway 最近检查为 05:08。最新相关内容仍为 Tweet ID 2097752790177370535，未发现新的 Tibo 额度重置信号或补偿 Banked Reset 全部到账确认。各来源对 01:45 传播观测的归类仍有分歧；公开来源无法保证覆盖全部 X 主帖、回复、引用帖或账户级传播状态。",
       "newEvents": 0,
       "newPosts": 0,
       "status": "no-change",
@@ -570,12 +570,12 @@
     "reasons": [
       "推测：最近 72 小时内已记录北京时间 2026-09-10 01:45 的独立传播观测，短期再次发生广泛/全局额度重置的可能性较低。",
       "Tibo 最近一条相关内容仍是北京时间 02:23 的 Banked Reset 补偿承诺；截至本次检查，尚无他本人或独立账户证据明确确认补偿额度已全部到账。",
-      "ResetBeacon 将下一次广泛额度重置的 24 小时概率更新为约 7%；codexreset.org、codex-reset.com 与 CodexRunway 均未发现新的官方重置窗口或完成确认。",
+      "ResetBeacon 给出的下一次广泛额度重置 24 小时概率仍约为 7%；codexreset.org、codex-reset.com 与 CodexRunway 均未发现新的官方重置窗口或完成确认。",
       "7% 概率和观察窗口仅为下一次广泛/全局额度重置的推测，不代表 OpenAI 或 Tibo 的正式承诺；公开来源无法保证覆盖全部 X 回复、引用帖和账户传播状态。"
     ],
     "sourceTweetId": "2097752790177370535",
-    "windowStart": "2026-09-09T20:32:12.000Z",
-    "windowEnd": "2026-09-10T20:32:12.000Z"
+    "windowStart": "2026-09-09T21:30:21.000Z",
+    "windowEnd": "2026-09-10T21:30:21.000Z"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
