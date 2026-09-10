@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-10T19:30:27.000Z",
+  "checkedAt": "2026-09-10T20:29:17.000Z",
   "events": [
     {
       "confirmed": false,
@@ -67,12 +67,12 @@
     "cadence": "hourly",
     "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
     "lastResult": {
-      "checkedAt": "2026-09-10T19:30:27.000Z",
-      "coverage": "截至北京时间 2026-09-11 03:30，发现 Tibo 发布新的容量/限额相关主帖：暂停新增的 200 美元 Pro 订阅，以缓解 Astra 带来的系统压力并保障现有用户。X 原帖直连返回 403，内容由 codex-reset.com 公开雷达和公开搜索结果交叉核对；codexreset.org 本轮直连返回内部错误。公开来源无法保证覆盖全部 X 主帖、回复、引用帖或账户级传播状态。",
+      "checkedAt": "2026-09-10T20:29:17.000Z",
+      "coverage": "截至北京时间 2026-09-11 04:29，ResetBeacon 最近检查为 04:12、6/6 来源响应，未显示 OpenAI 重置提示；codex-reset.com 仍将暂停新增 200 美元 Pro 订阅列为最新 Tibo 限额内容，并明确表示没有补偿 Banked Reset 到账确认；ResetBeacon 历史页没有 9 月 8 日之后的新确认事件。codexreset.org 本轮直连返回内部错误。公开来源无法保证覆盖全部 X 主帖、回复、引用帖或账户级传播状态。",
       "newEvents": 0,
-      "newPosts": 1,
-      "status": "new-signal",
-      "summary": "新增 1 条强下行容量信号；未确认新的额度重置，也没有补偿 Banked Reset 到账确认。"
+      "newPosts": 0,
+      "status": "no-change",
+      "summary": "未发现新的相关帖子、明确额度重置确认或补偿 Banked Reset 到账证据；保留现有 posts、events 与撤回审计记录。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
@@ -587,13 +587,13 @@
   "prediction": {
     "probability": 16,
     "level": "weak",
-    "windowStart": "2026-09-10T19:30:27.000Z",
-    "windowEnd": "2026-09-11T19:30:27.000Z",
+    "windowStart": "2026-09-10T20:29:17.000Z",
+    "windowEnd": "2026-09-11T20:29:17.000Z",
     "reasons": [
       "推测：北京时间 2026-09-10 01:45 的传播观测已被撤回，当前可信的最近一次全局额度重置仍为北京时间 9 月 8 日。",
-      "Tibo 现已实际暂停新增的 200 美元 Pro 订阅，以保护现有用户的 Astra 访问并缓解系统压力；这比此前“可能暂停”的表述更明确，是近期再次赠送全局额度重置的强下行信号。",
-      "对受影响 Banked Reset 用户的补偿承诺仍没有明确到账确认；codex-reset.com 也继续标明没有确认到账更新。",
-      "16% 概率和北京时间 9 月 11 日 03:30 至 9 月 12 日 03:30 的观察窗口仅为下一次广泛/全局额度重置的低置信度推测，不代表 OpenAI 或 Tibo 的正式承诺；公开来源无法保证覆盖全部 X 回复、引用帖和账户传播状态。"
+      "最近 72 小时最重要的新信号仍是 Tibo 暂停新增的 200 美元 Pro 订阅，以保护现有用户的 Astra 访问并缓解系统压力；这是近期再次赠送全局额度重置的强下行信号。",
+      "对受影响 Banked Reset 用户的补偿承诺仍没有明确到账确认；codex-reset.com 继续标明没有确认到账更新，并显示当前没有官方额度重置信号。",
+      "ResetBeacon 的独立历史模型当前给出约 31%/58% 的 24/48 小时概率，但没有 OpenAI 重置提示；结合明确容量收紧措施，综合预测仍保守维持 16%。该概率仅为推测，不代表官方承诺。"
     ],
     "sourceTweetId": "2098113585683808624"
   },
