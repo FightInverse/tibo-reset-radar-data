@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-10T18:30:55.000Z",
+  "checkedAt": "2026-09-10T19:30:27.000Z",
   "events": [
     {
       "confirmed": false,
@@ -67,17 +67,37 @@
     "cadence": "hourly",
     "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
     "lastResult": {
-      "checkedAt": "2026-09-10T18:30:55.000Z",
-      "coverage": "截至北京时间 2026-09-11 02:30，ResetBeacon 最近检查为 02:07、6/6 来源响应，未显示 OpenAI 重置提示；codexreset.org 最近检查为 02:03、5/5 来源响应；codex-reset.com 仍没有补偿 Banked Reset 到账确认。最新可见 Tibo 回复发布于北京时间 01:48，仅讨论 Astra 名称缩写，与额度重置无关。公开来源无法保证覆盖全部 X 主帖、回复、引用帖或账户级传播状态。",
+      "checkedAt": "2026-09-10T19:30:27.000Z",
+      "coverage": "截至北京时间 2026-09-11 03:30，发现 Tibo 发布新的容量/限额相关主帖：暂停新增的 200 美元 Pro 订阅，以缓解 Astra 带来的系统压力并保障现有用户。X 原帖直连返回 403，内容由 codex-reset.com 公开雷达和公开搜索结果交叉核对；codexreset.org 本轮直连返回内部错误。公开来源无法保证覆盖全部 X 主帖、回复、引用帖或账户级传播状态。",
       "newEvents": 0,
-      "newPosts": 0,
-      "status": "no-change",
-      "summary": "未发现新的相关帖子、明确额度重置确认或补偿 Banked Reset 到账证据；保留现有 posts、events 与撤回审计记录。"
+      "newPosts": 1,
+      "status": "new-signal",
+      "summary": "新增 1 条强下行容量信号；未确认新的额度重置，也没有补偿 Banked Reset 到账确认。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
   },
   "posts": [
+    {
+      "confirmedReset": false,
+      "createdAt": "2026-09-10T18:17:14.549Z",
+      "createdAtShanghai": "2026-09-11T02:17:14.549+08:00",
+      "detectedAt": "2026-09-10T19:30:27.000Z",
+      "kind": "post",
+      "reasons": [
+        "codex-reset.com 的公开 Tibo 雷达将该内容列为 @thsottiaux 的最新 LIMITS 帖子，并提供原帖链接；Tweet ID 2098113585683808624 的 Snowflake 时间戳对应 2026-09-10T18:17:14.549Z。",
+        "Tibo 宣布暂停新增的 200 美元 Pro 订阅，理由是该方案对系统压力最大，并希望保障现有用户继续稳定使用 Astra；现有账户、其他方案和 API 不受影响。",
+        "这是容量约束从“可能暂停”升级为“实际暂停”的明确信号，属于近期再次全局额度重置的强下行信号；帖子没有额度重置排期、承诺、按钮执行或传播确认。",
+        "X 原帖直连返回 403；文本由 codex-reset.com 的公开雷达与公开搜索结果交叉核对，因此保存准确摘要并标记 summary-only。"
+      ],
+      "signalLevel": "strong",
+      "signalScore": 88,
+      "text": "Summary: Tibo announced that new subscriptions to the $200 Pro plan would be paused to protect the experience of current users and continued access to Astra. He said this plan puts the most strain on their systems; existing accounts, all other plans, and the API are unaffected while more capacity is added.",
+      "translatedTextZh": "摘要：Tibo 宣布将暂停新增的 200 美元 Pro 方案订阅，以保障现有用户的使用体验以及继续使用 Astra。他表示该方案给系统带来的压力最大；团队增加更多容量期间，现有账户、其他所有方案和 API 均不受影响。",
+      "tweetId": "2098113585683808624",
+      "url": "https://x.com/thsottiaux/status/2098113585683808624",
+      "verificationStatus": "summary-only"
+    },
     {
       "confirmedReset": false,
       "createdAt": "2026-09-09T18:23:34.197Z",
@@ -565,17 +585,17 @@
     }
   ],
   "prediction": {
-    "probability": 27,
+    "probability": 16,
     "level": "weak",
-    "windowStart": "2026-09-10T18:30:55.000Z",
-    "windowEnd": "2026-09-11T18:30:55.000Z",
+    "windowStart": "2026-09-10T19:30:27.000Z",
+    "windowEnd": "2026-09-11T19:30:27.000Z",
     "reasons": [
-      "推测：北京时间 2026-09-10 01:45 的传播观测已被公开追踪源撤回，当前可信的最近一次全局额度重置仍为北京时间 9 月 8 日。",
-      "最近 72 小时内，Tibo 最新相关内容仍是对受影响 Banked Reset 用户的补偿承诺；截至本次检查，没有 Tibo 本人或独立账户证据明确确认补偿额度已到账。",
-      "ResetBeacon 当前估计未来 24 小时发生广泛额度重置的概率约为 30%、48 小时约为 55%，6/6 来源响应且没有 OpenAI 重置提示；codexreset.org 当前估计为 23%/41%，5/5 来源响应；codex-reset.com 仍明确写明没有确认到账更新。",
-      "本轮新增可见 Tibo 回复仅讨论 Astra 名称缩写，与额度重置无关。综合公开监测给出 27% 的未来 24 小时推测概率；这不是官方承诺，且公开来源无法保证覆盖全部 X 回复、引用帖和账户传播状态。"
+      "推测：北京时间 2026-09-10 01:45 的传播观测已被撤回，当前可信的最近一次全局额度重置仍为北京时间 9 月 8 日。",
+      "Tibo 现已实际暂停新增的 200 美元 Pro 订阅，以保护现有用户的 Astra 访问并缓解系统压力；这比此前“可能暂停”的表述更明确，是近期再次赠送全局额度重置的强下行信号。",
+      "对受影响 Banked Reset 用户的补偿承诺仍没有明确到账确认；codex-reset.com 也继续标明没有确认到账更新。",
+      "16% 概率和北京时间 9 月 11 日 03:30 至 9 月 12 日 03:30 的观察窗口仅为下一次广泛/全局额度重置的低置信度推测，不代表 OpenAI 或 Tibo 的正式承诺；公开来源无法保证覆盖全部 X 回复、引用帖和账户传播状态。"
     ],
-    "sourceTweetId": "2097752790177370535"
+    "sourceTweetId": "2098113585683808624"
   },
   "schemaVersion": 1,
   "source": "ChatGPT Scheduled Monitor + GitHub",
