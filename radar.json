@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-10T00:30:14.000Z",
+  "checkedAt": "2026-09-10T01:30:35.000Z",
   "events": [
     {
       "confirmed": false,
@@ -67,8 +67,8 @@
     "cadence": "hourly",
     "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
     "lastResult": {
-      "checkedAt": "2026-09-10T00:30:14.000Z",
-      "coverage": "截至北京时间 2026-09-10 08:30，ResetBeacon 最近检查为 08:12、6/6 来源响应，修正后的历史记录仍以 9 月 8 日为最近一次确认；codexreset.org、codex-reset.com 与 CodexRunway 也未列出新的全局额度重置或补偿 Banked Reset 到账确认。未检索到过去一小时内可验证的新 Tibo 相关帖子；公开来源无法保证覆盖全部 X 主帖、回复、引用帖或账户级传播状态。",
+      "checkedAt": "2026-09-10T01:30:35.000Z",
+      "coverage": "截至北京时间 2026-09-10 09:30，ResetBeacon 最近检查为 09:12、6/6 来源响应；codexreset.org 最近检查为 09:22、5/5 来源响应，并显示 Tibo 于 07:26 发布的最新可见内容与额度无关。codex-reset.com 与 CodexRunway 也仍将 9 月 8 日列为最近一次全局额度重置，未确认补偿 Banked Reset 已到账。公开来源无法保证覆盖全部 X 主帖、回复、引用帖或账户级传播状态。",
       "newPosts": 0,
       "newEvents": 0,
       "status": "no-change",
@@ -567,12 +567,12 @@
   "prediction": {
     "probability": 30,
     "level": "weak",
-    "windowStart": "2026-09-10T00:30:14.000Z",
-    "windowEnd": "2026-09-11T00:30:14.000Z",
+    "windowStart": "2026-09-10T01:30:35.000Z",
+    "windowEnd": "2026-09-11T01:30:35.000Z",
     "reasons": [
       "推测：此前北京时间 2026-09-10 01:45 的传播观测已被公开追踪源撤回，当前可信的最近一次全局额度重置仍为北京时间 9 月 8 日。",
-      "Tibo 最近一条相关内容仍为 Banked Reset 补偿承诺；尚无他本人或独立账户证据明确确认补偿额度已全部到账，也没有新的全局额度重置时间承诺。",
-      "ResetBeacon 当前给出的下一次广泛额度重置 24 小时概率约为 30%，并显示 6/6 来源响应；其他公开追踪页仍未列出新的官方窗口或完成确认。",
+      "Tibo 最近可见的新内容与额度重置无关；最近一条相关内容仍为 Banked Reset 补偿承诺，尚无他本人或独立账户证据明确确认补偿额度已全部到账。",
+      "ResetBeacon 当前给出的下一次广泛额度重置 24 小时概率约为 30%，并显示 6/6 来源响应；codexreset.org 给出 23%，codex-reset.com 给出 25%，CodexRunway 未列出新的官方窗口或完成确认。",
       "30% 概率和观察窗口仅为下一次广泛/全局额度重置的推测，不代表 OpenAI 或 Tibo 的正式承诺；公开来源无法保证覆盖全部 X 回复、引用帖和账户传播状态。"
     ],
     "sourceTweetId": "2097752790177370535"
