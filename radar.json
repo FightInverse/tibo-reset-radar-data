@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-10T22:27:12.000Z",
+  "checkedAt": "2026-09-10T23:32:02.000Z",
   "events": [
     {
       "confirmed": false,
@@ -67,12 +67,12 @@
     "cadence": "hourly",
     "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
     "lastResult": {
-      "checkedAt": "2026-09-10T22:27:12.000Z",
-      "coverage": "截至北京时间 2026-09-11 06:27，ResetBeacon 最近检查为 06:22、6/6 来源响应，未显示 OpenAI 额度重置提示；codex-reset.com 于 06:24 仍将暂停新增 200 美元 Pro 订阅列为最新 Tibo 限额内容，明确表示没有补偿 Banked Reset 到账确认，也没有官方额度重置信号；CodexRunway 与 codexreset.org 的最近公开采集仍仅列出 9 月 8 日的最新确认和 9 月 11 日 02:17 的下行限额信号。公开来源无法保证覆盖全部 X 主帖、回复、引用帖或账户级传播状态。",
+      "checkedAt": "2026-09-10T23:32:02.000Z",
+      "coverage": "截至北京时间 2026-09-11 07:32，ResetBeacon 最近检查为 07:22、6/6 来源响应，仍无 OpenAI 额度重置提示；codex-reset.com 继续显示没有补偿 Banked Reset 到账确认及官方重置信号；CodexRunway 于 07:08 仍仅列出 9 月 8 日的最近确认。codexreset.org 的 07:01 X 采集发现 Tibo 于 06:15 回复“Interesting”（Tweet ID 2098173464549151061），但 X 直连返回 403，公开页面未提供父帖内容；该词本身不足以准确归类为额度重置信号，因此未入库。公开来源无法保证覆盖全部 X 主帖、回复、引用帖或账户级传播状态。",
       "newEvents": 0,
       "newPosts": 0,
       "status": "no-change",
-      "summary": "未发现新的相关帖子、明确额度重置确认或补偿 Banked Reset 到账证据；保留现有 posts、events 与撤回审计记录。"
+      "summary": "未发现新的可验证相关帖子、明确额度重置确认或补偿 Banked Reset 到账证据；保留现有 posts、events 与撤回审计记录。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
@@ -587,13 +587,13 @@
   "prediction": {
     "probability": 16,
     "level": "weak",
-    "windowStart": "2026-09-10T22:27:12.000Z",
-    "windowEnd": "2026-09-11T22:27:12.000Z",
+    "windowStart": "2026-09-10T23:32:02.000Z",
+    "windowEnd": "2026-09-11T23:32:02.000Z",
     "reasons": [
       "推测：当前可信的最近一次全局额度重置仍为北京时间 2026-09-08；北京时间 9 月 10 日 01:45 的传播观测已被撤回，不计为确认事件。",
       "最近 72 小时最重要的新信号仍是 Tibo 暂停新增的 200 美元 Pro 订阅，以保护现有用户的 Astra 访问并缓解系统压力；这是近期再次赠送全局额度重置的强下行信号。",
-      "对受影响 Banked Reset 用户的补偿承诺仍没有明确到账确认；codex-reset.com 继续显示没有确认到账更新，并明确表示当前没有官方额度重置信号。",
-      "ResetBeacon 当前给出约 31%/59% 的 24/48 小时历史模型概率，codex-reset.com 给出约 22%/39%；两者均无新的官方重置信号。结合明确容量收紧措施，综合预测保守维持 16%。该概率仅为推测，不代表官方承诺。"
+      "Tibo 于北京时间 9 月 11 日 06:15 发布了一条仅含“Interesting”的公开回复，但公开来源未提供可验证的父帖上下文，文字本身也不含额度重置、用量或时间信息，因此未计入预测信号。",
+      "对受影响 Banked Reset 用户的补偿承诺仍没有明确到账确认；ResetBeacon、codex-reset.com、codexreset.org 与 CodexRunway 均无新的完成证据。综合预测保守维持 16%，仅为推测，不代表官方承诺。"
     ],
     "sourceTweetId": "2098113585683808624"
   },
