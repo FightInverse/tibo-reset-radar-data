@@ -1,1 +1,586 @@
-{"checkedAt":"2026-09-16T03:54:37.000Z","events":[{"confirmed":true,"id":"reset-2098685367058612394-global","notes":"Tibo explicitly confirmed that the previously announced reset had fully propagated at 2026-09-12 08:09:17 UTC (16:09:17 Beijing). The earlier 03:20 UTC post said a reset would land by midnight that day.","notesZh":"Tibo 于 2026-09-12 08:09:17 UTC（北京时间 16:09:17）明确确认此前宣布的额度重置已经全部传播完成。当天 03:20 UTC 的帖子曾明确表示额度重置将在当日午夜前到来。","predictedHit":true,"resetTime":"2026-09-12T08:09:17.852Z","resetType":"Global Reset","scope":"All affected Astra / paid Codex users; public trackers classify it as a broad global reset","scopeZh":"面向受影响的 Astra / 付费 Codex 用户；公开追踪源将其归类为广泛全局额度重置","sourceTweetId":"2098685367058612394"},{"confirmed":false,"id":"reset-20260909T174500Z-propagation","notes":"Correction: at 2026-09-09 14:31 Pacific (2026-09-10 05:31 Beijing), ResetBeacon marked its ledger as 'record corrected' and removed the September 9 propagation observation from its public history. This entry is retained permanently only as a retracted audit record; it must not be treated as a confirmed reset.","notesZh":"修正：ResetBeacon 于太平洋时间 2026-09-09 14:31（北京时间 2026-09-10 05:31）将记录标记为“record corrected”，并从公开历史中移除了 9 月 9 日的传播观测。本条永久保留仅用于记录已撤回的审计轨迹，不应再视为已确认额度重置。","predictedHit":false,"resetTime":"2026-09-09T17:45:00.000Z","resetType":"Retracted Observation","scope":"Unconfirmed; the source record was retracted","scopeZh":"未确认；来源记录已撤回","sourceTweetId":"2097752790177370535"},{"confirmed":true,"id":"reset-2097043464538264003-global","notes":"The reset was confirmed through independent propagation evidence and later by Tibo at 2026-09-08 12:05 Beijing time.","notesZh":"本次额度重置先由独立传播证据确认，随后 Tibo 于北京时间 2026-09-08 12:05 明确确认所有人的额度均已重置。","predictedHit":true,"resetTime":"2026-09-08T01:30:00.000Z","resetType":"Global Reset","scope":"All paid subscriptions","scopeZh":"所有付费订阅","sourceTweetId":"2097174560412246215"},{"confirmed":true,"id":"reset-2096035437299237298-banked","notes":"CodexRunway marked the announced full Banked Reset as completed at 2026-09-05 11:00 Beijing time; Tibo did not publish a separate completion post.","notesZh":"CodexRunway 将这次全量 Banked Reset 标记为北京时间 2026-09-05 11:00 完成；Tibo 没有另发完成帖。","predictedHit":true,"resetTime":"2026-09-05T03:00:00.000Z","resetType":"Banked Reset","scope":"All Plus, Pro, and Business users","scopeZh":"所有 Plus、Pro 和 Business 用户","sourceTweetId":"2096035437299237298"},{"confirmed":true,"id":"reset-2094252447271366730","notes":"Tibo explicitly confirmed the reset after the 25M active-user milestone. Beijing time: 2026-08-31 10:34.","notesZh":"Tibo 在 Codex 达到 2500 万活跃用户后明确确认已完成额度重置。北京时间：2026-08-31 10:34。","predictedHit":false,"resetTime":"2026-08-31T02:34:27.415Z","resetType":"Global Reset","scope":"All paid ChatGPT Work and Codex subscriptions","scopeZh":"所有付费 ChatGPT Work 与 Codex 订阅","sourceTweetId":"2094252447271366730"},{"confirmed":true,"id":"reset-2093801758665715784","notes":"Tibo announced a broad usage reset alongside fixes for excessive usage drain. Beijing time: 2026-08-30 04:43.","notesZh":"Tibo 在公布多项异常额度消耗修复的同时，确认执行广泛额度重置。北京时间：2026-08-30 04:43。","predictedHit":true,"resetTime":"2026-08-29T20:43:00.000Z","resetType":"Global Compensation Reset","scope":"All paid Codex and ChatGPT Work users","scopeZh":"所有付费 Codex 与 ChatGPT Work 用户","sourceTweetId":"2093801758665715784"}],"monitor":{"account":"@thsottiaux","cadence":"hourly","coverageNote":"公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。","lastResult":{"checkedAt":"2026-09-16T03:54:37.000Z","coverage":"截至北京时间 2026-09-16 11:54，多个公开 X 镜像与重置追踪源均将 9 月 12 日 08:09 UTC 的“Reset all propagated”列为最近一次已确认全局额度重置；9 月 15–16 日可见的 Tibo 新内容主要是产品发布/DevDay 级别 ships、Codex 功能讨论和非额度回复，未发现新的 reset、reset button、usage reset、tomorrow/soon 等明确重置排期。公开来源覆盖仍可能存在延迟或漏帖。","newEvents":1,"newPosts":3,"status":"backfill-and-no-new-current-signal","summary":"补齐 9 月 11 日 occasional reset 暗示、9 月 12 日午夜前重置排期及 9 月 12 日完成确认；本轮当前时点未发现 9 月 12 日之后新的明确额度重置信号。"},"mode":"public-web-search","timezone":"Asia/Shanghai"},"posts":[{"tweetId":"2098685367058612394","createdAt":"2026-09-12T08:09:17.852Z","createdAtShanghai":"2026-09-12T16:09:17.852+08:00","detectedAt":"2026-09-16T03:54:37.000Z","kind":"post","signalLevel":"confirmed","signalScore":100,"confirmedReset":true,"verificationStatus":"directly-indexed","url":"https://x.com/thsottiaux/status/2098685367058612394","text":"Reset all propagated. Sweet dreams.","translatedTextZh":"额度重置已全部传播完成。好梦。","reasons":["Tibo 明确使用完成语义“Reset all propagated”，直接确认此前排期的全局额度重置已经传播完成。"]},{"tweetId":"2098612714704891959","createdAt":"2026-09-12T03:20:36.181Z","createdAtShanghai":"2026-09-12T11:20:36.181+08:00","detectedAt":"2026-09-16T03:54:37.000Z","kind":"post","signalLevel":"strong","signalScore":99,"confirmedReset":false,"verificationStatus":"directly-indexed","url":"https://x.com/thsottiaux/status/2098612714704891959","text":"Summary: Tibo addressed Astra quality issues, described fixes, and said a reset was also landing by midnight that day.","translatedTextZh":"摘要：Tibo 说明了 Astra 的若干质量问题与修复，并明确表示当天午夜前还会进行一次额度重置。","reasons":["原帖明确写出“a reset is also landing by midnight today”，属于直接且高强度的重置排期。"]},{"tweetId":"2098300424520687965","createdAt":"2026-09-11T06:39:40.399Z","createdAtShanghai":"2026-09-11T14:39:40.399+08:00","detectedAt":"2026-09-16T03:54:37.000Z","kind":"reply","signalLevel":"medium","signalScore":72,"confirmedReset":false,"verificationStatus":"directly-indexed","url":"https://x.com/thsottiaux/status/2098300424520687965","text":"When I say excellent service for existing users, that includes the occasional reset","translatedTextZh":"当我说要为现有用户提供优秀服务时，其中也包括偶尔的额度重置。","reasons":["直接说明未来仍会有偶发额度重置，属于明确的政策/意向信号。"]},{"tweetId":"2098113585683808624","createdAt":"2026-09-10T18:17:14.549Z","createdAtShanghai":"2026-09-11T02:17:14.549+08:00","detectedAt":"2026-09-10T19:30:27.000Z","kind":"post","signalLevel":"strong","signalScore":88,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2098113585683808624","text":"Summary: Tibo announced that new subscriptions to the $200 Pro plan would be paused to protect the experience of current users and continued access to Astra.","translatedTextZh":"摘要：Tibo 宣布将暂停新增的 200 美元 Pro 方案订阅，以保障现有用户的使用体验以及继续使用 Astra。","reasons":["容量约束已升级为实际暂停新增 Pro 订阅；属于近期再次全局额度重置的强下行信号。"]},{"tweetId":"2097752790177370535","createdAt":"2026-09-09T18:23:34.197Z","createdAtShanghai":"2026-09-10T02:23:34.197+08:00","detectedAt":"2026-09-09T18:31:33.000Z","kind":"post","signalLevel":"strong","signalScore":96,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2097752790177370535","text":"Summary: Tibo said that everyone who used a banked reset during the affected time window would receive another banked reset and an apology email.","translatedTextZh":"摘要：Tibo 表示，在受影响时间段内使用过 Banked Reset 的所有用户都将再获得一次 Banked Reset，并收到一封道歉邮件。","reasons":["明确的补偿性 Banked Reset 发放信号。"]},{"tweetId":"2097559315150426222","createdAt":"2026-09-09T05:34:46.156Z","createdAtShanghai":"2026-09-09T13:34:46.156+08:00","detectedAt":"2026-09-09T16:28:11.000Z","kind":"post","signalLevel":"medium","signalScore":68,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2097559315150426222","text":"Summary: Tibo said demand for Astra is unprecedented and that the team is pulling every available lever to sustain it.","translatedTextZh":"摘要：Tibo 表示，Astra 的需求前所未有，团队正在动用一切可用手段维持服务。","reasons":["反映明显容量压力。"]},{"tweetId":"2097415471251464582","createdAt":"2026-09-08T20:03:11.098Z","createdAtShanghai":"2026-09-09T04:03:11.098+08:00","detectedAt":"2026-09-08T20:29:21.000Z","kind":"reply","signalLevel":"weak","signalScore":32,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2097415471251464582","text":"Summary: Tibo described request scheduling and routing optimizations that significantly reduce usage in long-running sessions.","translatedTextZh":"摘要：Tibo 介绍了请求调度与路由优化，可在长时间运行会话中显著节省用量。","reasons":["用量效率改善属于下行信号。"]},{"tweetId":"2097183639356489952","createdAt":"2026-09-08T04:41:58.067Z","createdAtShanghai":"2026-09-08T12:41:58.067+08:00","detectedAt":"2026-09-08T05:30:44.000Z","kind":"reply","signalLevel":"confirmed","signalScore":93,"confirmedReset":true,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2097183639356489952","text":"Summary: Tibo said a post omitted that he had reset usage twice in the middle.","translatedTextZh":"摘要：Tibo 回复称，对方漏掉了他曾在中途两次重置额度这一点。","reasons":["使用过去时明确确认曾执行额度重置。"]},{"tweetId":"2097175062566846501","createdAt":"2026-09-08T04:07:53.201Z","createdAtShanghai":"2026-09-08T12:07:53.201+08:00","detectedAt":"2026-09-08T04:27:58.000Z","kind":"reply","signalLevel":"weak","signalScore":42,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2097175062566846501","text":"Summary: Tibo said there is no schedule, only resets.","translatedTextZh":"摘要：Tibo 回复称“没有排期，只有额度重置”。","reasons":["直接使用 reset 语境，但没有日期或承诺。"]},{"tweetId":"2097174560412246215","createdAt":"2026-09-08T04:05:53.478Z","createdAtShanghai":"2026-09-08T12:05:53.478+08:00","detectedAt":"2026-09-08T04:27:58.000Z","kind":"post","signalLevel":"confirmed","signalScore":100,"confirmedReset":true,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2097174560412246215","text":"Summary: Tibo confirmed that usage had been reset for everyone and wished users a good week with Astra.","translatedTextZh":"摘要：Tibo 确认所有人的使用额度已经完成重置，并祝用户使用 Astra 度过愉快的一周。","reasons":["官方完成确认。"]},{"tweetId":"2097043464538264003","createdAt":"2026-09-07T19:24:57.786Z","createdAtShanghai":"2026-09-08T03:24:57.786+08:00","detectedAt":"2026-09-07T20:31:39.000Z","kind":"post","signalLevel":"strong","signalScore":99,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2097043464538264003","text":"Summary: Tibo said OpenAI would perform a global usage reset for all paid subscriptions, expected around 6 p.m. Pacific time on September 7.","translatedTextZh":"摘要：Tibo 表示将为所有付费订阅执行一次全局额度重置，预计在 9 月 7 日太平洋时间 18:00 左右到账。","reasons":["明确给出全局重置与时间窗口。"]},{"tweetId":"2096717905614524491","createdAt":"2026-09-06T21:51:18.490Z","createdAtShanghai":"2026-09-07T05:51:18.490+08:00","detectedAt":"2026-09-06T22:28:37.000Z","kind":"post","signalLevel":"medium","signalScore":52,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2096717905614524491","text":"Summary: Tibo said Astra usage optimizations can reduce subscription usage draw by up to roughly 3–4 times in long-tail cases.","translatedTextZh":"摘要：Tibo 表示，Astra 的用量优化在长尾场景下最多可使订阅额度消耗降低约 3–4 倍。","reasons":["用量效率改善属于下行信号。"]},{"tweetId":"2096689650257805558","createdAt":"2026-09-06T19:59:01.888Z","createdAtShanghai":"2026-09-07T03:59:01.888+08:00","detectedAt":"2026-09-06T22:28:37.000Z","kind":"reply","signalLevel":"weak","signalScore":24,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2096689650257805558","text":"Summary: Tibo said Astra should be about 50% cheaper per task than Sol at roughly equivalent output.","translatedTextZh":"摘要：Tibo 表示，在输出大致相当时，Astra 每项任务的成本应比 Sol 低约 50%。","reasons":["额度效率说明，不是重置预告。"]},{"tweetId":"2096686370848989558","createdAt":"2026-09-06T19:46:00.016Z","createdAtShanghai":"2026-09-07T03:46:00.016+08:00","detectedAt":"2026-09-06T20:29:52.000Z","kind":"reply","signalLevel":"weak","signalScore":18,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2096686370848989558","text":"Summary: Tibo said there is no difference between the usage received before or after a reset.","translatedTextZh":"摘要：Tibo 表示，额度重置前后可获得的使用额度没有差别。","reasons":["澄清既有额度重置机制。"]},{"tweetId":"2096308922294652979","createdAt":"2026-09-05T18:46:09.268Z","createdAtShanghai":"2026-09-06T02:46:09.268+08:00","detectedAt":"2026-09-06T00:27:27.000Z","kind":"reply","signalLevel":"weak","signalScore":12,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2096308922294652979","text":"Summary: Replying to a user discussing rapid Astra quota exhaustion, Tibo replied “150?”.","translatedTextZh":"摘要：一名用户讨论 Astra 快速耗尽额度时，Tibo 回复“150?”。","reasons":["语义不明确的额度相关弱信号。"]},{"tweetId":"2096035437299237298","createdAt":"2026-09-05T00:39:25.364Z","createdAtShanghai":"2026-09-05T08:39:25.364+08:00","detectedAt":"2026-09-05T02:33:02.000Z","kind":"post","signalLevel":"strong","signalScore":98,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2096035437299237298","text":"Summary: Tibo said a full banked reset would be granted that day to all Plus, Pro, and Business users, landing by end of day.","translatedTextZh":"摘要：Tibo 表示，当天会为所有 Plus、Pro 和 Business 用户发放一次完整的 Banked Reset，并在当天结束前到账。","reasons":["明确的 Banked Reset 排期。"]},{"tweetId":"2096002992046796932","createdAt":"2026-09-04T22:30:29.813Z","createdAtShanghai":"2026-09-05T06:30:29.813+08:00","detectedAt":"2026-09-07T04:31:13.000Z","kind":"post","signalLevel":"medium","signalScore":64,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2096002992046796932","text":"Summary: Tibo said Astra had rolled out to all Plus and Business users.","translatedTextZh":"摘要：Tibo 表示 Astra 已向所有 Plus 和 Business 用户完成开放。","reasons":["结束此前等待 Astra 的主要补偿条件。"]},{"tweetId":"2095979536043401428","createdAt":"2026-09-04T20:57:17.466Z","createdAtShanghai":"2026-09-05T04:57:17.466+08:00","detectedAt":"2026-09-04T22:28:52.000Z","kind":"post","signalLevel":"strong","signalScore":96,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2095979536043401428","text":"Summary: Tibo said some Plus and Business users without Astra access would receive a banked reset by end of day.","translatedTextZh":"摘要：Tibo 表示，部分尚未获得 Astra 的 Plus 和 Business 用户会在当天结束前获得一次 Banked Reset。","reasons":["明确的条件式 Banked Reset 排期。"]},{"tweetId":"2095961185262997556","createdAt":"2026-09-04T19:44:22.299Z","createdAtShanghai":"2026-09-05T03:44:22.299+08:00","detectedAt":"2026-09-04T21:28:27.000Z","kind":"post","signalLevel":"medium","signalScore":58,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2095961185262997556","text":"Summary: Tibo said Astra rollout was progressing, with Pro and Business first and Plus expanding as quickly as possible.","translatedTextZh":"摘要：Tibo 表示 Astra 正在推进分阶段开放，Pro 和 Business 优先，随后尽快扩大到 Plus。","reasons":["影响等待 Astra 的 Banked Reset 适用人群。"]},{"tweetId":"2095899886470463914","createdAt":"2026-09-04T15:40:47.528Z","createdAtShanghai":"2026-09-04T23:40:47.528+08:00","detectedAt":"2026-09-06T07:27:27.000Z","kind":"reply","signalLevel":"weak","signalScore":22,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2095899886470463914","text":"Summary: Tibo said Astra completed a task in 10–15 minutes and used less than 15% of the weekly Plus allowance.","translatedTextZh":"摘要：Tibo 表示 Astra 完成该任务用时 10–15 分钟，消耗不到 Plus 每周使用额度的 15%。","reasons":["用量相关但没有重置承诺。"]},{"tweetId":"2095730381437939850","createdAt":"2026-09-04T04:27:14.379Z","createdAtShanghai":"2026-09-04T12:27:14.379+08:00","detectedAt":"2026-09-04T17:29:16.000Z","kind":"reply","signalLevel":"weak","signalScore":38,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2095730381437939850","text":"Summary: Tibo replied “hahaha” to a user thanking him for the first Astra-related reset.","translatedTextZh":"摘要：一名用户感谢 Tibo 发放首个 Astra 相关额度重置，Tibo 回复“哈哈哈”。","reasons":["未明确确认 Banked Reset 已到账。"]},{"tweetId":"2095651088502591861","createdAt":"2026-09-03T23:12:09.470Z","createdAtShanghai":"2026-09-04T07:12:09.470+08:00","detectedAt":"2026-09-04T15:29:26.000Z","kind":"post","signalLevel":"strong","signalScore":92,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2095651088502591861","text":"Summary: Tibo said paid ChatGPT plan users would receive one banked reset for every day they did not have Astra access.","translatedTextZh":"摘要：Tibo 表示，付费 ChatGPT 套餐用户每等待 Astra 访问权限一天，就会获得一次 Banked Reset。","reasons":["明确承诺条件式 Banked Reset。"]},{"tweetId":"2095597659545591917","createdAt":"2026-09-03T19:39:51.014Z","createdAtShanghai":"2026-09-04T03:39:51.014+08:00","detectedAt":"2026-09-03T20:30:20.000Z","kind":"reply","signalLevel":"weak","signalScore":20,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2095597659545591917","text":"Summary: Tibo said Astra would be included in each plan's normal usage allocation.","translatedTextZh":"摘要：Tibo 表示 Astra 将计入各套餐的正常使用额度。","reasons":["正常额度说明，不是重置预告。"]},{"tweetId":"2095370639892955269","createdAt":"2026-09-03T04:37:45.311Z","createdAtShanghai":"2026-09-03T12:37:45.311+08:00","detectedAt":"2026-09-03T05:30:21.000Z","kind":"reply","signalLevel":"weak","signalScore":16,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2095370639892955269","text":"Summary: Asked whether people were excited for Astra or the Codex reset, Tibo asked, “Which Codex reset?”","translatedTextZh":"摘要：一名用户询问大家是在期待 Astra 还是 Codex 额度重置，Tibo 回问：“指的是哪一次 Codex 额度重置？”","reasons":["未承认明确的新重置安排。"]},{"tweetId":"2094293383573545000","createdAt":"2026-08-31T05:17:00.000Z","createdAtShanghai":"2026-08-31T13:17:00+08:00","detectedAt":"2026-09-01T11:29:17.000Z","kind":"reply","signalLevel":"weak","signalScore":18,"confirmedReset":false,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2094293383573545000","text":"Summary: Tibo said he tries to pre-announce resets these days when he can.","translatedTextZh":"摘要：Tibo 表示，如条件允许，他现在会尽量提前预告额度重置。","reasons":["与重置预告方式相关，但无日期。"]},{"tweetId":"2094252447271366730","createdAt":"2026-08-31T02:34:27.415Z","createdAtShanghai":"2026-08-31T10:34:27.415+08:00","detectedAt":"2026-09-01T02:18:32.000Z","kind":"post","signalLevel":"confirmed","signalScore":100,"confirmedReset":true,"verificationStatus":"search-indexed-summary","url":"https://x.com/thsottiaux/status/2094252447271366730","text":"Tibo announced that Codex reached 25M active users and confirmed usage had now been reset for all paid ChatGPT Work and Codex subscriptions.","translatedTextZh":"Tibo 宣布 Codex 的活跃用户已达到 2500 万，并确认已为所有付费 ChatGPT Work 与 Codex 订阅完成额度重置。","reasons":["明确使用完成时态并说明适用范围。"]},{"tweetId":"2094144275957350900","createdAt":"2026-08-30T19:24:37.364Z","createdAtShanghai":"2026-08-31T03:24:37.364+08:00","detectedAt":"2026-09-01T02:18:32.000Z","kind":"post","signalLevel":"strong","signalScore":96,"confirmedReset":false,"verificationStatus":"search-indexed-excerpt","url":"https://x.com/thsottiaux/status/2094144275957350900","text":"Your Codex and ChatGPT Work reset will land at 6pm PST.","translatedTextZh":"你的 Codex 和 ChatGPT Work 额度重置将在太平洋时间下午 6 点生效。","reasons":["明确给出重置与具体时间。"]},{"tweetId":"2093801758665715784","createdAt":"2026-08-29T20:43:00.000Z","createdAtShanghai":"2026-08-30T04:43:00+08:00","detectedAt":"2026-09-01T12:31:23.000Z","kind":"post","signalLevel":"confirmed","signalScore":100,"confirmedReset":true,"verificationStatus":"summary-only","url":"https://x.com/thsottiaux/status/2093801758665715784","text":"Summary: Tibo announced that usage was being reset for all paid Codex and ChatGPT Work users.","translatedTextZh":"摘要：Tibo 宣布正在为所有付费 Codex 与 ChatGPT Work 用户执行额度重置。","reasons":["明确表示正在为所有付费用户执行额度重置。"]}],"prediction":{"probability":24,"level":"weak","windowStart":"2026-09-16T03:54:37.000Z","windowEnd":"2026-09-17T03:54:37.000Z","reasons":["最近 72 小时没有发现 Tibo 新的 reset、reset button、usage reset、tomorrow、soon 或具体时间窗口等直接重置信号。","最近一次已确认全局额度重置为 2026-09-12 08:09 UTC；距离当前约 3.8 天。","公开追踪站当前主要给出约 24% 的未来 24 小时历史基线概率，但明确注明没有新的官方重置窗口。该概率仅为历史节奏推测，不代表 OpenAI 或 Tibo 的承诺。"],"sourceTweetId":null},"schemaVersion":1,"source":"ChatGPT Scheduled Monitor + GitHub","sourceHealthy":true}
+{
+  "checkedAt": "2026-09-16T04:28:15.000Z",
+  "events": [
+    {
+      "confirmed": true,
+      "id": "reset-2098685367058612394-global",
+      "notes": "Tibo explicitly confirmed that the previously announced reset had fully propagated at 2026-09-12 08:09:17 UTC (16:09:17 Beijing). The earlier 03:20 UTC post said a reset would land by midnight that day.",
+      "notesZh": "Tibo 于 2026-09-12 08:09:17 UTC（北京时间 16:09:17）明确确认此前宣布的额度重置已经全部传播完成。当天 03:20 UTC 的帖子曾明确表示额度重置将在当日午夜前到来。",
+      "predictedHit": true,
+      "resetTime": "2026-09-12T08:09:17.852Z",
+      "resetType": "Global Reset",
+      "scope": "All affected Astra / paid Codex users; public trackers classify it as a broad global reset",
+      "scopeZh": "面向受影响的 Astra / 付费 Codex 用户；公开追踪源将其归类为广泛全局额度重置",
+      "sourceTweetId": "2098685367058612394"
+    },
+    {
+      "confirmed": false,
+      "id": "reset-20260909T174500Z-propagation",
+      "notes": "Correction: at 2026-09-09 14:31 Pacific (2026-09-10 05:31 Beijing), ResetBeacon marked its ledger as 'record corrected' and removed the September 9 propagation observation from its public history. This entry is retained permanently only as a retracted audit record; it must not be treated as a confirmed reset.",
+      "notesZh": "修正：ResetBeacon 于太平洋时间 2026-09-09 14:31（北京时间 2026-09-10 05:31）将记录标记为“record corrected”，并从公开历史中移除了 9 月 9 日的传播观测。本条永久保留仅用于记录已撤回的审计轨迹，不应再视为已确认额度重置。",
+      "predictedHit": false,
+      "resetTime": "2026-09-09T17:45:00.000Z",
+      "resetType": "Retracted Observation",
+      "scope": "Unconfirmed; the source record was retracted",
+      "scopeZh": "未确认；来源记录已撤回",
+      "sourceTweetId": "2097752790177370535"
+    },
+    {
+      "confirmed": true,
+      "id": "reset-2097043464538264003-global",
+      "notes": "The reset was confirmed through independent propagation evidence and later by Tibo at 2026-09-08 12:05 Beijing time.",
+      "notesZh": "本次额度重置先由独立传播证据确认，随后 Tibo 于北京时间 2026-09-08 12:05 明确确认所有人的额度均已重置。",
+      "predictedHit": true,
+      "resetTime": "2026-09-08T01:30:00.000Z",
+      "resetType": "Global Reset",
+      "scope": "All paid subscriptions",
+      "scopeZh": "所有付费订阅",
+      "sourceTweetId": "2097174560412246215"
+    },
+    {
+      "confirmed": true,
+      "id": "reset-2096035437299237298-banked",
+      "notes": "CodexRunway marked the announced full Banked Reset as completed at 2026-09-05 11:00 Beijing time; Tibo did not publish a separate completion post.",
+      "notesZh": "CodexRunway 将这次全量 Banked Reset 标记为北京时间 2026-09-05 11:00 完成；Tibo 没有另发完成帖。",
+      "predictedHit": true,
+      "resetTime": "2026-09-05T03:00:00.000Z",
+      "resetType": "Banked Reset",
+      "scope": "All Plus, Pro, and Business users",
+      "scopeZh": "所有 Plus、Pro 和 Business 用户",
+      "sourceTweetId": "2096035437299237298"
+    },
+    {
+      "confirmed": true,
+      "id": "reset-2094252447271366730",
+      "notes": "Tibo explicitly confirmed the reset after the 25M active-user milestone. Beijing time: 2026-08-31 10:34.",
+      "notesZh": "Tibo 在 Codex 达到 2500 万活跃用户后明确确认已完成额度重置。北京时间：2026-08-31 10:34。",
+      "predictedHit": false,
+      "resetTime": "2026-08-31T02:34:27.415Z",
+      "resetType": "Global Reset",
+      "scope": "All paid ChatGPT Work and Codex subscriptions",
+      "scopeZh": "所有付费 ChatGPT Work 与 Codex 订阅",
+      "sourceTweetId": "2094252447271366730"
+    },
+    {
+      "confirmed": true,
+      "id": "reset-2093801758665715784",
+      "notes": "Tibo announced a broad usage reset alongside fixes for excessive usage drain. Beijing time: 2026-08-30 04:43.",
+      "notesZh": "Tibo 在公布多项异常额度消耗修复的同时，确认执行广泛额度重置。北京时间：2026-08-30 04:43。",
+      "predictedHit": true,
+      "resetTime": "2026-08-29T20:43:00.000Z",
+      "resetType": "Global Compensation Reset",
+      "scope": "All paid Codex and ChatGPT Work users",
+      "scopeZh": "所有付费 Codex 与 ChatGPT Work 用户",
+      "sourceTweetId": "2093801758665715784"
+    }
+  ],
+  "monitor": {
+    "account": "@thsottiaux",
+    "cadence": "hourly",
+    "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
+    "lastResult": {
+      "checkedAt": "2026-09-16T04:28:15.000Z",
+      "status": "no-new-signal",
+      "newPosts": 0,
+      "newEvents": 0,
+      "summary": "本轮未发现新的相关额度重置信号或新的明确重置确认；仅刷新检查状态与历史基线预测。",
+      "coverage": "截至北京时间 2026-09-16 12:28，多个公开 X 搜索结果与重置追踪源均将 9 月 12 日 08:09 UTC 的“Reset all propagated”列为最近一次已确认全局额度重置。Tibo 近期可见内容中的 DevDay 级别产品发布预告不含 reset、usage、quota 或具体重置窗口，未作为信号入库。公开来源无法保证覆盖全部主帖、回复和引用帖，搜索不到新内容不代表没有新帖。"
+    },
+    "mode": "public-web-search",
+    "timezone": "Asia/Shanghai"
+  },
+  "posts": [
+    {
+      "tweetId": "2098685367058612394",
+      "createdAt": "2026-09-12T08:09:17.852Z",
+      "createdAtShanghai": "2026-09-12T16:09:17.852+08:00",
+      "detectedAt": "2026-09-16T03:54:37.000Z",
+      "kind": "post",
+      "signalLevel": "confirmed",
+      "signalScore": 100,
+      "confirmedReset": true,
+      "verificationStatus": "directly-indexed",
+      "url": "https://x.com/thsottiaux/status/2098685367058612394",
+      "text": "Reset all propagated. Sweet dreams.",
+      "translatedTextZh": "额度重置已全部传播完成。好梦。",
+      "reasons": [
+        "Tibo 明确使用完成语义“Reset all propagated”，直接确认此前排期的全局额度重置已经传播完成。"
+      ]
+    },
+    {
+      "tweetId": "2098612714704891959",
+      "createdAt": "2026-09-12T03:20:36.181Z",
+      "createdAtShanghai": "2026-09-12T11:20:36.181+08:00",
+      "detectedAt": "2026-09-16T03:54:37.000Z",
+      "kind": "post",
+      "signalLevel": "strong",
+      "signalScore": 99,
+      "confirmedReset": false,
+      "verificationStatus": "directly-indexed",
+      "url": "https://x.com/thsottiaux/status/2098612714704891959",
+      "text": "Summary: Tibo addressed Astra quality issues, described fixes, and said a reset was also landing by midnight that day.",
+      "translatedTextZh": "摘要：Tibo 说明了 Astra 的若干质量问题与修复，并明确表示当天午夜前还会进行一次额度重置。",
+      "reasons": [
+        "原帖明确写出“a reset is also landing by midnight today”，属于直接且高强度的重置排期。"
+      ]
+    },
+    {
+      "tweetId": "2098300424520687965",
+      "createdAt": "2026-09-11T06:39:40.399Z",
+      "createdAtShanghai": "2026-09-11T14:39:40.399+08:00",
+      "detectedAt": "2026-09-16T03:54:37.000Z",
+      "kind": "reply",
+      "signalLevel": "medium",
+      "signalScore": 72,
+      "confirmedReset": false,
+      "verificationStatus": "directly-indexed",
+      "url": "https://x.com/thsottiaux/status/2098300424520687965",
+      "text": "When I say excellent service for existing users, that includes the occasional reset",
+      "translatedTextZh": "当我说要为现有用户提供优秀服务时，其中也包括偶尔的额度重置。",
+      "reasons": [
+        "直接说明未来仍会有偶发额度重置，属于明确的政策/意向信号。"
+      ]
+    },
+    {
+      "tweetId": "2098113585683808624",
+      "createdAt": "2026-09-10T18:17:14.549Z",
+      "createdAtShanghai": "2026-09-11T02:17:14.549+08:00",
+      "detectedAt": "2026-09-10T19:30:27.000Z",
+      "kind": "post",
+      "signalLevel": "strong",
+      "signalScore": 88,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2098113585683808624",
+      "text": "Summary: Tibo announced that new subscriptions to the $200 Pro plan would be paused to protect the experience of current users and continued access to Astra.",
+      "translatedTextZh": "摘要：Tibo 宣布将暂停新增的 200 美元 Pro 方案订阅，以保障现有用户的使用体验以及继续使用 Astra。",
+      "reasons": [
+        "容量约束已升级为实际暂停新增 Pro 订阅；属于近期再次全局额度重置的强下行信号。"
+      ]
+    },
+    {
+      "tweetId": "2097752790177370535",
+      "createdAt": "2026-09-09T18:23:34.197Z",
+      "createdAtShanghai": "2026-09-10T02:23:34.197+08:00",
+      "detectedAt": "2026-09-09T18:31:33.000Z",
+      "kind": "post",
+      "signalLevel": "strong",
+      "signalScore": 96,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2097752790177370535",
+      "text": "Summary: Tibo said that everyone who used a banked reset during the affected time window would receive another banked reset and an apology email.",
+      "translatedTextZh": "摘要：Tibo 表示，在受影响时间段内使用过 Banked Reset 的所有用户都将再获得一次 Banked Reset，并收到一封道歉邮件。",
+      "reasons": [
+        "明确的补偿性 Banked Reset 发放信号。"
+      ]
+    },
+    {
+      "tweetId": "2097559315150426222",
+      "createdAt": "2026-09-09T05:34:46.156Z",
+      "createdAtShanghai": "2026-09-09T13:34:46.156+08:00",
+      "detectedAt": "2026-09-09T16:28:11.000Z",
+      "kind": "post",
+      "signalLevel": "medium",
+      "signalScore": 68,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2097559315150426222",
+      "text": "Summary: Tibo said demand for Astra is unprecedented and that the team is pulling every available lever to sustain it.",
+      "translatedTextZh": "摘要：Tibo 表示，Astra 的需求前所未有，团队正在动用一切可用手段维持服务。",
+      "reasons": [
+        "反映明显容量压力。"
+      ]
+    },
+    {
+      "tweetId": "2097415471251464582",
+      "createdAt": "2026-09-08T20:03:11.098Z",
+      "createdAtShanghai": "2026-09-09T04:03:11.098+08:00",
+      "detectedAt": "2026-09-08T20:29:21.000Z",
+      "kind": "reply",
+      "signalLevel": "weak",
+      "signalScore": 32,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2097415471251464582",
+      "text": "Summary: Tibo described request scheduling and routing optimizations that significantly reduce usage in long-running sessions.",
+      "translatedTextZh": "摘要：Tibo 介绍了请求调度与路由优化，可在长时间运行会话中显著节省用量。",
+      "reasons": [
+        "用量效率改善属于下行信号。"
+      ]
+    },
+    {
+      "tweetId": "2097183639356489952",
+      "createdAt": "2026-09-08T04:41:58.067Z",
+      "createdAtShanghai": "2026-09-08T12:41:58.067+08:00",
+      "detectedAt": "2026-09-08T05:30:44.000Z",
+      "kind": "reply",
+      "signalLevel": "confirmed",
+      "signalScore": 93,
+      "confirmedReset": true,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2097183639356489952",
+      "text": "Summary: Tibo said a post omitted that he had reset usage twice in the middle.",
+      "translatedTextZh": "摘要：Tibo 回复称，对方漏掉了他曾在中途两次重置额度这一点。",
+      "reasons": [
+        "使用过去时明确确认曾执行额度重置。"
+      ]
+    },
+    {
+      "tweetId": "2097175062566846501",
+      "createdAt": "2026-09-08T04:07:53.201Z",
+      "createdAtShanghai": "2026-09-08T12:07:53.201+08:00",
+      "detectedAt": "2026-09-08T04:27:58.000Z",
+      "kind": "reply",
+      "signalLevel": "weak",
+      "signalScore": 42,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2097175062566846501",
+      "text": "Summary: Tibo said there is no schedule, only resets.",
+      "translatedTextZh": "摘要：Tibo 回复称“没有排期，只有额度重置”。",
+      "reasons": [
+        "直接使用 reset 语境，但没有日期或承诺。"
+      ]
+    },
+    {
+      "tweetId": "2097174560412246215",
+      "createdAt": "2026-09-08T04:05:53.478Z",
+      "createdAtShanghai": "2026-09-08T12:05:53.478+08:00",
+      "detectedAt": "2026-09-08T04:27:58.000Z",
+      "kind": "post",
+      "signalLevel": "confirmed",
+      "signalScore": 100,
+      "confirmedReset": true,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2097174560412246215",
+      "text": "Summary: Tibo confirmed that usage had been reset for everyone and wished users a good week with Astra.",
+      "translatedTextZh": "摘要：Tibo 确认所有人的使用额度已经完成重置，并祝用户使用 Astra 度过愉快的一周。",
+      "reasons": [
+        "官方完成确认。"
+      ]
+    },
+    {
+      "tweetId": "2097043464538264003",
+      "createdAt": "2026-09-07T19:24:57.786Z",
+      "createdAtShanghai": "2026-09-08T03:24:57.786+08:00",
+      "detectedAt": "2026-09-07T20:31:39.000Z",
+      "kind": "post",
+      "signalLevel": "strong",
+      "signalScore": 99,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2097043464538264003",
+      "text": "Summary: Tibo said OpenAI would perform a global usage reset for all paid subscriptions, expected around 6 p.m. Pacific time on September 7.",
+      "translatedTextZh": "摘要：Tibo 表示将为所有付费订阅执行一次全局额度重置，预计在 9 月 7 日太平洋时间 18:00 左右到账。",
+      "reasons": [
+        "明确给出全局重置与时间窗口。"
+      ]
+    },
+    {
+      "tweetId": "2096717905614524491",
+      "createdAt": "2026-09-06T21:51:18.490Z",
+      "createdAtShanghai": "2026-09-07T05:51:18.490+08:00",
+      "detectedAt": "2026-09-06T22:28:37.000Z",
+      "kind": "post",
+      "signalLevel": "medium",
+      "signalScore": 52,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2096717905614524491",
+      "text": "Summary: Tibo said Astra usage optimizations can reduce subscription usage draw by up to roughly 3–4 times in long-tail cases.",
+      "translatedTextZh": "摘要：Tibo 表示，Astra 的用量优化在长尾场景下最多可使订阅额度消耗降低约 3–4 倍。",
+      "reasons": [
+        "用量效率改善属于下行信号。"
+      ]
+    },
+    {
+      "tweetId": "2096689650257805558",
+      "createdAt": "2026-09-06T19:59:01.888Z",
+      "createdAtShanghai": "2026-09-07T03:59:01.888+08:00",
+      "detectedAt": "2026-09-06T22:28:37.000Z",
+      "kind": "reply",
+      "signalLevel": "weak",
+      "signalScore": 24,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2096689650257805558",
+      "text": "Summary: Tibo said Astra should be about 50% cheaper per task than Sol at roughly equivalent output.",
+      "translatedTextZh": "摘要：Tibo 表示，在输出大致相当时，Astra 每项任务的成本应比 Sol 低约 50%。",
+      "reasons": [
+        "额度效率说明，不是重置预告。"
+      ]
+    },
+    {
+      "tweetId": "2096686370848989558",
+      "createdAt": "2026-09-06T19:46:00.016Z",
+      "createdAtShanghai": "2026-09-07T03:46:00.016+08:00",
+      "detectedAt": "2026-09-06T20:29:52.000Z",
+      "kind": "reply",
+      "signalLevel": "weak",
+      "signalScore": 18,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2096686370848989558",
+      "text": "Summary: Tibo said there is no difference between the usage received before or after a reset.",
+      "translatedTextZh": "摘要：Tibo 表示，额度重置前后可获得的使用额度没有差别。",
+      "reasons": [
+        "澄清既有额度重置机制。"
+      ]
+    },
+    {
+      "tweetId": "2096308922294652979",
+      "createdAt": "2026-09-05T18:46:09.268Z",
+      "createdAtShanghai": "2026-09-06T02:46:09.268+08:00",
+      "detectedAt": "2026-09-06T00:27:27.000Z",
+      "kind": "reply",
+      "signalLevel": "weak",
+      "signalScore": 12,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2096308922294652979",
+      "text": "Summary: Replying to a user discussing rapid Astra quota exhaustion, Tibo replied “150?”.",
+      "translatedTextZh": "摘要：一名用户讨论 Astra 快速耗尽额度时，Tibo 回复“150?”。",
+      "reasons": [
+        "语义不明确的额度相关弱信号。"
+      ]
+    },
+    {
+      "tweetId": "2096035437299237298",
+      "createdAt": "2026-09-05T00:39:25.364Z",
+      "createdAtShanghai": "2026-09-05T08:39:25.364+08:00",
+      "detectedAt": "2026-09-05T02:33:02.000Z",
+      "kind": "post",
+      "signalLevel": "strong",
+      "signalScore": 98,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2096035437299237298",
+      "text": "Summary: Tibo said a full banked reset would be granted that day to all Plus, Pro, and Business users, landing by end of day.",
+      "translatedTextZh": "摘要：Tibo 表示，当天会为所有 Plus、Pro 和 Business 用户发放一次完整的 Banked Reset，并在当天结束前到账。",
+      "reasons": [
+        "明确的 Banked Reset 排期。"
+      ]
+    },
+    {
+      "tweetId": "2096002992046796932",
+      "createdAt": "2026-09-04T22:30:29.813Z",
+      "createdAtShanghai": "2026-09-05T06:30:29.813+08:00",
+      "detectedAt": "2026-09-07T04:31:13.000Z",
+      "kind": "post",
+      "signalLevel": "medium",
+      "signalScore": 64,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2096002992046796932",
+      "text": "Summary: Tibo said Astra had rolled out to all Plus and Business users.",
+      "translatedTextZh": "摘要：Tibo 表示 Astra 已向所有 Plus 和 Business 用户完成开放。",
+      "reasons": [
+        "结束此前等待 Astra 的主要补偿条件。"
+      ]
+    },
+    {
+      "tweetId": "2095979536043401428",
+      "createdAt": "2026-09-04T20:57:17.466Z",
+      "createdAtShanghai": "2026-09-05T04:57:17.466+08:00",
+      "detectedAt": "2026-09-04T22:28:52.000Z",
+      "kind": "post",
+      "signalLevel": "strong",
+      "signalScore": 96,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2095979536043401428",
+      "text": "Summary: Tibo said some Plus and Business users without Astra access would receive a banked reset by end of day.",
+      "translatedTextZh": "摘要：Tibo 表示，部分尚未获得 Astra 的 Plus 和 Business 用户会在当天结束前获得一次 Banked Reset。",
+      "reasons": [
+        "明确的条件式 Banked Reset 排期。"
+      ]
+    },
+    {
+      "tweetId": "2095961185262997556",
+      "createdAt": "2026-09-04T19:44:22.299Z",
+      "createdAtShanghai": "2026-09-05T03:44:22.299+08:00",
+      "detectedAt": "2026-09-04T21:28:27.000Z",
+      "kind": "post",
+      "signalLevel": "medium",
+      "signalScore": 58,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2095961185262997556",
+      "text": "Summary: Tibo said Astra rollout was progressing, with Pro and Business first and Plus expanding as quickly as possible.",
+      "translatedTextZh": "摘要：Tibo 表示 Astra 正在推进分阶段开放，Pro 和 Business 优先，随后尽快扩大到 Plus。",
+      "reasons": [
+        "影响等待 Astra 的 Banked Reset 适用人群。"
+      ]
+    },
+    {
+      "tweetId": "2095899886470463914",
+      "createdAt": "2026-09-04T15:40:47.528Z",
+      "createdAtShanghai": "2026-09-04T23:40:47.528+08:00",
+      "detectedAt": "2026-09-06T07:27:27.000Z",
+      "kind": "reply",
+      "signalLevel": "weak",
+      "signalScore": 22,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2095899886470463914",
+      "text": "Summary: Tibo said Astra completed a task in 10–15 minutes and used less than 15% of the weekly Plus allowance.",
+      "translatedTextZh": "摘要：Tibo 表示 Astra 完成该任务用时 10–15 分钟，消耗不到 Plus 每周使用额度的 15%。",
+      "reasons": [
+        "用量相关但没有重置承诺。"
+      ]
+    },
+    {
+      "tweetId": "2095730381437939850",
+      "createdAt": "2026-09-04T04:27:14.379Z",
+      "createdAtShanghai": "2026-09-04T12:27:14.379+08:00",
+      "detectedAt": "2026-09-04T17:29:16.000Z",
+      "kind": "reply",
+      "signalLevel": "weak",
+      "signalScore": 38,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2095730381437939850",
+      "text": "Summary: Tibo replied “hahaha” to a user thanking him for the first Astra-related reset.",
+      "translatedTextZh": "摘要：一名用户感谢 Tibo 发放首个 Astra 相关额度重置，Tibo 回复“哈哈哈”。",
+      "reasons": [
+        "未明确确认 Banked Reset 已到账。"
+      ]
+    },
+    {
+      "tweetId": "2095651088502591861",
+      "createdAt": "2026-09-03T23:12:09.470Z",
+      "createdAtShanghai": "2026-09-04T07:12:09.470+08:00",
+      "detectedAt": "2026-09-04T15:29:26.000Z",
+      "kind": "post",
+      "signalLevel": "strong",
+      "signalScore": 92,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2095651088502591861",
+      "text": "Summary: Tibo said paid ChatGPT plan users would receive one banked reset for every day they did not have Astra access.",
+      "translatedTextZh": "摘要：Tibo 表示，付费 ChatGPT 套餐用户每等待 Astra 访问权限一天，就会获得一次 Banked Reset。",
+      "reasons": [
+        "明确承诺条件式 Banked Reset。"
+      ]
+    },
+    {
+      "tweetId": "2095597659545591917",
+      "createdAt": "2026-09-03T19:39:51.014Z",
+      "createdAtShanghai": "2026-09-04T03:39:51.014+08:00",
+      "detectedAt": "2026-09-03T20:30:20.000Z",
+      "kind": "reply",
+      "signalLevel": "weak",
+      "signalScore": 20,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2095597659545591917",
+      "text": "Summary: Tibo said Astra would be included in each plan's normal usage allocation.",
+      "translatedTextZh": "摘要：Tibo 表示 Astra 将计入各套餐的正常使用额度。",
+      "reasons": [
+        "正常额度说明，不是重置预告。"
+      ]
+    },
+    {
+      "tweetId": "2095370639892955269",
+      "createdAt": "2026-09-03T04:37:45.311Z",
+      "createdAtShanghai": "2026-09-03T12:37:45.311+08:00",
+      "detectedAt": "2026-09-03T05:30:21.000Z",
+      "kind": "reply",
+      "signalLevel": "weak",
+      "signalScore": 16,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2095370639892955269",
+      "text": "Summary: Asked whether people were excited for Astra or the Codex reset, Tibo asked, “Which Codex reset?”",
+      "translatedTextZh": "摘要：一名用户询问大家是在期待 Astra 还是 Codex 额度重置，Tibo 回问：“指的是哪一次 Codex 额度重置？”",
+      "reasons": [
+        "未承认明确的新重置安排。"
+      ]
+    },
+    {
+      "tweetId": "2094293383573545000",
+      "createdAt": "2026-08-31T05:17:00.000Z",
+      "createdAtShanghai": "2026-08-31T13:17:00+08:00",
+      "detectedAt": "2026-09-01T11:29:17.000Z",
+      "kind": "reply",
+      "signalLevel": "weak",
+      "signalScore": 18,
+      "confirmedReset": false,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2094293383573545000",
+      "text": "Summary: Tibo said he tries to pre-announce resets these days when he can.",
+      "translatedTextZh": "摘要：Tibo 表示，如条件允许，他现在会尽量提前预告额度重置。",
+      "reasons": [
+        "与重置预告方式相关，但无日期。"
+      ]
+    },
+    {
+      "tweetId": "2094252447271366730",
+      "createdAt": "2026-08-31T02:34:27.415Z",
+      "createdAtShanghai": "2026-08-31T10:34:27.415+08:00",
+      "detectedAt": "2026-09-01T02:18:32.000Z",
+      "kind": "post",
+      "signalLevel": "confirmed",
+      "signalScore": 100,
+      "confirmedReset": true,
+      "verificationStatus": "search-indexed-summary",
+      "url": "https://x.com/thsottiaux/status/2094252447271366730",
+      "text": "Tibo announced that Codex reached 25M active users and confirmed usage had now been reset for all paid ChatGPT Work and Codex subscriptions.",
+      "translatedTextZh": "Tibo 宣布 Codex 的活跃用户已达到 2500 万，并确认已为所有付费 ChatGPT Work 与 Codex 订阅完成额度重置。",
+      "reasons": [
+        "明确使用完成时态并说明适用范围。"
+      ]
+    },
+    {
+      "tweetId": "2094144275957350900",
+      "createdAt": "2026-08-30T19:24:37.364Z",
+      "createdAtShanghai": "2026-08-31T03:24:37.364+08:00",
+      "detectedAt": "2026-09-01T02:18:32.000Z",
+      "kind": "post",
+      "signalLevel": "strong",
+      "signalScore": 96,
+      "confirmedReset": false,
+      "verificationStatus": "search-indexed-excerpt",
+      "url": "https://x.com/thsottiaux/status/2094144275957350900",
+      "text": "Your Codex and ChatGPT Work reset will land at 6pm PST.",
+      "translatedTextZh": "你的 Codex 和 ChatGPT Work 额度重置将在太平洋时间下午 6 点生效。",
+      "reasons": [
+        "明确给出重置与具体时间。"
+      ]
+    },
+    {
+      "tweetId": "2093801758665715784",
+      "createdAt": "2026-08-29T20:43:00.000Z",
+      "createdAtShanghai": "2026-08-30T04:43:00+08:00",
+      "detectedAt": "2026-09-01T12:31:23.000Z",
+      "kind": "post",
+      "signalLevel": "confirmed",
+      "signalScore": 100,
+      "confirmedReset": true,
+      "verificationStatus": "summary-only",
+      "url": "https://x.com/thsottiaux/status/2093801758665715784",
+      "text": "Summary: Tibo announced that usage was being reset for all paid Codex and ChatGPT Work users.",
+      "translatedTextZh": "摘要：Tibo 宣布正在为所有付费 Codex 与 ChatGPT Work 用户执行额度重置。",
+      "reasons": [
+        "明确表示正在为所有付费用户执行额度重置。"
+      ]
+    }
+  ],
+  "prediction": {
+    "probability": 31,
+    "level": "weak",
+    "windowStart": "2026-09-16T04:28:15.000Z",
+    "windowEnd": "2026-09-17T04:28:15.000Z",
+    "reasons": [
+      "最近 72 小时没有发现 Tibo 新的 reset、reset button、usage reset、tomorrow、soon 或具体时间窗口等直接重置信号。",
+      "Tibo 在 9 月 15 日提到本周会有接近 DevDay 规模的产品发布，但没有涉及额度、重置或时间安排，因此不计为重置信号。",
+      "最近一次已确认全局额度重置为 2026-09-12 08:09 UTC；距离当前约 3.8 天。",
+      "公开追踪站当前给出约 31% 的未来 24 小时历史基线概率，并明确表示 OpenAI 尚未承诺任何重置；该概率仅为推测。"
+    ],
+    "sourceTweetId": null
+  },
+  "schemaVersion": 1,
+  "source": "ChatGPT Scheduled Monitor + GitHub",
+  "sourceHealthy": true
+}
