@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-09-16T04:28:15.000Z",
+  "checkedAt": "2026-09-16T05:29:11.000Z",
   "events": [
     {
       "confirmed": true,
@@ -79,12 +79,12 @@
     "cadence": "hourly",
     "coverageNote": "公开网页搜索和第三方监测无法保证覆盖 X 上全部主帖、回复与引用帖；搜索不到新内容不代表没有新帖。",
     "lastResult": {
-      "checkedAt": "2026-09-16T04:28:15.000Z",
+      "checkedAt": "2026-09-16T05:29:11.000Z",
       "status": "no-new-signal",
       "newPosts": 0,
       "newEvents": 0,
       "summary": "本轮未发现新的相关额度重置信号或新的明确重置确认；仅刷新检查状态与历史基线预测。",
-      "coverage": "截至北京时间 2026-09-16 12:28，多个公开 X 搜索结果与重置追踪源均将 9 月 12 日 08:09 UTC 的“Reset all propagated”列为最近一次已确认全局额度重置。Tibo 近期可见内容中的 DevDay 级别产品发布预告不含 reset、usage、quota 或具体重置窗口，未作为信号入库。公开来源无法保证覆盖全部主帖、回复和引用帖，搜索不到新内容不代表没有新帖。"
+      "coverage": "截至北京时间 2026-09-16 13:29，公开 X 搜索结果、ResetBeacon、CodexRunway 及其他追踪源均将 9 月 12 日 08:09 UTC 的“Reset all propagated”列为最近一次已确认全局额度重置；ResetBeacon 明确显示当前没有来自 OpenAI 的 reset hint。公开来源无法保证覆盖全部主帖、回复和引用帖，搜索不到新内容不代表没有新帖。"
     },
     "mode": "public-web-search",
     "timezone": "Asia/Shanghai"
@@ -570,13 +570,13 @@
   "prediction": {
     "probability": 31,
     "level": "weak",
-    "windowStart": "2026-09-16T04:28:15.000Z",
-    "windowEnd": "2026-09-17T04:28:15.000Z",
+    "windowStart": "2026-09-16T05:29:11.000Z",
+    "windowEnd": "2026-09-17T05:29:11.000Z",
     "reasons": [
       "最近 72 小时没有发现 Tibo 新的 reset、reset button、usage reset、tomorrow、soon 或具体时间窗口等直接重置信号。",
-      "Tibo 在 9 月 15 日提到本周会有接近 DevDay 规模的产品发布，但没有涉及额度、重置或时间安排，因此不计为重置信号。",
-      "最近一次已确认全局额度重置为 2026-09-12 08:09 UTC；距离当前约 3.8 天。",
-      "公开追踪站当前给出约 31% 的未来 24 小时历史基线概率，并明确表示 OpenAI 尚未承诺任何重置；该概率仅为推测。"
+      "Tibo 的近期产品发布预告没有涉及额度、重置或时间安排，因此不计为重置信号。",
+      "最近一次已确认全局额度重置为 2026-09-12 08:09 UTC；距离当前约 3.9 天。",
+      "公开追踪站当前给出约 31% 的未来 24 小时历史基线概率，并明确表示目前没有来自 OpenAI 的重置暗示；该概率仅为推测，不代表官方承诺。"
     ],
     "sourceTweetId": null
   },
